@@ -28,11 +28,11 @@ const childDir = `${packagesDir}/file_iconsghsvs`;
 // pkg_ Manifest:
 const manifestFileName = `pkg_${filename}.xml`;
 const Manifest = `${__dirname}/package/${manifestFileName}`;
+let versionSub = '';
 
 // Just easier to handle in console.log:
 let from = '';
 let to = '';
-
 
 async function buildOverview()
 {
@@ -141,7 +141,7 @@ async function buildOverview()
 	xmlFileName = manifestFileName;
 	xmlFile = Manifest;
 
-	await replaceXml.main(xmlFile, null, null, thisPackages);
+	await replaceXml.main(xmlFile, zipFilename, null, thisPackages);
 	await fse.copy(xmlFile, `./dist/${xmlFileName}`).then(
 		answer => console.log(pc.yellow(pc.bold(
 			`Copied "${xmlFile}" to ./dist.`)))

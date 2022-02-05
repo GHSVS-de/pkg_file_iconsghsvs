@@ -16,6 +16,10 @@
 
 	<infourl>https://updates.ghsvs.de/changelog.php?file=pkg_{{name}}</infourl>
 
+	<downloadUrl>
+	https://github.com/GHSVS-de/pkg_{{name}}/raw/{{version}}/dist/{{zipFilename}}
+	</downloadUrl>
+
 	<minimumPhp>{{minimumPhp}}</minimumPhp>
 	<maximumPhp>{{maximumPhp}}</maximumPhp>
 	<minimumJoomla>{{minimumJoomla}}</minimumJoomla>
