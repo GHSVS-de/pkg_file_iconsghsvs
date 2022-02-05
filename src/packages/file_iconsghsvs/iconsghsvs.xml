@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="file" method="upgrade">
+	<name>{{nameUpper}}</name>
+	<author>{{authorName}}</author>
+	<creationDate>{{creationDate}}</creationDate>
+	<copyright>{{copyright}}</copyright>
+	<license>{{licenseLong}}</license>
+	<authorUrl>{{authorUrl}}</authorUrl>
+	<version>{{version}}</version>
+	<description>{{description}}</description>
+
+	<fileset>
+		<files target="media/iconsghsvs">
+			<folder>svgs</folder>
+			<filename>LICENSE.txt</filename>
+		</files>
+	</fileset>
+
+</extension>

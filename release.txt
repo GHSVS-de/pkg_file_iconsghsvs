@@ -1,0 +1,20 @@
+{{version}}
+
+{{releaseTxt.title}} {{version}}
+
+Checksum entities: `{{checksumEntity}}`
+
+- {{description}}
+- [Download {{zipFilename}}](https://github.com/GHSVS-de/pkg_{{name}}/raw/{{version}}/dist/{{zipFilename}})
+- [Compare releases {{versionCompare}}...{{version}}](https://github.com/GHSVS-de/pkg_{{name}}/compare/{{versionCompare}}...{{version}})
+- [Changelogs](https://updates.ghsvs.de/changelog.php?file=pkg_{{name}})
+- Checksum: `{{checksum}}`
+- Changelogs XML: https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/pkg_{{name}}-changelog.xml
+- Updates XML: https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/pkg_{{name}}-update.xml
+- Last tests: {{lastTests}}
+- Joomla-Target-Platform: {{targetplatform}}
+- Requires: {{requires}}
+- Contains packages (sub Joomla extensions):
+```
+{{thisPackages}}
+```
