@@ -1,8 +1,15 @@
+/*
+- Kopiere SVGs nach /media/svgs/. Permanent benötigt für icons-html.php und
+unabhängiges Bauen von icons-overview.html.
+- Dann in /package/ passiert der Rest wie üblich.
+*/
 const fse = require('fs-extra');
 const pc = require('picocolors');
 const replaceXml = require('./build/replaceXml.js');
 const path = require('path');
 const helper = require('./build/helper.js');
+const util = require("util");
+const exec = util.promisify(require('child_process').exec);
 
 let thisPackages = [];
 
@@ -12,34 +19,48 @@ const {
 	version,
 } = require("./package.json");
 
+// Permanent SVG holder:
+const pathMedia = `./media/svgs`;
+// Build the pkg_ children here:
 const packagesDir = `./package/packages`;
+// We only have one child:
 const childDir = `${packagesDir}/file_iconsghsvs`;
+// pkg_ Manifest:
 const manifestFileName = `pkg_${filename}.xml`;
 const Manifest = `${__dirname}/package/${manifestFileName}`;
+
+// Just easier to handle in console.log:
+let from = '';
+let to = '';
+
+
+async function buildOverview()
+{
+	const { stdout, stderr } = await exec('php bin/icons-html.php');
+
+	if (stderr)
+	{
+		console.error(`error during icons-html.php: ${stderr}`);
+	}
+	console.log(`${stdout}`);
+}
 
 (async function exec()
 {
 	let cleanOuts = [
 		`./package`,
 		`./dist`,
+		pathMedia,
 	];
-
 	await helper.cleanOut(cleanOuts);
 
-	let from = `${__dirname}/node_modules/bootstrap-icons/package.json`;
-	versionSub = await helper.findVersionSubSimple (from, 'bootstrap-icons');
-	console.log(pc.magenta(pc.bold(`versionSub identified as: "${versionSub}"`)));
-
-	if (!(await fse.exists("./dist")))
-	{
-		await fse.mkdir("./dist"
-		).then(
-			answer => console.log(pc.yellow(pc.bold(`Created "./dist".`)))
-		);
-	}
+	to = './dist'
+	await fse.mkdir(to).then(
+		answer => console.log(pc.yellow(pc.bold(`Created "${to}".`)))
+	);
 
 	from = `./src`;
-	let to = `./package`;
+	to = `./package`;
 	await fse.copy(from, to
 	).then(
 		answer => console.log(
@@ -47,10 +68,15 @@ const Manifest = `${__dirname}/package/${manifestFileName}`;
 		)
 	);
 
-	console.log(pc.red(pc.bold(`Be very patient! Preparing svg files.`)));
+	// Get subversion (Bootstrap icons):
+	from = `${__dirname}/node_modules/bootstrap-icons/package.json`;
+	versionSub = await helper.findVersionSubSimple (from, 'bootstrap-icons');
+	console.log(pc.magenta(pc.bold(`versionSub identified as: "${versionSub}"`)));
+
+	console.log(pc.red(pc.bold(`Be very patient! Preparing and moving around svg files.`)));
 
 	from = `./node_modules/@fortawesome/fontawesome-free/svgs`;
-	to = `${childDir}/svgs`;
+	to = `${pathMedia}`;
 	await fse.copy(from, to
 	).then(
 		answer => console.log(
@@ -59,7 +85,7 @@ const Manifest = `${__dirname}/package/${manifestFileName}`;
 	);
 
 	from = `./node_modules/bootstrap-icons/icons`;
-	to = `${childDir}/svgs/bi`;
+	to = `${pathMedia}/bi`;
 	await fse.copy(from, to
 	).then(
 		answer => console.log(
@@ -69,6 +95,17 @@ const Manifest = `${__dirname}/package/${manifestFileName}`;
 
 	const buildSvgs = require('./build/build-svgs.js');
 	await buildSvgs.main();
+
+	from = `${pathMedia}`;
+	to = `${childDir}/svgs`;
+	await fse.copy(from, to
+	).then(
+		answer => console.log(
+			pc.yellow(pc.bold(`Copied "${from}" to "${to}".`))
+		)
+	);
+
+	console.log(pc.red(pc.bold(`Start packaging.`)));
 
 	// ##### Zip the file extension (child). START.
 	// package/packages/file_iconsghsvs/iconsghsvs.xml
@@ -155,6 +192,17 @@ const Manifest = `${__dirname}/package/${manifestFileName}`;
 	);
 	await replaceXml.main(`${__dirname}/dist/${xmlFile}`, zipFilename, checksum,
 		thisPackages);
+
+	await buildOverview();
+
+	from = `${pathMedia}/prepped-icons.json`;
+	to = `./dist/prepped-icons.json`;
+	await fse.copy(from, to
+	).then(
+		answer => console.log(
+			pc.yellow(pc.bold(`Copied "${from}" to "${to}".`))
+		)
+	);
 
 	cleanOuts = [
 		`./package`,

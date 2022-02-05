@@ -12,14 +12,12 @@ const pc = require('picocolors')
 const cheerio = require('cheerio')
 const { loadConfig, optimize } = require('svgo')
 
-// Collect some messages for 'prepped-icons.txt'.
+// Collect some messages for 'prepped-icons.json'.
 var loger = [];
 
 // Icons main folder (absolute Path). Has subfolders like bi/, solid/, brand/
 // with svg files inside.
-//const iconsDir = path.join(__dirname, '../media/svgs');
-const iconsDir = path.join(
-	__dirname, '../package/packages/file_iconsghsvs/svgs');
+const iconsDir = path.join(__dirname, '../media/svgs');
 
 // No icons main folder => Leave!
 if (!fse.existsSync(iconsDir))
@@ -196,7 +194,7 @@ module.exports.main = async () =>
     await console.log(pc.green(pc.bold(`Success, ${count} icons prepped!`)));
     await console.timeEnd(timeLabel);
 
-		let to = iconsDir + '/prepped-icons.txt';
+		let to = iconsDir + '/prepped-icons.json';
     await fse.writeFile(to, JSON.stringify(loger, null, 2));
 
     await console.log(pc.green(pc.bold(`${to} written.\nSVGs processed.`)));
