@@ -25,7 +25,6 @@
 - `npm run g-npm-update` (if needed) or (faster) `npm update --save-dev`
 
 ## Build installable ZIP package
-- `cd ../` if you're still in `_composer/`.
 - `node build.js`
 - New, installable ZIP is in `./dist` afterwards.
 - FYI: Packed files for this ZIP can be seen in `./package`. **But only if you disable deletion of this folder at the end of `build.js`**.
