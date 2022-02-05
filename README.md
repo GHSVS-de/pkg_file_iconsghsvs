@@ -9,7 +9,7 @@
 - So after installation you will find two extensions named "iconsghsvs" in the Joomla extension manager.
 - Stupid, but no further problem.
 - To uninstall the files uninstall the package.
-- - When you see a message like `Joomla\CMS\Filesystem\Folder::files: Der Pfad ist kein Verzeichnis. Pfad: Joomla\CMS\Filesystem\Folder::files` ignore it. Sometimes Joomla is strange ;-).
+- - When you see a message like `JFolder: :files: Path is not a folder. Path: /www/htdocs/w00f7959/j3.illovo.de/media/iconsghsvs/svgs` ignore it! No harm! Sometimes Joomla is strange ;-) I have no idea where it comes from and why.
 
 ---
 
