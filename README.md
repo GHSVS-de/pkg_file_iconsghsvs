@@ -2,7 +2,7 @@
 - Joomla package that copies some slightly customised SVG icons in folder `/media/iconsghsvs/`. Not more, not less.
 - Is an addition for `plg_system_bs3ghsvs_bs5`. Feature "SVG Embedding".
 - Icon sources:
-- - https://github.com/FortAwesome/Font-Awesome (V5. Will not support V6+.).
+- - https://github.com/FortAwesome/Font-Awesome (V5. Will not support V6+. Complete removal from this package is planned. Or will only use brands. Let's see.).
 - - https://github.com/twbs/icons
 
 # Be aware
