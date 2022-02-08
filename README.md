@@ -1,6 +1,9 @@
 # pkg_file_iconsghsvs
-- Joomla package that copies some SVG icons in folder `/media/iconsghsvs/`. Not more, not less.
+- Joomla package that copies some slightly customised SVG icons in folder `/media/iconsghsvs/`. Not more, not less.
 - Is an addition for `plg_system_bs3ghsvs_bs5`. Feature "SVG Embedding".
+- Icon sources:
+- - https://github.com/FortAwesome/Font-Awesome (V5. Will not support V6+.).
+- - https://github.com/twbs/icons
 
 # Be aware
 - The package ZIP has a size of 1.5 MB depending on the size of the SVGs.
