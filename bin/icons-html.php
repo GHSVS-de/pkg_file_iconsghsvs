@@ -34,6 +34,7 @@ foreach ($data as $iconInfo)
 
 foreach ($collector as $svgFolder => $files)
 {
+	$html[] = '<!--####EXTRAKT-START ' . $svgFolder . '-->';
 	$html[] = '<h2>' . $svgFolder . '</h2>';
 
 	foreach ($files as $file)
@@ -43,7 +44,7 @@ foreach ($collector as $svgFolder => $files)
 		$class = 'icon-' . $svgFolder . '-' . $file;
 		$file = $folder . '/' . $svgFolder . '/' . $file . '.svg';
 		$fileRel = mkShortPath($file);
-		$fileRel = str_replace('package/media/svgs/', '', $fileRel);
+		$fileRel = str_replace('media/svgs/', '', $fileRel);
 		$html[] = '<div class=innercontainer>';
 		$html[] = '<div class="' . $class . '" style="font-size:4rem;color:blue;"><span aria-hidden="true" class="svgSpan svg-lg">'
 			. file_get_contents($file)
@@ -57,7 +58,7 @@ foreach ($collector as $svgFolder => $files)
 
 			. '</span></div>
 			<p><b>' . $fileRel . '</b></p>
-			<p style="font-family:monospace;font-weight:bold">{svg{'
+			<p class=hiddenOnHugo style="font-family:monospace;font-weight:bold">{svg{'
 			. $svgFolder . '/' . $saveFile
 			. '}}</p>';
 			if ($svgFolder === 'bi')
@@ -68,11 +69,14 @@ foreach ($collector as $svgFolder => $files)
 
 			$html[] =  '</div></div>';
 	}
+	$html[] = '<!--####EXTRAKT-END ' . $svgFolder . '-->';
 }
 
 $html[] = '</body></html>';
 
-file_put_contents(JPATH_MAIN . 'dist/icons-overview.html', implode("\n\n", $html));
-file_put_contents(__DIR__ . '/icons-overview.html', implode("\n\n", $html));
-//echo ' 4654sd48sa7d98sD81s8d71dsa <pre>' . print_r($collector, true) . '</pre>';exit;
+$html = implode("\n", $html);
+
+file_put_contents(JPATH_MAIN . 'dist/icons-overview.html', $html);
+file_put_contents(__DIR__ . '/icons-overview.html', $html);
+file_put_contents(JPATH_MAIN . '/media/svgs/icons-overview.html', $html);
 echo 'dist/icons-overview.html written.';
