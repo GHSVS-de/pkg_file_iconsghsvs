@@ -21,4 +21,4 @@ build/build-svgs - Kopie.js
 /dist/*.txt
 _composer/vendor
 
-/media/svgs/**/
+/media/svgs/**/*.svg
