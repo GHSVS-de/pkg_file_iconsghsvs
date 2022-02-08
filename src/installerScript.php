@@ -16,7 +16,10 @@ class pkg_iconsghsvsInstallerScript extends InstallerScript
 	 * @var    array
 	 * @since  2.0
 	 */
-	protected $deleteFiles = [];
+	protected $deleteFiles = [
+		// Typo in filename.
+		'/media/svgs/bi/wrench-adjustable-cricle.svg'
+	];
 
 	/**
 	 * A list of folders to be deleted with method removeFiles().
