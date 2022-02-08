@@ -41,6 +41,14 @@
 
 		<note>
 			<item><![CDATA[
+				Joomla-Target-Platform: {{targetplatform}}
+			]]></item>
+
+			<item><![CDATA[
+				Uses: {{uses}}
+			]]></item>
+
+			<item><![CDATA[
 				Last tests: {{lastTests}}
 			]]></item>
 
@@ -67,7 +75,7 @@
 			]]></item>
 
 			<item><![CDATA[
-				Contains packages (sub Joomla extensions):
+				Contained packages (sub Joomla extensions):
 				{{thisPackagesHtml}}
 			]]></item>
 

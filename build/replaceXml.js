@@ -77,6 +77,8 @@ module.exports.main = async (xmlFile, zipFilename, checksum, thisPackages) =>
 			thisPackages = '';
 		}
 
+		let uses = releaseTxt.uses ? releaseTxt.uses : [];
+
 		let fileContent = '';
 
 		for (const targetplatform of targetPlatforms)
@@ -109,6 +111,7 @@ module.exports.main = async (xmlFile, zipFilename, checksum, thisPackages) =>
 			xml = xml.replace(/{{minimumPhp}}/g, minimumPhp);
 			xml = xml.replace(/{{name}}/g, name);
 			xml = xml.replace(/{{nameReal}}/g, nameReal);
+			xml = xml.replace(/{{nameRealUpper}}/g, nameReal.toUpperCase());
 			xml = xml.replace(/{{namespace}}/g, namespace);
 			xml = xml.replace(/{{nameUpper}}/g, name.toUpperCase());
 			xml = xml.replace(/{{thisPackages}}/g, thisPackages);
@@ -119,7 +122,9 @@ module.exports.main = async (xmlFile, zipFilename, checksum, thisPackages) =>
 			xml = xml.replace(/{{requires}}/g, requires.join("<br>"));
 			xml = xml.replace(/{{tag}}/g, update.tag);
 			xml = xml.replace(/{{targetplatform}}/g, targetplatform);
+			xml = xml.replace(/{{targetplatformHtml}}/g, targetplatform.replace(/\*/g, '&ast;'));
 			xml = xml.replace(/{{type}}/g, update.type);
+			xml = xml.replace(/{{uses}}/g, uses.join("<br>"));
 			xml = xml.replace(/{{version}}/g, version);
 			xml = xml.replace(/{{versionCompare}}/g, versionCompare);
 			xml = xml.replace(/{{zipFilename}}/g, zipFilename);

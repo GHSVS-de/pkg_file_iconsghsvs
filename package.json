@@ -2,7 +2,7 @@
 	"name": "file_iconsghsvs",
 	"nameReal": "pkg_iconsghsvs",
 	"filename": "iconsghsvs",
-	"version": "2022.02.05",
+	"version": "2022.02.08",
 	"versionCompare": "2022.02.05",
 	"update": {
 		"type": "package",
@@ -12,11 +12,19 @@
 		"targetplatform": [
 			"3.*",
 			"4.*"
-		]
+		],
+		"namespace": ""
 	},
 	"releaseTxt": {
 		"title": "Joomla package/file IconsGhsvs",
-		"requires": ["plg_system_bs3ghsvs_bs5 (for feature \"SVG Embedding\")"]
+		"requires": [
+			"plg_system_bs3ghsvs_bs5 (for feature \"SVG Embedding\")",
+			"Or standalone if you think."
+		],
+		"uses": [
+			"https://github.com/twbs/icons (V1.8.1)",
+			"https://github.com/FortAwesome/Font-Awesome (V5.15.4)"
+		]
 	},
 	"changelog": {
 		"projecturl": "https://github.com/GHSVS-de/pkg_file_iconsghsvs",
@@ -28,8 +36,7 @@
 			"PHP 8",
 			"Joomla 3.10.5",
 			"Joomla 4.0.6"
-		],
-		"namespace": ""
+		]
 	},
 	"minimumPhp": "7.4.0",
 	"maximumPhp": "8.99999.99999",
@@ -59,7 +66,7 @@
 		"icons"
 	],
 	"private": false,
-	"description": "Joomla package/file. SVG icons in dir media/iconsghsvs.",
+	"description": "Joomla package/file. Customised SVG icons in dir media/iconsghsvs.",
 	"license": "GPL-3.0",
 	"repository": {
 		"type": "git",
@@ -72,7 +79,7 @@
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5",
-		"bootstrap-icons": "^1.7.2"
+		"bootstrap-icons": "^1.8.1"
 	},
 	"devDependencies": {
 		"adm-zip": "^0.5.9",

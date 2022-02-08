@@ -12,9 +12,10 @@ Checksum entities: `{{checksumEntity}}`
 - Changelogs XML: https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/pkg_{{name}}-changelog.xml
 - Updates XML: https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/pkg_{{name}}-update.xml
 - Last tests: {{lastTests}}
-- Joomla-Target-Platform: {{targetplatform}}
+- Joomla-Target-Platform: {{targetplatformHtml}}
 - Requires: {{requires}}
-- Contains packages (sub Joomla extensions):
+- Uses: {{uses}}
+- Contained packages (sub Joomla extensions):
 ```
 {{thisPackages}}
 ```
