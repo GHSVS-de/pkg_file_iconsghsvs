@@ -126,6 +126,23 @@ async function buildOverview()
 	await zip.writeZip(zipFile);
 	console.log(pc.cyan(pc.bold(pc.bgRed(`${zipFile} written.`))));
 
+	// Copy Bi-svgs for usage via Hugo-Module.
+	from = `${childDir}/svgs/bi`;
+	to = `./_hugo/bi`;
+
+	if (await fse.exists(to))
+	{
+		cleanOuts = [to];
+		await helper.cleanOut(cleanOuts);
+	}
+
+	await fse.copy(from, to
+	).then(
+		answer => console.log(
+			pc.yellow(pc.bold(`Copied "${from}" to "${to}".`))
+		)
+	);
+
 	// We need only zip for later pkg_* build.
 	await helper.cleanOut([childDir]);
 
@@ -203,6 +220,16 @@ async function buildOverview()
 			pc.yellow(pc.bold(`Copied "${from}" to "${to}".`))
 		)
 	);
+
+	from = `${pathMedia}/prepped-icons.json`;
+	to = `./dist/prepped-icons.json`;
+	await fse.copy(from, to
+	).then(
+		answer => console.log(
+			pc.yellow(pc.bold(`Copied "${from}" to "${to}".`))
+		)
+	);
+
 
 	cleanOuts = [
 		`./package`,

@@ -74,8 +74,8 @@
 	},
 	"scripts": {
 		"g-build": "node build.js",
-    "g-npm-update-check": "npm outdated",
-    "g-npm-update": "npm update --save-dev"
+    "updateCheck": "npm outdated",
+    "update": "npm update --save-dev"
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5",
@@ -84,11 +84,11 @@
 	"devDependencies": {
 		"adm-zip": "^0.5.9",
 		"cheerio": "^1.0.0-rc.10",
-		"fs-extra": "10.0.0",
+		"fs-extra": "^10.1.0",
 		"path": "^0.12.7",
 		"picocolors": "^1.0.0",
 		"recursive-readdir": "^2.2.2",
-		"rimraf": "3.0.2",
+		"rimraf": "^3.0.2",
 		"svgo": "^2.8.0"
 	},
 	"browserslist": []
