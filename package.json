@@ -22,7 +22,7 @@
 			"Or standalone if you think."
 		],
 		"uses": [
-			"https://github.com/twbs/icons (V1.8.1)",
+			"https://github.com/twbs/icons (V1.8.2)",
 			"https://github.com/FortAwesome/Font-Awesome (V5.15.4)"
 		]
 	},
