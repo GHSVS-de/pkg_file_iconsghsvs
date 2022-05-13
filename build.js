@@ -20,7 +20,9 @@ const {
 } = require("./package.json");
 
 // Permanent SVG holder:
+// Don't delete it! No cleanout! Used by repo hugo_baseghsvs!
 const pathMedia = `./media/svgs`;
+
 // Build the pkg_ children here:
 const packagesDir = `./package/packages`;
 // We only have one child:
@@ -125,10 +127,6 @@ async function buildOverview()
 	zip.addLocalFolder(folderToZip, false);
 	await zip.writeZip(zipFile);
 	console.log(pc.cyan(pc.bold(pc.bgRed(`${zipFile} written.`))));
-
-	// Copy Bi-svgs for usage via Hugo-Module.
-	from = `${childDir}/svgs/bi`;
-	to = `./_hugo/bi`;
 
 	if (await fse.exists(to))
 	{

@@ -5,7 +5,8 @@ module.exports = {
   multipass: true,
   js2svg: {
     pretty: true,
-    indent: 2
+    indent: 2,
+    eol: 'lf'
   },
   plugins: [
     {
