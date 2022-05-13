@@ -2,8 +2,8 @@
 	"name": "file_iconsghsvs",
 	"nameReal": "pkg_iconsghsvs",
 	"filename": "iconsghsvs",
-	"version": "2022.02.08",
-	"versionCompare": "2022.02.05",
+	"version": "2022.05.14",
+	"versionCompare": "2022.02.08",
 	"update": {
 		"type": "package",
 		"folder": "",
@@ -34,8 +34,8 @@
 		"docsEN": "",
 		"lastTests": [
 			"PHP 8",
-			"Joomla 3.10.5",
-			"Joomla 4.0.6"
+			"Joomla 3.10",
+			"Joomla 4.1"
 		]
 	},
 	"minimumPhp": "7.4.0",
@@ -63,7 +63,8 @@
 	"keywords": [
 		"joomla",
 		"SVG",
-		"icons"
+		"icons",
+		"library"
 	],
 	"private": false,
 	"description": "Joomla package/file. Customised SVG icons in dir media/iconsghsvs.",
