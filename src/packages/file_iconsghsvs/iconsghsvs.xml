@@ -12,7 +12,6 @@
 	<fileset>
 		<files target="media/iconsghsvs">
 			<folder>svgs</folder>
-			<filename>LICENSE.txt</filename>
 		</files>
 	</fileset>
 
