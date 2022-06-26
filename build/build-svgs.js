@@ -1,14 +1,18 @@
 #!/usr/bin/env node
 
 'use strict'
+const path = require('path')
+
+// Nicht '../../'!
+const pathBuildKram = path.resolve("../buildKramGhsvs");
 
 const fs = require('fs').promises;
 
 // Keine Ahnung, warum ich das extra brauche, wenn oben "promises" steht.
 // Dann schalgen einfachste Aufrufe der Art fs.existsSync() fehl.
-const fse = require('fs-extra');
-const path = require('path')
-const pc = require('picocolors')
+const pc = require(`${pathBuildKram}/node_modules/picocolors`);
+const fse = require(`${pathBuildKram}/node_modules/fs-extra`);
+
 const cheerio = require('cheerio')
 const { loadConfig, optimize } = require('svgo')
 

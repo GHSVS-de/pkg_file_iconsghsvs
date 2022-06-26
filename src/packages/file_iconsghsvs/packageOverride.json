@@ -1,0 +1,8 @@
+{
+	"name": "file_iconsghsvs",
+	"update": {
+		"type": "file",
+		"pkgId": "iconsghsvs"
+	},
+	"description": "Joomla file extension. Part of Joomla package \"pkg_iconsghsvs\". Contains customised SVG icons for folder media/iconsghsvs. Not more."
+}

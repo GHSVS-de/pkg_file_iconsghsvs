@@ -1,40 +1,52 @@
-/*
-- Kopiere SVGs nach /media/svgs/. Permanent benötigt für icons-html.php und
-unabhängiges Bauen von icons-overview.html.
-- Dann in /package/ passiert der Rest wie üblich.
-*/
-const fse = require('fs-extra');
-const pc = require('picocolors');
-const replaceXml = require('./build/replaceXml.js');
+#!/usr/bin/env node
 const path = require('path');
-const helper = require('./build/helper.js');
+
+/* Configure START */
+const pathBuildKram = path.resolve("../buildKramGhsvs");
+const updateXml = `${pathBuildKram}/build/update.xml`;
+const changelogXml = `${pathBuildKram}/build/changelog.xml`;
+const releaseTxt = `${pathBuildKram}/build/release.txt`;
+/* Configure END */
+
+const replaceXml = require(`${pathBuildKram}/build/replaceXml.js`);
+const helper = require(`${pathBuildKram}/build/helper.js`);
+
+const pc = require(`${pathBuildKram}/node_modules/picocolors`);
+const fse = require(`${pathBuildKram}/node_modules/fs-extra`);
+
 const util = require("util");
 const exec = util.promisify(require('child_process').exec);
 
-let thisPackages = [];
+let replaceXmlOptions = {};
+let zipOptions = {};
+let from = "";
+let to = "";
 
 const {
 	filename,
 	name,
+	nameReal,
 	version,
 } = require("./package.json");
+
+const packagesDir = `./package/packages`;
+const childDir = `${packagesDir}/file_iconsghsvs`;
+
+// By package abweichend. Nicht filename.
+const manifestFileName = `${name}.xml`;
+const Manifest = path.resolve(`./package/${manifestFileName}`);
+const jsonMain = './package.json';
+
+const manifestFileNameChild = `${filename}.xml`;
+const manifestChild = `${childDir}/${manifestFileNameChild}`;
+const jsonChild = `${childDir}/packageOverride.json`;
+
+let versionSub = '';
+let thisPackages = [];
 
 // Permanent SVG holder:
 // Don't delete it! No cleanout! Used by repo hugo_baseghsvs!
 const pathMedia = `./media/svgs`;
-
-// Build the pkg_ children here:
-const packagesDir = `./package/packages`;
-// We only have one child:
-const childDir = `${packagesDir}/file_iconsghsvs`;
-// pkg_ Manifest:
-const manifestFileName = `pkg_${filename}.xml`;
-const Manifest = `${__dirname}/package/${manifestFileName}`;
-let versionSub = '';
-
-// Just easier to handle in console.log:
-let from = '';
-let to = '';
 
 async function buildOverview()
 {
@@ -56,117 +68,103 @@ async function buildOverview()
 	];
 	await helper.cleanOut(cleanOuts);
 
-	to = './dist'
-	await fse.mkdir(to).then(
-		answer => console.log(pc.yellow(pc.bold(`Created "${to}".`)))
-	);
-
-	from = `./src`;
-	to = `./package`;
-	await fse.copy(from, to
-	).then(
-		answer => console.log(
-			pc.yellow(pc.bold(`Copied "${from}" to "${to}".`))
-		)
-	);
-
-	// Get subversion (Bootstrap icons):
-	from = `${__dirname}/node_modules/bootstrap-icons/package.json`;
+	from = path.resolve(`node_modules/bootstrap-icons/package.json`);
 	versionSub = await helper.findVersionSubSimple (from, 'bootstrap-icons');
 	console.log(pc.magenta(pc.bold(`versionSub identified as: "${versionSub}"`)));
 
-	console.log(pc.red(pc.bold(`Be very patient! Preparing and moving around svg files.`)));
+	from = `./src`;
+	to = `./package`;
+	await helper.copy(from, to)
+
+	console.log(pc.red(pc.bold(`Be patient! Preparing, moving around svg files and so.`)));
 
 	from = `./node_modules/@fortawesome/fontawesome-free/svgs`;
 	to = `${pathMedia}`;
-	await fse.copy(from, to
-	).then(
-		answer => console.log(
-			pc.yellow(pc.bold(`Copied "${from}" to "${to}".`))
-		)
-	);
+	await helper.copy(from, to)
 
 	from = `./node_modules/bootstrap-icons/icons`;
 	to = `${pathMedia}/bi`;
-	await fse.copy(from, to
-	).then(
-		answer => console.log(
-			pc.yellow(pc.bold(`Copied "${from}" to "${to}".`))
-		)
-	);
+	await helper.copy(from, to)
 
 	const buildSvgs = require('./build/build-svgs.js');
 	await buildSvgs.main();
 
 	from = `${pathMedia}`;
 	to = `${childDir}/svgs`;
-	await fse.copy(from, to
-	).then(
-		answer => console.log(
-			pc.yellow(pc.bold(`Copied "${from}" to "${to}".`))
-		)
-	);
+	await helper.copy(from, to)
 
-	console.log(pc.red(pc.bold(`Start packaging.`)));
+	to = './dist';
 
-	// ##### Zip the file extension (child). START.
-	// package/packages/file_iconsghsvs/iconsghsvs.xml
-	let zipFilename = `${name}-${version}_${versionSub}.zip`;
-	let zipFile = `${path.join(__dirname, packagesDir, zipFilename)}`;
-	let folderToZip = childDir;
-	let xmlFileName = `${filename}.xml`;
-	let xmlFile = `${path.join(__dirname, childDir, xmlFileName)}`;
-
-	await replaceXml.main(xmlFile);
-	await fse.copy(xmlFile, `./dist/${xmlFileName}`).then(
-		answer => console.log(pc.yellow(pc.bold(
-			`Copied "${xmlFile}" to ./dist.`)))
-	);
-
-	let zip = new (require("adm-zip"))();
-	zip.addLocalFolder(folderToZip, false);
-	await zip.writeZip(zipFile);
-	console.log(pc.cyan(pc.bold(pc.bgRed(`${zipFile} written.`))));
-
-	if (await fse.exists(to))
+	if (!(await fse.exists(to)))
 	{
-		cleanOuts = [to];
-		await helper.cleanOut(cleanOuts);
+		await fse.mkdir(to).then(
+			answer => console.log(pc.yellow(pc.bold(`Created "${to}".`)))
+		);
 	}
 
-	await fse.copy(from, to
-	).then(
-		answer => console.log(
-			pc.yellow(pc.bold(`Copied "${from}" to "${to}".`))
-		)
-	);
+	// ##### The File(s) (child). START.
 
-	// We need only zip for later pkg_* build.
-	await helper.cleanOut([childDir]);
+	// package/packages/file_iconsghsvs/iconsghsvs.xml
+	let jsonString = await helper.mergeJson(
+		[path.resolve(jsonMain), path.resolve(jsonChild)]
+	)
 
+	let tempPackage = JSON.parse(jsonString);
+
+	let zipFilename = `${tempPackage.name}-${version}_${versionSub}.zip`;
+
+	replaceXmlOptions = {
+		"xmlFile": path.resolve(manifestChild),
+		"zipFilename": zipFilename,
+		"checksum": "",
+		"dirname": __dirname,
+		"thisPackages": thisPackages,
+		"jsonString": jsonString
+	};
+
+	await replaceXml.main(replaceXmlOptions);
+	from = manifestChild;
+	to = `./dist/${manifestFileNameChild}`
+	await helper.copy(from, to)
+
+	// ## Create child zip file.
+	let zipFilePath = path.resolve(`./${packagesDir}/${zipFilename}`);
+
+	zipOptions = {
+		"source": path.resolve(childDir),
+		"target": zipFilePath
+	};
+	await helper.zip(zipOptions);
+
+	// The id element in <file ..> tag is not arbitrary! The id= should be set to the value of the element column in the #__extensions table. If they are not set correctly, upon uninstallation of the package, the child file will not be found and uninstalled.
 	thisPackages.push(
-		`<file type="file" id="iconsghsvs">${zipFilename}</file>`
+		`<file type="${tempPackage.update.type}" id="${tempPackage.update.pkgId}">${zipFilename}</file>`
 	);
-	// ##### Zip the Library (child). END.
+	await helper.cleanOut([childDir]);
+	// ##### The File(s) (child). END.
 
-	// ##### Zip the Package (main). START.
-	zipFilename = `pkg_${zipFilename}`;
-	const zipFilePath = `./dist/${zipFilename}`;
-	folderToZip = `./package`;
-	xmlFileName = manifestFileName;
-	xmlFile = Manifest;
+	// ##### The Package (main). START.
+	zipFilename = `${nameReal}-${version}_${versionSub}.zip`;
 
-	await replaceXml.main(xmlFile, zipFilename, null, thisPackages);
-	await fse.copy(xmlFile, `./dist/${xmlFileName}`).then(
-		answer => console.log(pc.yellow(pc.bold(
-			`Copied "${xmlFile}" to ./dist.`)))
-	);
+	// package/pkg_xyz.xml
+	replaceXmlOptions.xmlFile = Manifest;
+	replaceXmlOptions.zipFilename = zipFilename;
+	replaceXmlOptions.thisPackages = thisPackages;
+	replaceXmlOptions.jsonString = "";
 
-	zip = new (require("adm-zip"))();
-	zip.addLocalFolder(folderToZip, false);
-	await zip.writeZip(zipFilePath);
-	console.log(pc.cyan(pc.bold(pc.bgRed(`./dist/${zipFilename} written.`))));
-	// ##### Zip the Package (main). END.
+	await replaceXml.main(replaceXmlOptions);
+	from = Manifest;
+	to = `./dist/${manifestFileName}`
+	await helper.copy(from, to)
+
+	// ## Create main zip file.
+	zipFilePath = path.resolve(`./dist/${zipFilename}`);
+
+	zipOptions = {
+		"source": path.resolve("package"),
+		"target": zipFilePath
+	};
+	await helper.zip(zipOptions)
 
 	const Digest = 'sha256'; //sha384, sha512
 	const checksum = await helper.getChecksum(zipFilePath, Digest)
@@ -184,54 +182,30 @@ async function buildOverview()
 		return '';
 	});
 
-	xmlFile = 'update.xml';
-	await fse.copy(`./${xmlFile}`, `./dist/${xmlFile}`).then(
-		answer => console.log(pc.yellow(pc.bold(
-			`Copied "${xmlFile}" to ./dist.`)))
-	);
-	await replaceXml.main(`${__dirname}/dist/${xmlFile}`, zipFilename, checksum,
-		thisPackages);
+	replaceXmlOptions.checksum = checksum;
 
-	xmlFile = 'changelog.xml';
-	await fse.copy(`./${xmlFile}`, `./dist/${xmlFile}`).then(
-		answer => console.log(pc.yellow(pc.bold(
-			`Copied "${xmlFile}" to ./dist.`)))
-	);
-	await replaceXml.main(`${__dirname}/dist/${xmlFile}`, zipFilename, checksum,
-		thisPackages);
+	// Bei diesen werden zuerst Vorlagen nach dist/ kopiert und dort erst "replaced".
+	for (const file of [updateXml, changelogXml, releaseTxt])
+	{
+		from = file;
+		to = `./dist/${path.win32.basename(file)}`;
+		await helper.copy(from, to)
 
-	xmlFile = 'release.txt';
-	await fse.copy(`./${xmlFile}`, `./dist/${xmlFile}`).then(
-		answer => console.log(pc.yellow(pc.bold(
-			`Copied "${xmlFile}" to ./dist.`)))
-	);
-	await replaceXml.main(`${__dirname}/dist/${xmlFile}`, zipFilename, checksum,
-		thisPackages);
+		replaceXmlOptions.xmlFile = path.resolve(to);
+
+		await replaceXml.main(replaceXmlOptions);
+	}
 
 	await buildOverview();
 
 	from = `${pathMedia}/prepped-icons.json`;
 	to = `./dist/prepped-icons.json`;
-	await fse.copy(from, to
-	).then(
-		answer => console.log(
-			pc.yellow(pc.bold(`Copied "${from}" to "${to}".`))
-		)
-	);
-
-	from = `${pathMedia}/prepped-icons.json`;
-	to = `./dist/prepped-icons.json`;
-	await fse.copy(from, to
-	).then(
-		answer => console.log(
-			pc.yellow(pc.bold(`Copied "${from}" to "${to}".`))
-		)
-	);
-
+	await helper.copy(from, to)
 
 	cleanOuts = [
 		`./package`,
 	];
+
 	await helper.cleanOut(cleanOuts).then(
 		answer => console.log(pc.cyan(pc.bold(pc.bgRed(
 			`Finished. Good bye!`))))
