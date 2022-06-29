@@ -93,14 +93,7 @@ async function buildOverview()
 	to = `${childDir}/svgs`;
 	await helper.copy(from, to)
 
-	to = './dist';
-
-	if (!(await fse.exists(to)))
-	{
-		await fse.mkdir(to).then(
-			answer => console.log(pc.yellow(pc.bold(`Created "${to}".`)))
-		);
-	}
+	await helper.mkdir('./dist');
 
 	// ##### The File(s) (child). START.
 
