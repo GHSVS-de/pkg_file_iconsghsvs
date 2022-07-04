@@ -159,23 +159,7 @@ async function buildOverview()
 	};
 	await helper.zip(zipOptions)
 
-	const Digest = 'sha256'; //sha384, sha512
-	const checksum = await helper.getChecksum(zipFilePath, Digest)
-  .then(
-		hash => {
-			const tag = `<${Digest}>${hash}</${Digest}>`;
-			console.log(pc.green(pc.bold(`Checksum tag is: ${tag}`)));
-			return tag;
-		}
-	)
-	.catch(error => {
-		console.log(error);
-		console.log(pc.red(pc.bold(
-			`Error while checksum creation. I won't set one!`)));
-		return '';
-	});
-
-	replaceXmlOptions.checksum = checksum;
+	replaceXmlOptions.checksum = await helper._getChecksum(zipFilePath);
 
 	// Bei diesen werden zuerst Vorlagen nach dist/ kopiert und dort erst "replaced".
 	for (const file of [updateXml, changelogXml, releaseTxt])
@@ -198,7 +182,6 @@ async function buildOverview()
 	cleanOuts = [
 		`./package`,
 	];
-
 	await helper.cleanOut(cleanOuts).then(
 		answer => console.log(pc.cyan(pc.bold(pc.bgRed(
 			`Finished. Good bye!`))))
