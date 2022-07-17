@@ -2,8 +2,8 @@
 	"name": "pkg_iconsghsvs",
 	"nameReal": "pkg_file_iconsghsvs",
 	"filename": "iconsghsvs",
-	"version": "2022.07.14",
-	"versionCompare": "2022.05.14",
+	"version": "2022.07.17",
+	"versionCompare": "2022.07.14",
 	"update": {
 		"type": "package",
 		"folder": "",
@@ -29,7 +29,7 @@
 			"Or standalone if you think."
 		],
 		"uses": [
-			"https://github.com/twbs/icons (V1.8.2)",
+			"https://github.com/twbs/icons",
 			"https://github.com/FortAwesome/Font-Awesome (V5.15.4)"
 		],
 		"language": []
@@ -74,7 +74,7 @@
 		"icons"
 	],
 	"private": false,
-	"description": "Joomla package/file. Customised SVG icons in dir media/iconsghsvs. Not more.",
+	"description": "Joomla package/file. Slightly adapted SVG icons in the directory media/iconsghsvs. No more. No visual changes to the icons.",
 	"license": "GPL-3.0",
 	"repository": {
 		"type": "git",
@@ -87,7 +87,7 @@
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5",
-		"bootstrap-icons": "^1.9.0"
+		"bootstrap-icons": "^1.9.1"
 	},
 	"devDependencies": {
 		"cheerio": "^1.0.0-rc.10",
