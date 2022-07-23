@@ -18,7 +18,7 @@ class pkg_iconsghsvsInstallerScript extends InstallerScript
 	 */
 	protected $deleteFiles = [
 		// Typo in filename.
-		'/media/svgs/bi/wrench-adjustable-cricle.svg'
+		'/media/iconsghsvs/svgs/bi/wrench-adjustable-cricle.svg'
 	];
 
 	/**
