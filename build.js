@@ -45,7 +45,7 @@ let versionSub = '';
 let thisPackages = [];
 
 // Permanent SVG holder:
-// Don't delete it! No cleanout! Used by repo hugo_baseghsvs!
+// Don't delete it at the end! No cleanout! Used by repo hugo_baseghsvs!
 const pathMedia = `./media/svgs`;
 
 async function buildOverview()
