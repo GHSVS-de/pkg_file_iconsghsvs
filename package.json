@@ -2,8 +2,8 @@
 	"name": "pkg_iconsghsvs",
 	"nameReal": "pkg_file_iconsghsvs",
 	"filename": "iconsghsvs",
-	"version": "2022.07.17",
-	"versionCompare": "2022.07.14",
+	"version": "2022.11.11",
+	"versionCompare": "2022.07.17",
 	"update": {
 		"type": "package",
 		"folder": "",
@@ -45,7 +45,7 @@
 			"PHP 8.1",
 			"PHP 7.4",
 			"Joomla 3.10",
-			"Joomla 4.1"
+			"Joomla 4.2"
 		]
 	},
 	"minimumPhp": "7.4.0",
@@ -87,7 +87,7 @@
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5",
-		"bootstrap-icons": "^1.9.1"
+		"bootstrap-icons": "^1.10.0"
 	},
 	"devDependencies": {
 		"cheerio": "^1.0.0-rc.10",
