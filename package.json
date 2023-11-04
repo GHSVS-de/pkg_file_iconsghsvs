@@ -2,9 +2,11 @@
 	"name": "pkg_iconsghsvs",
 	"nameReal": "pkg_file_iconsghsvs",
 	"filename": "iconsghsvs",
-	"version": "2022.11.11",
-	"versionCompare": "2022.07.17",
+	"version": "2023.11.04",
+	"versionCompare": "2022.11.11",
+	"versionSub": "",
 	"update": {
+		"infourl": "https://github.com/GHSVS-de/pkg_file_iconsghsvs{{thisRelease}}",
 		"type": "package",
 		"folder": "",
 		"client": "site",
@@ -12,7 +14,8 @@
 		"method": "",
 		"targetplatform": [
 			"3.*",
-			"4.*"
+			"4.*",
+			"5.*"
 		],
 		"namespace": "",
 		"elementComment": "Special for packages. If set overrides element=filename",
@@ -29,8 +32,7 @@
 			"Or standalone if you think."
 		],
 		"uses": [
-			"https://github.com/twbs/icons",
-			"https://github.com/FortAwesome/Font-Awesome (V5.15.4)"
+			"https://github.com/twbs/icons"
 		],
 		"language": []
 	},
@@ -49,9 +51,9 @@
 		]
 	},
 	"minimumPhp": "7.4.0",
-	"maximumPhp": "8.99999.99999",
+	"maximumPhp": "",
 	"minimumJoomla": "3.10.0",
-	"maximumJoomla": "4.9999.9999",
+	"maximumJoomla": "5.9999.9999",
 	"allowDowngrades": "1",
 	"creationDate": "2022-02-05",
 	"licenseLong": "GNU General Public License version 3 or later; see LICENSE.txt.",
@@ -86,8 +88,7 @@
     "update": "npm update --save-dev"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "^5",
-		"bootstrap-icons": "^1.10.0"
+		"bootstrap-icons": "^1.11.1"
 	},
 	"devDependencies": {
 		"cheerio": "^1.0.0-rc.10",

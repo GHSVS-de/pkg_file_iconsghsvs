@@ -5,6 +5,13 @@
   - https://github.com/FortAwesome/Font-Awesome (V5. Will not support V6+. Complete removal from this package is planned. Or will only use brands. Let's see.).
   - https://github.com/twbs/icons
 
+## since v2023.11.04:
+### FortAwesome has been removed!
+Old folders will *NOT* be deleted on update:
+- `/media/iconsghsvs/brands/`
+- `/media/iconsghsvs/regular/`
+- `/media/iconsghsvs/solid/`
+
 # Be aware
 - The package ZIP has a size of 1.5 MB depending on the size of the SVGs.
   - Extracted size: 6 MB or so on the server.
