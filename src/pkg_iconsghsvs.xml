@@ -12,9 +12,7 @@
 
 	<updateservers><server type="extension" priority="1" name="{{nameUpper}}">{{xmlserver}}/{{updateFilePrefix}}-update.xml</server></updateservers>
 
-	<changelogurl>{{xmlserver}}/{{updateFilePrefix}}-changelog.xml</changelogurl>
-
-	<infourl>{{infourl}}?file={{updateFilePrefix}}</infourl>
+	<infourl>{{infourl}}</infourl>
 
 	<minimumPhp>{{minimumPhp}}</minimumPhp>
 	<maximumPhp>{{maximumPhp}}</maximumPhp>
