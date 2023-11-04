@@ -120,7 +120,7 @@ class pkg_iconsghsvsInstallerScript extends InstallerScript
 		{
 			foreach ($this->removeFoldersOnUninstall as $folder)
 			{
-				if (Folder::exists(JPATH_ROOT . $folder)
+				if (is_dir(JPATH_ROOT . $folder)
 					&& !Folder::delete(JPATH_ROOT . $folder))
 				{
 					echo Text::sprintf('JLIB_INSTALLER_ERROR_FILE_FOLDER', $folder)
