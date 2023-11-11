@@ -94,6 +94,7 @@ async function buildOverview()
 	await helper.copy(from, to)
 
 	await helper.mkdir('./dist');
+	await buildOverview();
 
 	// ##### The File(s) (child). START.
 
@@ -173,7 +174,7 @@ async function buildOverview()
 		await replaceXml.main(replaceXmlOptions);
 	}
 
-	await buildOverview();
+
 
 	from = `${pathMedia}/prepped-icons.json`;
 	to = `./dist/prepped-icons.json`;

@@ -12,6 +12,7 @@
 	<fileset>
 		<files target="media/iconsghsvs">
 			<folder>svgs</folder>
+			<filename>icons-overview.html</filename>
 		</files>
 	</fileset>
 
