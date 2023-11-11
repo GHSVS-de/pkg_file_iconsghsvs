@@ -7,12 +7,12 @@
 	<copyright>(C) 2022, G@HService Berlin Neukölln, Volkmar Volli Schlothauer.</copyright>
 	<license>GNU General Public License version 3 or later; see LICENSE.txt.</license>
 	<authorUrl>https://ghsvs.de</authorUrl>
-	<version>2023.11.04</version>
+	<version>2023.11.11</version>
 	<description>Joomla package/file. Slightly adapted SVG icons in the directory media/iconsghsvs. No more. No visual changes to the icons.</description>
 
 	<updateservers><server type="extension" priority="1" name="PKG_ICONSGHSVS">https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/pkg_file_iconsghsvs-update.xml</server></updateservers>
 
-	<infourl>https://github.com/GHSVS-de/pkg_file_iconsghsvs/releases/tag/2023.11.04</infourl>
+	<infourl>https://github.com/GHSVS-de/pkg_file_iconsghsvs/releases/tag/2023.11.11</infourl>
 
 	<minimumPhp>7.4.0</minimumPhp>
 	<maximumPhp></maximumPhp>
@@ -23,7 +23,7 @@
 	<scriptfile>installerScript.php</scriptfile>
 
 	<files folder="packages">
-		<file type="file" id="iconsghsvs">file_iconsghsvs-2023.11.04_1.11.1.zip</file>
+		<file type="file" id="iconsghsvs">file_iconsghsvs-2023.11.11_1.11.1.zip</file>
 	</files>
 
 	<files>

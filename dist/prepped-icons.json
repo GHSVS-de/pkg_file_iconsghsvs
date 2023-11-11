@@ -1,11 +1,11 @@
 [
   [
     "bi",
-    "0-circle-fill"
+    "1-square-fill"
   ],
   [
     "bi",
-    "1-circle"
+    "1-square"
   ],
   [
     "bi",
@@ -13,7 +13,15 @@
   ],
   [
     "bi",
+    "1-circle"
+  ],
+  [
+    "bi",
     "2-circle"
+  ],
+  [
+    "bi",
+    "2-square-fill"
   ],
   [
     "bi",
@@ -25,19 +33,7 @@
   ],
   [
     "bi",
-    "2-square-fill"
-  ],
-  [
-    "bi",
-    "0-square"
-  ],
-  [
-    "bi",
-    "1-square-fill"
-  ],
-  [
-    "bi",
-    "0-circle"
+    "2-square"
   ],
   [
     "bi",
@@ -45,7 +41,11 @@
   ],
   [
     "bi",
-    "4-circle-fill"
+    "0-circle-fill"
+  ],
+  [
+    "bi",
+    "4-square-fill"
   ],
   [
     "bi",
@@ -53,7 +53,11 @@
   ],
   [
     "bi",
-    "3-circle"
+    "4-circle-fill"
+  ],
+  [
+    "bi",
+    "3-square-fill"
   ],
   [
     "bi",
@@ -61,19 +65,15 @@
   ],
   [
     "bi",
-    "5-square-fill"
-  ],
-  [
-    "bi",
     "6-circle-fill"
   ],
   [
     "bi",
-    "5-circle"
+    "5-circle-fill"
   ],
   [
     "bi",
-    "6-square-fill"
+    "5-square-fill"
   ],
   [
     "bi",
@@ -81,23 +81,11 @@
   ],
   [
     "bi",
-    "3-square"
-  ],
-  [
-    "bi",
     "6-square"
   ],
   [
     "bi",
-    "7-circle-fill"
-  ],
-  [
-    "bi",
-    "7-square"
-  ],
-  [
-    "bi",
-    "7-circle"
+    "6-square-fill"
   ],
   [
     "bi",
@@ -105,11 +93,19 @@
   ],
   [
     "bi",
+    "7-circle"
+  ],
+  [
+    "bi",
+    "7-circle-fill"
+  ],
+  [
+    "bi",
     "7-square-fill"
   ],
   [
     "bi",
-    "8-circle-fill"
+    "8-circle"
   ],
   [
     "bi",
@@ -121,15 +117,23 @@
   ],
   [
     "bi",
+    "8-circle-fill"
+  ],
+  [
+    "bi",
+    "7-square"
+  ],
+  [
+    "bi",
+    "9-circle"
+  ],
+  [
+    "bi",
     "9-circle-fill"
   ],
   [
     "bi",
     "9-square-fill"
-  ],
-  [
-    "bi",
-    "airplane-engines-fill"
   ],
   [
     "bi",
@@ -141,19 +145,11 @@
   ],
   [
     "bi",
-    "9-circle"
-  ],
-  [
-    "bi",
-    "8-circle"
+    "airplane-engines-fill"
   ],
   [
     "bi",
     "airplane-fill"
-  ],
-  [
-    "bi",
-    "airplane"
   ],
   [
     "bi",
@@ -165,7 +161,11 @@
   ],
   [
     "bi",
-    "alarm"
+    "airplane"
+  ],
+  [
+    "bi",
+    "align-middle"
   ],
   [
     "bi",
@@ -173,11 +173,19 @@
   ],
   [
     "bi",
+    "alarm"
+  ],
+  [
+    "bi",
+    "align-start"
+  ],
+  [
+    "bi",
     "align-center"
   ],
   [
     "bi",
-    "align-middle"
+    "align-bottom"
   ],
   [
     "bi",
@@ -189,7 +197,11 @@
   ],
   [
     "bi",
-    "1-square"
+    "align-top"
+  ],
+  [
+    "bi",
+    "alphabet-uppercase"
   ],
   [
     "bi",
@@ -197,11 +209,11 @@
   ],
   [
     "bi",
-    "align-start"
+    "amd"
   ],
   [
     "bi",
-    "alphabet-uppercase"
+    "android2"
   ],
   [
     "bi",
@@ -213,19 +225,7 @@
   ],
   [
     "bi",
-    "android"
-  ],
-  [
-    "bi",
-    "amd"
-  ],
-  [
-    "bi",
     "app-indicator"
-  ],
-  [
-    "bi",
-    "android2"
   ],
   [
     "bi",
@@ -237,19 +237,7 @@
   ],
   [
     "bi",
-    "align-bottom"
-  ],
-  [
-    "bi",
     "archive-fill"
-  ],
-  [
-    "bi",
-    "arrow-90deg-down"
-  ],
-  [
-    "bi",
-    "arrow-90deg-right"
   ],
   [
     "bi",
@@ -257,11 +245,23 @@
   ],
   [
     "bi",
+    "android"
+  ],
+  [
+    "bi",
     "arrow-90deg-left"
   ],
   [
     "bi",
-    "align-top"
+    "arrow-90deg-right"
+  ],
+  [
+    "bi",
+    "arrow-bar-down"
+  ],
+  [
+    "bi",
+    "arrow-90deg-down"
   ],
   [
     "bi",
@@ -273,15 +273,31 @@
   ],
   [
     "bi",
-    "arrow-bar-up"
-  ],
-  [
-    "bi",
     "arrow-bar-right"
   ],
   [
     "bi",
+    "arrow-bar-up"
+  ],
+  [
+    "bi",
     "arrow-down-circle-fill"
+  ],
+  [
+    "bi",
+    "arrow-counterclockwise"
+  ],
+  [
+    "bi",
+    "arrow-down-left-square-fill"
+  ],
+  [
+    "bi",
+    "arrow-down-left-square"
+  ],
+  [
+    "bi",
+    "arrow-down-left"
   ],
   [
     "bi",
@@ -290,18 +306,6 @@
   [
     "bi",
     "arrow-down-left-circle"
-  ],
-  [
-    "bi",
-    "2-square"
-  ],
-  [
-    "bi",
-    "arrow-down-circle"
-  ],
-  [
-    "bi",
-    "arrow-down-left-circle-fill"
   ],
   [
     "bi",
@@ -317,19 +321,7 @@
   ],
   [
     "bi",
-    "arrow-down-right-circle-fill"
-  ],
-  [
-    "bi",
-    "arrow-down-short"
-  ],
-  [
-    "bi",
-    "arrow-down-left-square-fill"
-  ],
-  [
-    "bi",
-    "arrow-down-square"
+    "arrow-down-left-circle-fill"
   ],
   [
     "bi",
@@ -337,15 +329,23 @@
   ],
   [
     "bi",
-    "arrow-down"
+    "arrow-down-right-circle"
   ],
   [
     "bi",
-    "arrow-down-left-square"
+    "arrow-down-short"
   ],
   [
     "bi",
     "arrow-down-up"
+  ],
+  [
+    "bi",
+    "arrow-down"
+  ],
+  [
+    "bi",
+    "arrow-left-circle"
   ],
   [
     "bi",
@@ -357,15 +357,19 @@
   ],
   [
     "bi",
-    "arrow-left-short"
-  ],
-  [
-    "bi",
     "arrow-left-square-fill"
   ],
   [
     "bi",
-    "arrow-left-circle"
+    "3-circle"
+  ],
+  [
+    "bi",
+    "5-circle"
+  ],
+  [
+    "bi",
+    "arrow-down-circle"
   ],
   [
     "bi",
@@ -373,7 +377,11 @@
   ],
   [
     "bi",
-    "arrow-repeat"
+    "arrow-return-right"
+  ],
+  [
+    "bi",
+    "arrow-down-right-circle-fill"
   ],
   [
     "bi",
@@ -381,27 +389,7 @@
   ],
   [
     "bi",
-    "arrow-down-left"
-  ],
-  [
-    "bi",
-    "arrow-return-left"
-  ],
-  [
-    "bi",
-    "arrow-right-circle-fill"
-  ],
-  [
-    "bi",
-    "arrow-return-right"
-  ],
-  [
-    "bi",
-    "arrow-right-short"
-  ],
-  [
-    "bi",
-    "arrow-right-square-fill"
+    "arrow-repeat"
   ],
   [
     "bi",
@@ -409,19 +397,19 @@
   ],
   [
     "bi",
+    "arrow-right-square-fill"
+  ],
+  [
+    "bi",
+    "arrow-right-short"
+  ],
+  [
+    "bi",
+    "arrow-return-left"
+  ],
+  [
+    "bi",
     "arrow-right-square"
-  ],
-  [
-    "bi",
-    "arrow-right"
-  ],
-  [
-    "bi",
-    "arrow-through-heart"
-  ],
-  [
-    "bi",
-    "arrow-up-circle-fill"
   ],
   [
     "bi",
@@ -429,15 +417,15 @@
   ],
   [
     "bi",
-    "arrow-up-left-circle-fill"
+    "arrow-right-circle-fill"
   ],
   [
     "bi",
-    "arrow-up-left-circle"
+    "arrow-through-heart"
   ],
   [
     "bi",
-    "arrow-up-left-square"
+    "arrow-right"
   ],
   [
     "bi",
@@ -445,7 +433,11 @@
   ],
   [
     "bi",
-    "arrow-up-right-circle"
+    "arrow-up-circle-fill"
+  ],
+  [
+    "bi",
+    "arrow-up-left-circle-fill"
   ],
   [
     "bi",
@@ -457,15 +449,23 @@
   ],
   [
     "bi",
+    "arrow-up-left-square-fill"
+  ],
+  [
+    "bi",
+    "arrow-up-left-circle"
+  ],
+  [
+    "bi",
+    "arrow-up-left-square"
+  ],
+  [
+    "bi",
     "arrow-up-right-square-fill"
   ],
   [
     "bi",
-    "arrow-up-right-square"
-  ],
-  [
-    "bi",
-    "arrow-up-right"
+    "arrow-up-right-circle"
   ],
   [
     "bi",
@@ -477,11 +477,7 @@
   ],
   [
     "bi",
-    "arrow-up-square-fill"
-  ],
-  [
-    "bi",
-    "arrow-up"
+    "arrow-up-right"
   ],
   [
     "bi",
@@ -489,11 +485,11 @@
   ],
   [
     "bi",
-    "arrow-up-left-square-fill"
+    "arrow-up"
   ],
   [
     "bi",
-    "arrows-angle-expand"
+    "arrow-up-square-fill"
   ],
   [
     "bi",
@@ -501,7 +497,11 @@
   ],
   [
     "bi",
-    "arrows-collapse-vertical"
+    "arrows-angle-expand"
+  ],
+  [
+    "bi",
+    "arrow-up-right-square"
   ],
   [
     "bi",
@@ -509,15 +509,19 @@
   ],
   [
     "bi",
-    "arrows-fullscreen"
-  ],
-  [
-    "bi",
     "arrows-expand"
   ],
   [
     "bi",
+    "arrows-fullscreen"
+  ],
+  [
+    "bi",
     "arrows-move"
+  ],
+  [
+    "bi",
+    "arrows"
   ],
   [
     "bi",
@@ -529,6 +533,10 @@
   ],
   [
     "bi",
+    "aspect-ratio"
+  ],
+  [
+    "bi",
     "at"
   ],
   [
@@ -537,7 +545,7 @@
   ],
   [
     "bi",
-    "aspect-ratio"
+    "back"
   ],
   [
     "bi",
@@ -545,11 +553,11 @@
   ],
   [
     "bi",
-    "arrows"
+    "backpack"
   ],
   [
     "bi",
-    "back"
+    "arrows-collapse-vertical"
   ],
   [
     "bi",
@@ -557,7 +565,7 @@
   ],
   [
     "bi",
-    "backpack2"
+    "backpack2-fill"
   ],
   [
     "bi",
@@ -565,31 +573,19 @@
   ],
   [
     "bi",
-    "backpack3-fill"
-  ],
-  [
-    "bi",
     "backpack3"
   ],
   [
     "bi",
-    "backpack2-fill"
+    "backpack3-fill"
+  ],
+  [
+    "bi",
+    "backpack2"
   ],
   [
     "bi",
     "backpack4-fill"
-  ],
-  [
-    "bi",
-    "backpack"
-  ],
-  [
-    "bi",
-    "backpack4"
-  ],
-  [
-    "bi",
-    "backspace-reverse-fill"
   ],
   [
     "bi",
@@ -601,7 +597,7 @@
   ],
   [
     "bi",
-    "badge-3d-fill"
+    "backspace"
   ],
   [
     "bi",
@@ -609,7 +605,15 @@
   ],
   [
     "bi",
-    "backspace"
+    "backspace-reverse-fill"
+  ],
+  [
+    "bi",
+    "badge-3d-fill"
+  ],
+  [
+    "bi",
+    "badge-4k"
   ],
   [
     "bi",
@@ -621,7 +625,7 @@
   ],
   [
     "bi",
-    "badge-4k"
+    "backpack4"
   ],
   [
     "bi",
@@ -657,7 +661,7 @@
   ],
   [
     "bi",
-    "badge-sd-fill"
+    "badge-sd"
   ],
   [
     "bi",
@@ -665,15 +669,7 @@
   ],
   [
     "bi",
-    "badge-sd"
-  ],
-  [
-    "bi",
     "badge-tm-fill"
-  ],
-  [
-    "bi",
-    "badge-tm"
   ],
   [
     "bi",
@@ -681,7 +677,15 @@
   ],
   [
     "bi",
+    "badge-tm"
+  ],
+  [
+    "bi",
     "badge-vo"
+  ],
+  [
+    "bi",
+    "badge-sd-fill"
   ],
   [
     "bi",
@@ -689,7 +693,7 @@
   ],
   [
     "bi",
-    "badge-wc-fill"
+    "badge-wc"
   ],
   [
     "bi",
@@ -697,15 +701,7 @@
   ],
   [
     "bi",
-    "badge-wc"
-  ],
-  [
-    "bi",
-    "bag-dash-fill"
-  ],
-  [
-    "bi",
-    "bag-check-fill"
+    "badge-wc-fill"
   ],
   [
     "bi",
@@ -713,11 +709,23 @@
   ],
   [
     "bi",
-    "bag-fill"
+    "bag-check-fill"
   ],
   [
     "bi",
     "bag-heart-fill"
+  ],
+  [
+    "bi",
+    "bag-fill"
+  ],
+  [
+    "bi",
+    "bag-dash-fill"
+  ],
+  [
+    "bi",
+    "bag-dash"
   ],
   [
     "bi",
@@ -729,11 +737,15 @@
   ],
   [
     "bi",
-    "bag-plus-fill"
+    "bag-plus"
   ],
   [
     "bi",
-    "bag-x"
+    "balloon-fill"
+  ],
+  [
+    "bi",
+    "bag-plus-fill"
   ],
   [
     "bi",
@@ -745,27 +757,19 @@
   ],
   [
     "bi",
-    "balloon-fill"
-  ],
-  [
-    "bi",
-    "bag-plus"
-  ],
-  [
-    "bi",
-    "balloon"
-  ],
-  [
-    "bi",
     "balloon-heart"
   ],
   [
     "bi",
-    "bag-dash"
+    "ban-fill"
   ],
   [
     "bi",
-    "ban-fill"
+    "bag-x"
+  ],
+  [
+    "bi",
+    "balloon"
   ],
   [
     "bi",
@@ -781,15 +785,11 @@
   ],
   [
     "bi",
-    "bank2"
-  ],
-  [
-    "bi",
     "ban"
   ],
   [
     "bi",
-    "bar-chart-fill"
+    "bank2"
   ],
   [
     "bi",
@@ -797,7 +797,7 @@
   ],
   [
     "bi",
-    "basket"
+    "bar-chart-fill"
   ],
   [
     "bi",
@@ -813,15 +813,15 @@
   ],
   [
     "bi",
-    "bar-chart-steps"
-  ],
-  [
-    "bi",
-    "battery-charging"
-  ],
-  [
-    "bi",
     "basket2-fill"
+  ],
+  [
+    "bi",
+    "basket"
+  ],
+  [
+    "bi",
+    "bar-chart-steps"
   ],
   [
     "bi",
@@ -833,11 +833,7 @@
   ],
   [
     "bi",
-    "basket3-fill"
-  ],
-  [
-    "bi",
-    "behance"
+    "battery-charging"
   ],
   [
     "bi",
@@ -845,19 +841,15 @@
   ],
   [
     "bi",
+    "arrow-down-square"
+  ],
+  [
+    "bi",
+    "basket3-fill"
+  ],
+  [
+    "bi",
     "battery-half"
-  ],
-  [
-    "bi",
-    "battery"
-  ],
-  [
-    "bi",
-    "bell-fill"
-  ],
-  [
-    "bi",
-    "bell-slash"
   ],
   [
     "bi",
@@ -865,15 +857,11 @@
   ],
   [
     "bi",
-    "bell"
+    "behance"
   ],
   [
     "bi",
-    "bezier"
-  ],
-  [
-    "bi",
-    "bicycle"
+    "bell-slash"
   ],
   [
     "bi",
@@ -881,19 +869,19 @@
   ],
   [
     "bi",
+    "bezier"
+  ],
+  [
+    "bi",
+    "bell"
+  ],
+  [
+    "bi",
+    "bell-fill"
+  ],
+  [
+    "bi",
     "bing"
-  ],
-  [
-    "bi",
-    "binoculars"
-  ],
-  [
-    "bi",
-    "blockquote-left"
-  ],
-  [
-    "bi",
-    "blockquote-right"
   ],
   [
     "bi",
@@ -901,11 +889,15 @@
   ],
   [
     "bi",
-    "bluetooth"
+    "blockquote-right"
   ],
   [
     "bi",
-    "book-fill"
+    "blockquote-left"
+  ],
+  [
+    "bi",
+    "binoculars"
   ],
   [
     "bi",
@@ -913,11 +905,15 @@
   ],
   [
     "bi",
-    "book"
+    "bicycle"
   ],
   [
     "bi",
-    "book-half"
+    "bluetooth"
+  ],
+  [
+    "bi",
+    "book"
   ],
   [
     "bi",
@@ -925,23 +921,7 @@
   ],
   [
     "bi",
-    "bookmark-heart-fill"
-  ],
-  [
-    "bi",
-    "bookmark-dash"
-  ],
-  [
-    "bi",
-    "bookmark-fill"
-  ],
-  [
-    "bi",
-    "bookmark-dash-fill"
-  ],
-  [
-    "bi",
-    "bookmark-heart"
+    "book-fill"
   ],
   [
     "bi",
@@ -949,7 +929,31 @@
   ],
   [
     "bi",
-    "bookmark-plus"
+    "book-half"
+  ],
+  [
+    "bi",
+    "bookmark-dash-fill"
+  ],
+  [
+    "bi",
+    "bookmark-fill"
+  ],
+  [
+    "bi",
+    "bookmark-heart"
+  ],
+  [
+    "bi",
+    "bookmark-dash"
+  ],
+  [
+    "bi",
+    "bookmark-heart-fill"
+  ],
+  [
+    "bi",
+    "3-circle-fill"
   ],
   [
     "bi",
@@ -957,15 +961,11 @@
   ],
   [
     "bi",
-    "bookmark-plus-fill"
+    "bookmark-plus"
   ],
   [
     "bi",
     "bookmark-star"
-  ],
-  [
-    "bi",
-    "bookmark-x-fill"
   ],
   [
     "bi",
@@ -977,11 +977,11 @@
   ],
   [
     "bi",
-    "bookmarks-fill"
+    "bookmarks"
   ],
   [
     "bi",
-    "bookmarks"
+    "bookmarks-fill"
   ],
   [
     "bi",
@@ -989,7 +989,7 @@
   ],
   [
     "bi",
-    "boombox-fill"
+    "bookmark-x-fill"
   ],
   [
     "bi",
@@ -997,7 +997,15 @@
   ],
   [
     "bi",
+    "boombox-fill"
+  ],
+  [
+    "bi",
     "bootstrap-reboot"
+  ],
+  [
+    "bi",
+    "border-center"
   ],
   [
     "bi",
@@ -1013,7 +1021,7 @@
   ],
   [
     "bi",
-    "border-center"
+    "border-middle"
   ],
   [
     "bi",
@@ -1029,15 +1037,7 @@
   ],
   [
     "bi",
-    "border-middle"
-  ],
-  [
-    "bi",
-    "border-right"
-  ],
-  [
-    "bi",
-    "border-outer"
+    "arrow-left-short"
   ],
   [
     "bi",
@@ -1049,15 +1049,11 @@
   ],
   [
     "bi",
-    "border-width"
+    "border-right"
   ],
   [
     "bi",
-    "border"
-  ],
-  [
-    "bi",
-    "bounding-box-circles"
+    "battery"
   ],
   [
     "bi",
@@ -1065,15 +1061,15 @@
   ],
   [
     "bi",
+    "border-width"
+  ],
+  [
+    "bi",
+    "bounding-box-circles"
+  ],
+  [
+    "bi",
     "box-arrow-down-left"
-  ],
-  [
-    "bi",
-    "box-arrow-down-right"
-  ],
-  [
-    "bi",
-    "box-arrow-in-down-left"
   ],
   [
     "bi",
@@ -1081,31 +1077,7 @@
   ],
   [
     "bi",
-    "arrow-down-right-circle"
-  ],
-  [
-    "bi",
-    "box-arrow-in-down"
-  ],
-  [
-    "bi",
-    "box-arrow-in-down-right"
-  ],
-  [
-    "bi",
-    "box-arrow-in-right"
-  ],
-  [
-    "bi",
-    "box-arrow-in-up-right"
-  ],
-  [
-    "bi",
-    "box-arrow-in-up-left"
-  ],
-  [
-    "bi",
-    "box-arrow-right"
+    "box-arrow-down-right"
   ],
   [
     "bi",
@@ -1113,35 +1085,27 @@
   ],
   [
     "bi",
+    "box-arrow-in-down-left"
+  ],
+  [
+    "bi",
+    "box-arrow-in-down-right"
+  ],
+  [
+    "bi",
+    "box-arrow-in-down"
+  ],
+  [
+    "bi",
+    "box-arrow-in-up-left"
+  ],
+  [
+    "bi",
+    "border-outer"
+  ],
+  [
+    "bi",
     "box-arrow-in-up"
-  ],
-  [
-    "bi",
-    "box-arrow-up-right"
-  ],
-  [
-    "bi",
-    "box-fill"
-  ],
-  [
-    "bi",
-    "box-arrow-up"
-  ],
-  [
-    "bi",
-    "box-arrow-up-left"
-  ],
-  [
-    "bi",
-    "box-seam"
-  ],
-  [
-    "bi",
-    "box-seam-fill"
-  ],
-  [
-    "bi",
-    "box2-fill"
   ],
   [
     "bi",
@@ -1149,19 +1113,43 @@
   ],
   [
     "bi",
-    "box"
+    "box-arrow-right"
   ],
   [
     "bi",
-    "boxes"
+    "box-arrow-in-up-right"
   ],
   [
     "bi",
-    "box2"
+    "box-arrow-in-right"
   ],
   [
     "bi",
-    "braces-asterisk"
+    "box-fill"
+  ],
+  [
+    "bi",
+    "border"
+  ],
+  [
+    "bi",
+    "box-arrow-up"
+  ],
+  [
+    "bi",
+    "box2-fill"
+  ],
+  [
+    "bi",
+    "box-arrow-up-right"
+  ],
+  [
+    "bi",
+    "box-arrow-up-left"
+  ],
+  [
+    "bi",
+    "box2-heart-fill"
   ],
   [
     "bi",
@@ -1169,11 +1157,7 @@
   ],
   [
     "bi",
-    "4-square-fill"
-  ],
-  [
-    "bi",
-    "briefcase-fill"
+    "box2"
   ],
   [
     "bi",
@@ -1181,11 +1165,23 @@
   ],
   [
     "bi",
-    "5-circle-fill"
+    "boxes"
+  ],
+  [
+    "bi",
+    "braces-asterisk"
   ],
   [
     "bi",
     "bricks"
+  ],
+  [
+    "bi",
+    "briefcase-fill"
+  ],
+  [
+    "bi",
+    "brightness-alt-high-fill"
   ],
   [
     "bi",
@@ -1197,23 +1193,11 @@
   ],
   [
     "bi",
-    "brightness-alt-high-fill"
+    "briefcase"
   ],
   [
     "bi",
-    "brightness-high-fill"
-  ],
-  [
-    "bi",
-    "brightness-alt-low"
-  ],
-  [
-    "bi",
-    "arrow-bar-down"
-  ],
-  [
-    "bi",
-    "brightness-low"
+    "box-seam"
   ],
   [
     "bi",
@@ -1221,23 +1205,23 @@
   ],
   [
     "bi",
-    "box2-heart-fill"
-  ],
-  [
-    "bi",
     "broadcast"
   ],
   [
     "bi",
-    "brilliance"
+    "3-square"
   ],
   [
     "bi",
-    "broadcast-pin"
+    "brightness-high-fill"
   ],
   [
     "bi",
-    "browser-edge"
+    "brightness-high"
+  ],
+  [
+    "bi",
+    "browser-chrome"
   ],
   [
     "bi",
@@ -1245,7 +1229,23 @@
   ],
   [
     "bi",
+    "bookmark-plus-fill"
+  ],
+  [
+    "bi",
+    "browser-edge"
+  ],
+  [
+    "bi",
+    "broadcast-pin"
+  ],
+  [
+    "bi",
     "brush"
+  ],
+  [
+    "bi",
+    "brilliance"
   ],
   [
     "bi",
@@ -1253,7 +1253,11 @@
   ],
   [
     "bi",
-    "brush-fill"
+    "box"
+  ],
+  [
+    "bi",
+    "brightness-low"
   ],
   [
     "bi",
@@ -1265,23 +1269,11 @@
   ],
   [
     "bi",
-    "bug"
-  ],
-  [
-    "bi",
-    "3-circle-fill"
-  ],
-  [
-    "bi",
-    "building-check"
-  ],
-  [
-    "bi",
-    "building-dash"
-  ],
-  [
-    "bi",
     "building-down"
+  ],
+  [
+    "bi",
+    "box-seam-fill"
   ],
   [
     "bi",
@@ -1293,6 +1285,14 @@
   ],
   [
     "bi",
+    "building-dash"
+  ],
+  [
+    "bi",
+    "building-fill-check"
+  ],
+  [
+    "bi",
     "building-fill-down"
   ],
   [
@@ -1301,15 +1301,15 @@
   ],
   [
     "bi",
-    "building-fill-exclamation"
-  ],
-  [
-    "bi",
     "building-fill-gear"
   ],
   [
     "bi",
-    "building-fill-check"
+    "building-check"
+  ],
+  [
+    "bi",
+    "building-fill-exclamation"
   ],
   [
     "bi",
@@ -1321,11 +1321,11 @@
   ],
   [
     "bi",
-    "building-fill-up"
+    "building-fill"
   ],
   [
     "bi",
-    "building-fill-add"
+    "building-fill-up"
   ],
   [
     "bi",
@@ -1333,11 +1333,7 @@
   ],
   [
     "bi",
-    "building-gear"
-  ],
-  [
-    "bi",
-    "building-fill"
+    "building-slash"
   ],
   [
     "bi",
@@ -1345,7 +1341,7 @@
   ],
   [
     "bi",
-    "building-slash"
+    "building-gear"
   ],
   [
     "bi",
@@ -1353,15 +1349,15 @@
   ],
   [
     "bi",
+    "building-x"
+  ],
+  [
+    "bi",
+    "building-fill-add"
+  ],
+  [
+    "bi",
     "building"
-  ],
-  [
-    "bi",
-    "buildings-fill"
-  ],
-  [
-    "bi",
-    "brightness-high"
   ],
   [
     "bi",
@@ -1369,15 +1365,23 @@
   ],
   [
     "bi",
-    "bullseye"
+    "0-circle"
   ],
   [
     "bi",
-    "bus-front-fill"
+    "buildings-fill"
   ],
   [
     "bi",
-    "arrow-counterclockwise"
+    "bus-front"
+  ],
+  [
+    "bi",
+    "brush-fill"
+  ],
+  [
+    "bi",
+    "bug"
   ],
   [
     "bi",
@@ -1385,7 +1389,19 @@
   ],
   [
     "bi",
+    "bullseye"
+  ],
+  [
+    "bi",
     "c-circle"
+  ],
+  [
+    "bi",
+    "cake-fill"
+  ],
+  [
+    "bi",
+    "cake"
   ],
   [
     "bi",
@@ -1393,11 +1409,11 @@
   ],
   [
     "bi",
-    "c-square-fill"
+    "c-square"
   ],
   [
     "bi",
-    "cake-fill"
+    "calendar-check-fill"
   ],
   [
     "bi",
@@ -1409,7 +1425,7 @@
   ],
   [
     "bi",
-    "browser-chrome"
+    "calendar-date-fill"
   ],
   [
     "bi",
@@ -1421,7 +1437,7 @@
   ],
   [
     "bi",
-    "cake"
+    "calendar-day-fill"
   ],
   [
     "bi",
@@ -1429,23 +1445,11 @@
   ],
   [
     "bi",
-    "calendar-check-fill"
-  ],
-  [
-    "bi",
-    "calendar-date-fill"
-  ],
-  [
-    "bi",
-    "calendar-day-fill"
-  ],
-  [
-    "bi",
-    "calendar-day"
-  ],
-  [
-    "bi",
     "calendar-event-fill"
+  ],
+  [
+    "bi",
+    "bus-front-fill"
   ],
   [
     "bi",
@@ -1453,27 +1457,7 @@
   ],
   [
     "bi",
-    "calendar-heart"
-  ],
-  [
-    "bi",
-    "calendar-event"
-  ],
-  [
-    "bi",
-    "calendar-heart-fill"
-  ],
-  [
-    "bi",
-    "calendar-minus-fill"
-  ],
-  [
-    "bi",
     "calendar-month-fill"
-  ],
-  [
-    "bi",
-    "calendar-plus-fill"
   ],
   [
     "bi",
@@ -1481,7 +1465,15 @@
   ],
   [
     "bi",
+    "building-exclamation"
+  ],
+  [
+    "bi",
     "calendar-minus"
+  ],
+  [
+    "bi",
+    "calendar-heart-fill"
   ],
   [
     "bi",
@@ -1489,11 +1481,15 @@
   ],
   [
     "bi",
-    "calendar-range-fill"
+    "calendar-heart"
   ],
   [
     "bi",
-    "calendar-range"
+    "0-square"
+  ],
+  [
+    "bi",
+    "calendar-minus-fill"
   ],
   [
     "bi",
@@ -1501,11 +1497,11 @@
   ],
   [
     "bi",
-    "calendar-week-fill"
+    "calendar-x-fill"
   ],
   [
     "bi",
-    "calendar-x-fill"
+    "calendar-range"
   ],
   [
     "bi",
@@ -1513,11 +1509,11 @@
   ],
   [
     "bi",
-    "bus-front"
+    "calendar-x"
   ],
   [
     "bi",
-    "calendar2-check"
+    "calendar-week-fill"
   ],
   [
     "bi",
@@ -1525,11 +1521,15 @@
   ],
   [
     "bi",
+    "calendar2-date-fill"
+  ],
+  [
+    "bi",
     "calendar2-date"
   ],
   [
     "bi",
-    "calendar2-date-fill"
+    "calendar2-check"
   ],
   [
     "bi",
@@ -1541,10 +1541,6 @@
   ],
   [
     "bi",
-    "calendar2-event-fill"
-  ],
-  [
-    "bi",
     "calendar2-event"
   ],
   [
@@ -1553,23 +1549,7 @@
   ],
   [
     "bi",
-    "calendar2-minus-fill"
-  ],
-  [
-    "bi",
-    "calendar2-fill"
-  ],
-  [
-    "bi",
-    "calendar2-month-fill"
-  ],
-  [
-    "bi",
-    "calendar2-minus"
-  ],
-  [
-    "bi",
-    "calendar2-month"
+    "calendar2-event-fill"
   ],
   [
     "bi",
@@ -1577,23 +1557,27 @@
   ],
   [
     "bi",
+    "calendar2-fill"
+  ],
+  [
+    "bi",
+    "calendar2-minus"
+  ],
+  [
+    "bi",
+    "calendar2-month-fill"
+  ],
+  [
+    "bi",
+    "calendar2-month"
+  ],
+  [
+    "bi",
+    "calendar2-minus-fill"
+  ],
+  [
+    "bi",
     "calendar2-plus-fill"
-  ],
-  [
-    "bi",
-    "calendar2-plus"
-  ],
-  [
-    "bi",
-    "calendar2-week"
-  ],
-  [
-    "bi",
-    "calendar2-range-fill"
-  ],
-  [
-    "bi",
-    "calendar2-week-fill"
   ],
   [
     "bi",
@@ -1601,7 +1585,11 @@
   ],
   [
     "bi",
-    "calendar2-x-fill"
+    "calendar-plus-fill"
+  ],
+  [
+    "bi",
+    "calendar2-week"
   ],
   [
     "bi",
@@ -1609,7 +1597,27 @@
   ],
   [
     "bi",
+    "calendar2-x-fill"
+  ],
+  [
+    "bi",
+    "calendar2-plus"
+  ],
+  [
+    "bi",
+    "calendar3-event-fill"
+  ],
+  [
+    "bi",
     "calendar2"
+  ],
+  [
+    "bi",
+    "calendar2-range-fill"
+  ],
+  [
+    "bi",
+    "calendar3-range-fill"
   ],
   [
     "bi",
@@ -1625,23 +1633,7 @@
   ],
   [
     "bi",
-    "calendar3-range-fill"
-  ],
-  [
-    "bi",
     "calendar3-range"
-  ],
-  [
-    "bi",
-    "calendar3-week"
-  ],
-  [
-    "bi",
-    "calendar3"
-  ],
-  [
-    "bi",
-    "calendar3-event-fill"
   ],
   [
     "bi",
@@ -1649,23 +1641,11 @@
   ],
   [
     "bi",
-    "calendar4-event"
+    "calendar2-week-fill"
   ],
   [
     "bi",
-    "building-exclamation"
-  ],
-  [
-    "bi",
-    "building-x"
-  ],
-  [
-    "bi",
-    "camera-reels-fill"
-  ],
-  [
-    "bi",
-    "camera-video"
+    "calendar3"
   ],
   [
     "bi",
@@ -1673,11 +1653,19 @@
   ],
   [
     "bi",
-    "camera-video-fill"
+    "brightness-alt-low"
   ],
   [
     "bi",
-    "camera-video-off"
+    "calendar3-week"
+  ],
+  [
+    "bi",
+    "camera-fill"
+  ],
+  [
+    "bi",
+    "camera-reels-fill"
   ],
   [
     "bi",
@@ -1685,7 +1673,15 @@
   ],
   [
     "bi",
+    "camera-video-fill"
+  ],
+  [
+    "bi",
     "camera-video-off-fill"
+  ],
+  [
+    "bi",
+    "calendar4-range"
   ],
   [
     "bi",
@@ -1693,15 +1689,19 @@
   ],
   [
     "bi",
-    "capslock-fill"
-  ],
-  [
-    "bi",
     "camera2"
   ],
   [
     "bi",
-    "car-front"
+    "capslock-fill"
+  ],
+  [
+    "bi",
+    "camera-video"
+  ],
+  [
+    "bi",
+    "capslock"
   ],
   [
     "bi",
@@ -1709,7 +1709,11 @@
   ],
   [
     "bi",
-    "capslock"
+    "car-front"
+  ],
+  [
+    "bi",
+    "card-checklist"
   ],
   [
     "bi",
@@ -1721,11 +1725,15 @@
   ],
   [
     "bi",
-    "card-checklist"
+    "card-heading"
   ],
   [
     "bi",
-    "card-heading"
+    "card-image"
+  ],
+  [
+    "bi",
+    "card-list"
   ],
   [
     "bi",
@@ -1737,11 +1745,7 @@
   ],
   [
     "bi",
-    "card-list"
-  ],
-  [
-    "bi",
-    "caret-down-fill"
+    "caret-down"
   ],
   [
     "bi",
@@ -1749,27 +1753,11 @@
   ],
   [
     "bi",
-    "card-image"
-  ],
-  [
-    "bi",
     "caret-left-fill"
   ],
   [
     "bi",
-    "camera-fill"
-  ],
-  [
-    "bi",
-    "caret-down"
-  ],
-  [
-    "bi",
-    "calendar-x"
-  ],
-  [
-    "bi",
-    "caret-right-fill"
+    "caret-left-square-fill"
   ],
   [
     "bi",
@@ -1777,7 +1765,7 @@
   ],
   [
     "bi",
-    "caret-right"
+    "caret-right-fill"
   ],
   [
     "bi",
@@ -1785,7 +1773,19 @@
   ],
   [
     "bi",
+    "caret-right-square-fill"
+  ],
+  [
+    "bi",
+    "caret-right"
+  ],
+  [
+    "bi",
     "caret-right-square"
+  ],
+  [
+    "bi",
+    "camera-video-off"
   ],
   [
     "bi",
@@ -1801,11 +1801,11 @@
   ],
   [
     "bi",
-    "cart-check-fill"
+    "calendar-event"
   ],
   [
     "bi",
-    "caret-up"
+    "cart-check-fill"
   ],
   [
     "bi",
@@ -1813,11 +1813,11 @@
   ],
   [
     "bi",
-    "cart-dash"
+    "cart-dash-fill"
   ],
   [
     "bi",
-    "cart-dash-fill"
+    "cart-dash"
   ],
   [
     "bi",
@@ -1825,15 +1825,11 @@
   ],
   [
     "bi",
-    "cart-plus-fill"
-  ],
-  [
-    "bi",
-    "cart-plus"
-  ],
-  [
-    "bi",
     "cart-x-fill"
+  ],
+  [
+    "bi",
+    "cart-plus-fill"
   ],
   [
     "bi",
@@ -1841,7 +1837,7 @@
   ],
   [
     "bi",
-    "cart"
+    "cart-plus"
   ],
   [
     "bi",
@@ -1853,15 +1849,23 @@
   ],
   [
     "bi",
+    "caret-down-fill"
+  ],
+  [
+    "bi",
+    "cart4"
+  ],
+  [
+    "bi",
+    "cash-coin"
+  ],
+  [
+    "bi",
     "cash-stack"
   ],
   [
     "bi",
     "cash"
-  ],
-  [
-    "bi",
-    "cart4"
   ],
   [
     "bi",
@@ -1873,11 +1877,7 @@
   ],
   [
     "bi",
-    "cash-coin"
-  ],
-  [
-    "bi",
-    "cc-circle"
+    "cc-circle-fill"
   ],
   [
     "bi",
@@ -1885,19 +1885,11 @@
   ],
   [
     "bi",
+    "cc-circle"
+  ],
+  [
+    "bi",
     "cc-square-fill"
-  ],
-  [
-    "bi",
-    "cc-circle-fill"
-  ],
-  [
-    "bi",
-    "cc-square"
-  ],
-  [
-    "bi",
-    "chat-dots"
   ],
   [
     "bi",
@@ -1905,7 +1897,7 @@
   ],
   [
     "bi",
-    "caret-right-square-fill"
+    "cc-square"
   ],
   [
     "bi",
@@ -1913,15 +1905,11 @@
   ],
   [
     "bi",
-    "chat-heart-fill"
+    "calendar4-event"
   ],
   [
     "bi",
-    "chat-left-dots-fill"
-  ],
-  [
-    "bi",
-    "chat-left-fill"
+    "chat-left-heart"
   ],
   [
     "bi",
@@ -1929,7 +1917,7 @@
   ],
   [
     "bi",
-    "caret-left-square-fill"
+    "chat-left-dots"
   ],
   [
     "bi",
@@ -1937,19 +1925,7 @@
   ],
   [
     "bi",
-    "chat-left-text"
-  ],
-  [
-    "bi",
-    "chat-left-text-fill"
-  ],
-  [
-    "bi",
-    "chat-left"
-  ],
-  [
-    "bi",
-    "chat-quote"
+    "chat-left-dots-fill"
   ],
   [
     "bi",
@@ -1957,11 +1933,35 @@
   ],
   [
     "bi",
+    "chat-left-quote"
+  ],
+  [
+    "bi",
+    "chat-left-fill"
+  ],
+  [
+    "bi",
+    "chat-heart-fill"
+  ],
+  [
+    "bi",
+    "caret-up"
+  ],
+  [
+    "bi",
+    "cart"
+  ],
+  [
+    "bi",
     "chat-quote-fill"
   ],
   [
     "bi",
-    "chat-left-dots"
+    "chat-quote"
+  ],
+  [
+    "bi",
+    "chat-left"
   ],
   [
     "bi",
@@ -1989,15 +1989,7 @@
   ],
   [
     "bi",
-    "chat-right-quote"
-  ],
-  [
-    "bi",
     "chat-right-text-fill"
-  ],
-  [
-    "bi",
-    "chat-right"
   ],
   [
     "bi",
@@ -2005,19 +1997,35 @@
   ],
   [
     "bi",
+    "chat-right"
+  ],
+  [
+    "bi",
+    "chat-right-quote"
+  ],
+  [
+    "bi",
     "chat-square-dots"
   ],
   [
     "bi",
-    "chat-square-dots-fill"
+    "chat-square-fill"
   ],
   [
     "bi",
-    "chat-left-heart"
+    "chat-square-heart"
   ],
   [
     "bi",
     "chat-square-heart-fill"
+  ],
+  [
+    "bi",
+    "chat-square-text-fill"
+  ],
+  [
+    "bi",
+    "chat-square-dots-fill"
   ],
   [
     "bi",
@@ -2029,11 +2037,7 @@
   ],
   [
     "bi",
-    "chat-square-text-fill"
-  ],
-  [
-    "bi",
-    "chat-square-fill"
+    "chat-square"
   ],
   [
     "bi",
@@ -2045,23 +2049,7 @@
   ],
   [
     "bi",
-    "chat-square"
-  ],
-  [
-    "bi",
-    "chat"
-  ],
-  [
-    "bi",
     "chat-text-fill"
-  ],
-  [
-    "bi",
-    "check-all"
-  ],
-  [
-    "bi",
-    "check-circle"
   ],
   [
     "bi",
@@ -2069,7 +2057,11 @@
   ],
   [
     "bi",
-    "check-square-fill"
+    "check-all"
+  ],
+  [
+    "bi",
+    "chat"
   ],
   [
     "bi",
@@ -2085,95 +2077,15 @@
   ],
   [
     "bi",
+    "check-square-fill"
+  ],
+  [
+    "bi",
     "check2-all"
   ],
   [
     "bi",
-    "check2"
-  ],
-  [
-    "bi",
-    "calendar4-range"
-  ],
-  [
-    "bi",
-    "chat-square-heart"
-  ],
-  [
-    "bi",
-    "chevron-bar-contract"
-  ],
-  [
-    "bi",
-    "chevron-bar-expand"
-  ],
-  [
-    "bi",
-    "chevron-bar-down"
-  ],
-  [
-    "bi",
-    "chevron-bar-left"
-  ],
-  [
-    "bi",
-    "chevron-bar-up"
-  ],
-  [
-    "bi",
-    "chevron-bar-right"
-  ],
-  [
-    "bi",
-    "chevron-compact-down"
-  ],
-  [
-    "bi",
-    "chevron-compact-right"
-  ],
-  [
-    "bi",
-    "chevron-compact-left"
-  ],
-  [
-    "bi",
-    "chevron-compact-up"
-  ],
-  [
-    "bi",
-    "chevron-double-down"
-  ],
-  [
-    "bi",
-    "chevron-contract"
-  ],
-  [
-    "bi",
-    "chevron-double-left"
-  ],
-  [
-    "bi",
-    "chevron-double-right"
-  ],
-  [
-    "bi",
-    "chevron-expand"
-  ],
-  [
-    "bi",
-    "chevron-left"
-  ],
-  [
-    "bi",
-    "chevron-double-up"
-  ],
-  [
-    "bi",
-    "chevron-down"
-  ],
-  [
-    "bi",
-    "chevron-right"
+    "check2-square"
   ],
   [
     "bi",
@@ -2181,7 +2093,107 @@
   ],
   [
     "bi",
+    "check2"
+  ],
+  [
+    "bi",
+    "chevron-bar-contract"
+  ],
+  [
+    "bi",
+    "chevron-bar-down"
+  ],
+  [
+    "bi",
+    "chevron-bar-expand"
+  ],
+  [
+    "bi",
+    "chevron-bar-left"
+  ],
+  [
+    "bi",
+    "chevron-bar-right"
+  ],
+  [
+    "bi",
+    "chevron-bar-up"
+  ],
+  [
+    "bi",
+    "chevron-compact-down"
+  ],
+  [
+    "bi",
+    "chevron-compact-left"
+  ],
+  [
+    "bi",
+    "chevron-compact-right"
+  ],
+  [
+    "bi",
+    "chat-left-text-fill"
+  ],
+  [
+    "bi",
+    "check-circle"
+  ],
+  [
+    "bi",
+    "chevron-contract"
+  ],
+  [
+    "bi",
+    "chevron-double-up"
+  ],
+  [
+    "bi",
+    "chat-left-text"
+  ],
+  [
+    "bi",
+    "chevron-double-left"
+  ],
+  [
+    "bi",
+    "chevron-double-down"
+  ],
+  [
+    "bi",
+    "chevron-expand"
+  ],
+  [
+    "bi",
+    "chevron-compact-up"
+  ],
+  [
+    "bi",
+    "chevron-double-right"
+  ],
+  [
+    "bi",
+    "chevron-right"
+  ],
+  [
+    "bi",
+    "chevron-up"
+  ],
+  [
+    "bi",
+    "chevron-left"
+  ],
+  [
+    "bi",
     "circle-fill"
+  ],
+  [
+    "bi",
+    "chevron-down"
+  ],
+  [
+    "bi",
+    "chat-dots"
   ],
   [
     "bi",
@@ -2193,35 +2205,19 @@
   ],
   [
     "bi",
-    "circle"
-  ],
-  [
-    "bi",
-    "clipboard-check-fill"
-  ],
-  [
-    "bi",
-    "clipboard-data-fill"
-  ],
-  [
-    "bi",
     "clipboard-check"
   ],
   [
     "bi",
-    "chevron-up"
-  ],
-  [
-    "bi",
-    "clipboard-heart"
-  ],
-  [
-    "bi",
-    "clipboard-fill"
+    "circle"
   ],
   [
     "bi",
     "clipboard-heart-fill"
+  ],
+  [
+    "bi",
+    "clipboard-data"
   ],
   [
     "bi",
@@ -2233,11 +2229,7 @@
   ],
   [
     "bi",
-    "clipboard-plus-fill"
-  ],
-  [
-    "bi",
-    "clipboard-data"
+    "clipboard-heart"
   ],
   [
     "bi",
@@ -2245,15 +2237,11 @@
   ],
   [
     "bi",
-    "clipboard-x-fill"
+    "clipboard-plus-fill"
   ],
   [
     "bi",
-    "clipboard"
-  ],
-  [
-    "bi",
-    "clipboard2-check"
+    "clipboard-pulse"
   ],
   [
     "bi",
@@ -2261,23 +2249,23 @@
   ],
   [
     "bi",
+    "clipboard-x-fill"
+  ],
+  [
+    "bi",
     "clipboard2-check-fill"
   ],
   [
     "bi",
-    "clipboard2-data"
+    "clipboard2-check"
   ],
   [
     "bi",
-    "clipboard2-fill"
+    "clipboard"
   ],
   [
     "bi",
-    "clipboard2-data-fill"
-  ],
-  [
-    "bi",
-    "clipboard2-heart-fill"
+    "clipboard-check-fill"
   ],
   [
     "bi",
@@ -2285,11 +2273,19 @@
   ],
   [
     "bi",
-    "clipboard2-heart"
+    "clipboard2-fill"
   ],
   [
     "bi",
-    "clipboard2-minus"
+    "clipboard2-heart-fill"
+  ],
+  [
+    "bi",
+    "clipboard2-data-fill"
+  ],
+  [
+    "bi",
+    "clipboard2-heart"
   ],
   [
     "bi",
@@ -2297,7 +2293,23 @@
   ],
   [
     "bi",
+    "clipboard2-minus"
+  ],
+  [
+    "bi",
+    "clipboard-data-fill"
+  ],
+  [
+    "bi",
     "clipboard2-plus"
+  ],
+  [
+    "bi",
+    "clipboard2-x-fill"
+  ],
+  [
+    "bi",
+    "clock-history"
   ],
   [
     "bi",
@@ -2309,27 +2321,7 @@
   ],
   [
     "bi",
-    "clipboard2-x-fill"
-  ],
-  [
-    "bi",
-    "clipboard2-x"
-  ],
-  [
-    "bi",
     "clipboard2"
-  ],
-  [
-    "bi",
-    "clock-history"
-  ],
-  [
-    "bi",
-    "clock-fill"
-  ],
-  [
-    "bi",
-    "clock"
   ],
   [
     "bi",
@@ -2337,7 +2329,7 @@
   ],
   [
     "bi",
-    "cloud-arrow-up-fill"
+    "clock-fill"
   ],
   [
     "bi",
@@ -2345,11 +2337,15 @@
   ],
   [
     "bi",
-    "cloud-check-fill"
+    "cloud-arrow-up-fill"
   ],
   [
     "bi",
-    "cloud-arrow-up"
+    "clipboard2-data"
+  ],
+  [
+    "bi",
+    "clock"
   ],
   [
     "bi",
@@ -2357,19 +2353,19 @@
   ],
   [
     "bi",
-    "cloud-download"
+    "cloud-check-fill"
   ],
   [
     "bi",
-    "chat-left-quote"
-  ],
-  [
-    "bi",
-    "cloud-drizzle-fill"
+    "cloud-download-fill"
   ],
   [
     "bi",
     "cloud-drizzle"
+  ],
+  [
+    "bi",
+    "cloud-download"
   ],
   [
     "bi",
@@ -2381,10 +2377,6 @@
   ],
   [
     "bi",
-    "cloud-fog2-fill"
-  ],
-  [
-    "bi",
     "cloud-fog-fill"
   ],
   [
@@ -2393,7 +2385,7 @@
   ],
   [
     "bi",
-    "cloud-hail-fill"
+    "cloud-fog2-fill"
   ],
   [
     "bi",
@@ -2401,15 +2393,7 @@
   ],
   [
     "bi",
-    "cloud-haze"
-  ],
-  [
-    "bi",
-    "cloud-haze-fill"
-  ],
-  [
-    "bi",
-    "check2-square"
+    "cloud-hail-fill"
   ],
   [
     "bi",
@@ -2417,7 +2401,15 @@
   ],
   [
     "bi",
-    "cloud-download-fill"
+    "cloud-haze"
+  ],
+  [
+    "bi",
+    "cloud-drizzle-fill"
+  ],
+  [
+    "bi",
+    "cloud-haze-fill"
   ],
   [
     "bi",
@@ -2425,11 +2417,7 @@
   ],
   [
     "bi",
-    "cloud-lightning"
-  ],
-  [
-    "bi",
-    "cloud-minus-fill"
+    "cloud-lightning-fill"
   ],
   [
     "bi",
@@ -2437,11 +2425,11 @@
   ],
   [
     "bi",
-    "cloud-minus"
+    "cloud-lightning-rain-fill"
   ],
   [
     "bi",
-    "cloud-lightning-fill"
+    "cloud-minus-fill"
   ],
   [
     "bi",
@@ -2449,23 +2437,35 @@
   ],
   [
     "bi",
+    "cloud-minus"
+  ],
+  [
+    "bi",
+    "cloud-lightning"
+  ],
+  [
+    "bi",
+    "cloud-plus"
+  ],
+  [
+    "bi",
+    "cloud-moon"
+  ],
+  [
+    "bi",
     "cloud-plus-fill"
   ],
   [
     "bi",
-    "c-square"
+    "clipboard-fill"
+  ],
+  [
+    "bi",
+    "clipboard2-x"
   ],
   [
     "bi",
     "cloud-rain-fill"
-  ],
-  [
-    "bi",
-    "briefcase"
-  ],
-  [
-    "bi",
-    "cloud-rain-heavy-fill"
   ],
   [
     "bi",
@@ -2477,15 +2477,11 @@
   ],
   [
     "bi",
-    "cloud-slash"
-  ],
-  [
-    "bi",
     "cloud-sleet-fill"
   ],
   [
     "bi",
-    "cloud-sleet"
+    "cloud-slash"
   ],
   [
     "bi",
@@ -2493,7 +2489,7 @@
   ],
   [
     "bi",
-    "cloud-lightning-rain-fill"
+    "cloud-sleet"
   ],
   [
     "bi",
@@ -2501,19 +2497,11 @@
   ],
   [
     "bi",
-    "cloud-sun"
-  ],
-  [
-    "bi",
     "cloud-sun-fill"
   ],
   [
     "bi",
-    "cloud-moon"
-  ],
-  [
-    "bi",
-    "cloud-upload"
+    "cloud-sun"
   ],
   [
     "bi",
@@ -2521,11 +2509,19 @@
   ],
   [
     "bi",
-    "clouds"
+    "cloud-upload"
   ],
   [
     "bi",
-    "cloudy-fill"
+    "clouds-fill"
+  ],
+  [
+    "bi",
+    "cloud"
+  ],
+  [
+    "bi",
+    "clouds"
   ],
   [
     "bi",
@@ -2533,7 +2529,19 @@
   ],
   [
     "bi",
+    "cloudy-fill"
+  ],
+  [
+    "bi",
     "code-square"
+  ],
+  [
+    "bi",
+    "cloud-arrow-up"
+  ],
+  [
+    "bi",
+    "cloud-rain-heavy-fill"
   ],
   [
     "bi",
@@ -2541,11 +2549,7 @@
   ],
   [
     "bi",
-    "code"
-  ],
-  [
-    "bi",
-    "coin"
+    "collection-play-fill"
   ],
   [
     "bi",
@@ -2553,15 +2557,11 @@
   ],
   [
     "bi",
-    "collection-play-fill"
-  ],
-  [
-    "bi",
-    "clipboard-pulse"
-  ],
-  [
-    "bi",
     "collection-play"
+  ],
+  [
+    "bi",
+    "columns-gap"
   ],
   [
     "bi",
@@ -2581,15 +2581,11 @@
   ],
   [
     "bi",
-    "cone-striped"
+    "compass"
   ],
   [
     "bi",
     "cone"
-  ],
-  [
-    "bi",
-    "compass"
   ],
   [
     "bi",
@@ -2601,15 +2597,15 @@
   ],
   [
     "bi",
+    "cone-striped"
+  ],
+  [
+    "bi",
+    "code"
+  ],
+  [
+    "bi",
     "copy"
-  ],
-  [
-    "bi",
-    "cpu-fill"
-  ],
-  [
-    "bi",
-    "cpu"
   ],
   [
     "bi",
@@ -2617,7 +2613,7 @@
   ],
   [
     "bi",
-    "credit-card-2-back"
+    "cpu"
   ],
   [
     "bi",
@@ -2625,11 +2621,7 @@
   ],
   [
     "bi",
-    "credit-card-fill"
-  ],
-  [
-    "bi",
-    "credit-card"
+    "credit-card-2-back"
   ],
   [
     "bi",
@@ -2637,19 +2629,19 @@
   ],
   [
     "bi",
+    "credit-card-fill"
+  ],
+  [
+    "bi",
     "crop"
   ],
   [
     "bi",
+    "credit-card"
+  ],
+  [
+    "bi",
     "crosshair"
-  ],
-  [
-    "bi",
-    "crosshair2"
-  ],
-  [
-    "bi",
-    "columns-gap"
   ],
   [
     "bi",
@@ -2661,15 +2653,23 @@
   ],
   [
     "bi",
-    "cloud"
+    "cup-hot-fill"
   ],
   [
     "bi",
-    "currency-bitcoin"
+    "crosshair2"
+  ],
+  [
+    "bi",
+    "cup-straw"
   ],
   [
     "bi",
     "cup"
+  ],
+  [
+    "bi",
+    "currency-bitcoin"
   ],
   [
     "bi",
@@ -2681,19 +2681,7 @@
   ],
   [
     "bi",
-    "currency-rupee"
-  ],
-  [
-    "bi",
-    "currency-exchange"
-  ],
-  [
-    "bi",
     "currency-pound"
-  ],
-  [
-    "bi",
-    "currency-yen"
   ],
   [
     "bi",
@@ -2701,7 +2689,27 @@
   ],
   [
     "bi",
+    "currency-rupee"
+  ],
+  [
+    "bi",
+    "currency-yen"
+  ],
+  [
+    "bi",
     "cursor-text"
+  ],
+  [
+    "bi",
+    "cloud-rain-heavy"
+  ],
+  [
+    "bi",
+    "currency-exchange"
+  ],
+  [
+    "bi",
+    "dash-circle"
   ],
   [
     "bi",
@@ -2713,19 +2721,7 @@
   ],
   [
     "bi",
-    "dash-circle"
-  ],
-  [
-    "bi",
-    "dash-circle-fill"
-  ],
-  [
-    "bi",
     "dash-lg"
-  ],
-  [
-    "bi",
-    "dash-square-dotted"
   ],
   [
     "bi",
@@ -2733,19 +2729,11 @@
   ],
   [
     "bi",
+    "dash-square-dotted"
+  ],
+  [
+    "bi",
     "dash-square"
-  ],
-  [
-    "bi",
-    "dash"
-  ],
-  [
-    "bi",
-    "database-add"
-  ],
-  [
-    "bi",
-    "database-dash"
   ],
   [
     "bi",
@@ -2753,15 +2741,19 @@
   ],
   [
     "bi",
+    "database-add"
+  ],
+  [
+    "bi",
+    "dash"
+  ],
+  [
+    "bi",
     "database-down"
   ],
   [
     "bi",
-    "database-exclamation"
-  ],
-  [
-    "bi",
-    "database-fill-dash"
+    "database-dash"
   ],
   [
     "bi",
@@ -2769,15 +2761,7 @@
   ],
   [
     "bi",
-    "database-fill-down"
-  ],
-  [
-    "bi",
-    "database-fill-check"
-  ],
-  [
-    "bi",
-    "database-fill-exclamation"
+    "database-exclamation"
   ],
   [
     "bi",
@@ -2785,7 +2769,7 @@
   ],
   [
     "bi",
-    "database-fill-lock"
+    "database-fill-check"
   ],
   [
     "bi",
@@ -2793,11 +2777,19 @@
   ],
   [
     "bi",
-    "database-fill-x"
+    "database-fill-dash"
   ],
   [
     "bi",
-    "database-fill-up"
+    "database-fill-down"
+  ],
+  [
+    "bi",
+    "database-fill-exclamation"
+  ],
+  [
+    "bi",
+    "database-fill-x"
   ],
   [
     "bi",
@@ -2805,11 +2797,11 @@
   ],
   [
     "bi",
-    "database-gear"
+    "coin"
   ],
   [
     "bi",
-    "database-up"
+    "database-fill-up"
   ],
   [
     "bi",
@@ -2817,7 +2809,7 @@
   ],
   [
     "bi",
-    "database-slash"
+    "database-up"
   ],
   [
     "bi",
@@ -2829,15 +2821,19 @@
   ],
   [
     "bi",
+    "database-slash"
+  ],
+  [
+    "bi",
+    "database-fill-lock"
+  ],
+  [
+    "bi",
+    "device-ssd-fill"
+  ],
+  [
+    "bi",
     "device-hdd-fill"
-  ],
-  [
-    "bi",
-    "cup-straw"
-  ],
-  [
-    "bi",
-    "device-hdd"
   ],
   [
     "bi",
@@ -2845,7 +2841,19 @@
   ],
   [
     "bi",
+    "cpu-fill"
+  ],
+  [
+    "bi",
     "diagram-2-fill"
+  ],
+  [
+    "bi",
+    "device-hdd"
+  ],
+  [
+    "bi",
+    "diagram-3"
   ],
   [
     "bi",
@@ -2853,19 +2861,7 @@
   ],
   [
     "bi",
-    "diagram-3-fill"
-  ],
-  [
-    "bi",
     "diamond-fill"
-  ],
-  [
-    "bi",
-    "dice-1-fill"
-  ],
-  [
-    "bi",
-    "diagram-3"
   ],
   [
     "bi",
@@ -2878,6 +2874,10 @@
   [
     "bi",
     "dice-1"
+  ],
+  [
+    "bi",
+    "dice-1-fill"
   ],
   [
     "bi",
@@ -2897,15 +2897,15 @@
   ],
   [
     "bi",
+    "dice-5-fill"
+  ],
+  [
+    "bi",
     "dice-4-fill"
   ],
   [
     "bi",
     "dice-4"
-  ],
-  [
-    "bi",
-    "dice-5-fill"
   ],
   [
     "bi",
@@ -2917,7 +2917,7 @@
   ],
   [
     "bi",
-    "clouds-fill"
+    "dice-6"
   ],
   [
     "bi",
@@ -2925,15 +2925,11 @@
   ],
   [
     "bi",
-    "disc"
-  ],
-  [
-    "bi",
-    "display"
-  ],
-  [
-    "bi",
     "discord"
+  ],
+  [
+    "bi",
+    "disc"
   ],
   [
     "bi",
@@ -2941,7 +2937,7 @@
   ],
   [
     "bi",
-    "displayport-fill"
+    "diagram-3-fill"
   ],
   [
     "bi",
@@ -2949,19 +2945,11 @@
   ],
   [
     "bi",
+    "display"
+  ],
+  [
+    "bi",
     "distribute-horizontal"
-  ],
-  [
-    "bi",
-    "door-closed-fill"
-  ],
-  [
-    "bi",
-    "door-closed"
-  ],
-  [
-    "bi",
-    "door-open-fill"
   ],
   [
     "bi",
@@ -2969,7 +2957,19 @@
   ],
   [
     "bi",
+    "displayport-fill"
+  ],
+  [
+    "bi",
+    "door-closed"
+  ],
+  [
+    "bi",
     "door-open"
+  ],
+  [
+    "bi",
+    "door-open-fill"
   ],
   [
     "bi",
@@ -2997,7 +2997,7 @@
   ],
   [
     "bi",
-    "droplet-fill"
+    "dash-circle-fill"
   ],
   [
     "bi",
@@ -3013,10 +3013,6 @@
   ],
   [
     "bi",
-    "ear-fill"
-  ],
-  [
-    "bi",
     "duffle"
   ],
   [
@@ -3025,7 +3021,15 @@
   ],
   [
     "bi",
+    "door-closed-fill"
+  ],
+  [
+    "bi",
     "easel-fill"
+  ],
+  [
+    "bi",
+    "earbuds"
   ],
   [
     "bi",
@@ -3033,7 +3037,7 @@
   ],
   [
     "bi",
-    "earbuds"
+    "easel2-fill"
   ],
   [
     "bi",
@@ -3045,19 +3049,15 @@
   ],
   [
     "bi",
+    "database-gear"
+  ],
+  [
+    "bi",
     "egg-fill"
   ],
   [
     "bi",
-    "easel3-fill"
-  ],
-  [
-    "bi",
     "egg-fried"
-  ],
-  [
-    "bi",
-    "easel2-fill"
   ],
   [
     "bi",
@@ -3069,11 +3069,11 @@
   ],
   [
     "bi",
-    "emoji-angry-fill"
+    "eject"
   ],
   [
     "bi",
-    "eject"
+    "emoji-angry"
   ],
   [
     "bi",
@@ -3081,7 +3081,7 @@
   ],
   [
     "bi",
-    "emoji-astonished"
+    "emoji-angry-fill"
   ],
   [
     "bi",
@@ -3089,15 +3089,11 @@
   ],
   [
     "bi",
-    "dice-6"
+    "emoji-astonished"
   ],
   [
     "bi",
     "emoji-dizzy"
-  ],
-  [
-    "bi",
-    "emoji-expressionless-fill"
   ],
   [
     "bi",
@@ -3121,11 +3117,11 @@
   ],
   [
     "bi",
-    "emoji-grin-fill"
+    "emoji-expressionless-fill"
   ],
   [
     "bi",
-    "emoji-grin"
+    "emoji-grin-fill"
   ],
   [
     "bi",
@@ -3133,7 +3129,7 @@
   ],
   [
     "bi",
-    "device-ssd-fill"
+    "emoji-grin"
   ],
   [
     "bi",
@@ -3141,7 +3137,7 @@
   ],
   [
     "bi",
-    "emoji-kiss"
+    "emoji-kiss-fill"
   ],
   [
     "bi",
@@ -3153,19 +3149,11 @@
   ],
   [
     "bi",
-    "emoji-neutral-fill"
-  ],
-  [
-    "bi",
-    "emoji-smile-fill"
-  ],
-  [
-    "bi",
     "emoji-neutral"
   ],
   [
     "bi",
-    "emoji-smile-upside-down"
+    "emoji-neutral-fill"
   ],
   [
     "bi",
@@ -3173,15 +3161,27 @@
   ],
   [
     "bi",
+    "emoji-kiss"
+  ],
+  [
+    "bi",
+    "emoji-smile-fill"
+  ],
+  [
+    "bi",
+    "emoji-smile"
+  ],
+  [
+    "bi",
     "emoji-sunglasses"
   ],
   [
     "bi",
-    "cup-hot-fill"
+    "emoji-smile-upside-down"
   ],
   [
     "bi",
-    "emoji-angry"
+    "emoji-surprise-fill"
   ],
   [
     "bi",
@@ -3197,7 +3197,11 @@
   ],
   [
     "bi",
-    "emoji-wink-fill"
+    "envelope-arrow-down-fill"
+  ],
+  [
+    "bi",
+    "emoji-wink"
   ],
   [
     "bi",
@@ -3205,19 +3209,19 @@
   ],
   [
     "bi",
-    "envelope-arrow-down-fill"
+    "emoji-wink-fill"
   ],
   [
     "bi",
-    "emoji-smile"
-  ],
-  [
-    "bi",
-    "emoji-surprise-fill"
+    "envelope-arrow-down"
   ],
   [
     "bi",
     "envelope-arrow-up-fill"
+  ],
+  [
+    "bi",
+    "envelope-at-fill"
   ],
   [
     "bi",
@@ -3229,27 +3233,7 @@
   ],
   [
     "bi",
-    "envelope-at-fill"
-  ],
-  [
-    "bi",
-    "emoji-wink"
-  ],
-  [
-    "bi",
-    "envelope-dash-fill"
-  ],
-  [
-    "bi",
     "envelope-check"
-  ],
-  [
-    "bi",
-    "envelope-exclamation-fill"
-  ],
-  [
-    "bi",
-    "envelope-dash"
   ],
   [
     "bi",
@@ -3257,11 +3241,15 @@
   ],
   [
     "bi",
-    "envelope-exclamation"
+    "envelope-dash-fill"
   ],
   [
     "bi",
-    "envelope-heart-fill"
+    "easel3-fill"
+  ],
+  [
+    "bi",
+    "envelope-exclamation-fill"
   ],
   [
     "bi",
@@ -3269,7 +3257,7 @@
   ],
   [
     "bi",
-    "envelope-open-heart-fill"
+    "envelope-exclamation"
   ],
   [
     "bi",
@@ -3277,7 +3265,7 @@
   ],
   [
     "bi",
-    "envelope-open-heart"
+    "envelope-heart-fill"
   ],
   [
     "bi",
@@ -3285,11 +3273,19 @@
   ],
   [
     "bi",
+    "envelope-open-heart-fill"
+  ],
+  [
+    "bi",
+    "envelope-open-heart"
+  ],
+  [
+    "bi",
     "envelope-paper-fill"
   ],
   [
     "bi",
-    "envelope-paper-heart-fill"
+    "envelope-open"
   ],
   [
     "bi",
@@ -3297,7 +3293,7 @@
   ],
   [
     "bi",
-    "envelope-paper"
+    "envelope-paper-heart-fill"
   ],
   [
     "bi",
@@ -3305,11 +3301,11 @@
   ],
   [
     "bi",
-    "envelope-plus"
+    "envelope-paper"
   ],
   [
     "bi",
-    "envelope-slash"
+    "envelope-plus"
   ],
   [
     "bi",
@@ -3317,15 +3313,19 @@
   ],
   [
     "bi",
-    "envelope-slash-fill"
-  ],
-  [
-    "bi",
     "envelope-x"
   ],
   [
     "bi",
-    "envelope"
+    "eraser-fill"
+  ],
+  [
+    "bi",
+    "envelope-slash"
+  ],
+  [
+    "bi",
+    "envelope-slash-fill"
   ],
   [
     "bi",
@@ -3337,23 +3337,19 @@
   ],
   [
     "bi",
-    "eraser-fill"
-  ],
-  [
-    "bi",
     "ethernet"
   ],
   [
     "bi",
-    "cloud-plus"
+    "envelope"
   ],
   [
     "bi",
-    "envelope-open"
+    "ev-front-fill"
   ],
   [
     "bi",
-    "ev-station-fill"
+    "ev-front"
   ],
   [
     "bi",
@@ -3361,11 +3357,15 @@
   ],
   [
     "bi",
-    "exclamation-circle-fill"
+    "ev-station-fill"
   ],
   [
     "bi",
     "exclamation-circle"
+  ],
+  [
+    "bi",
+    "ear-fill"
   ],
   [
     "bi",
@@ -3381,19 +3381,11 @@
   ],
   [
     "bi",
+    "exclamation-octagon-fill"
+  ],
+  [
+    "bi",
     "exclamation-octagon"
-  ],
-  [
-    "bi",
-    "exclamation-square-fill"
-  ],
-  [
-    "bi",
-    "exclamation-triangle-fill"
-  ],
-  [
-    "bi",
-    "cloud-rain-heavy"
   ],
   [
     "bi",
@@ -3401,11 +3393,7 @@
   ],
   [
     "bi",
-    "envelope-arrow-down"
-  ],
-  [
-    "bi",
-    "exclude"
+    "exclamation-triangle-fill"
   ],
   [
     "bi",
@@ -3413,11 +3401,19 @@
   ],
   [
     "bi",
+    "exclamation-square-fill"
+  ],
+  [
+    "bi",
+    "exclamation"
+  ],
+  [
+    "bi",
     "explicit-fill"
   ],
   [
     "bi",
-    "explicit"
+    "exclude"
   ],
   [
     "bi",
@@ -3425,11 +3421,11 @@
   ],
   [
     "bi",
-    "eye-fill"
+    "envelope-dash"
   ],
   [
     "bi",
-    "eye-slash"
+    "eye-fill"
   ],
   [
     "bi",
@@ -3437,11 +3433,7 @@
   ],
   [
     "bi",
-    "eyedropper"
-  ],
-  [
-    "bi",
-    "facebook"
+    "eye-slash"
   ],
   [
     "bi",
@@ -3453,7 +3445,15 @@
   ],
   [
     "bi",
+    "facebook"
+  ],
+  [
+    "bi",
     "fan"
+  ],
+  [
+    "bi",
+    "eyedropper"
   ],
   [
     "bi",
@@ -3461,19 +3461,7 @@
   ],
   [
     "bi",
-    "emoji-kiss-fill"
-  ],
-  [
-    "bi",
-    "fast-forward-circle-fill"
-  ],
-  [
-    "bi",
-    "fast-forward-fill"
-  ],
-  [
-    "bi",
-    "fast-forward"
+    "fast-forward-btn"
   ],
   [
     "bi",
@@ -3481,7 +3469,15 @@
   ],
   [
     "bi",
-    "feather2"
+    "fast-forward-fill"
+  ],
+  [
+    "bi",
+    "fast-forward-circle-fill"
+  ],
+  [
+    "bi",
+    "fast-forward"
   ],
   [
     "bi",
@@ -3489,15 +3485,15 @@
   ],
   [
     "bi",
-    "ev-front-fill"
+    "feather2"
   ],
   [
     "bi",
-    "file-arrow-down-fill"
+    "explicit"
   ],
   [
     "bi",
-    "file-arrow-down"
+    "file-arrow-up-fill"
   ],
   [
     "bi",
@@ -3509,11 +3505,11 @@
   ],
   [
     "bi",
-    "file-bar-graph"
+    "droplet-fill"
   ],
   [
     "bi",
-    "file-binary"
+    "file-bar-graph"
   ],
   [
     "bi",
@@ -3521,11 +3517,11 @@
   ],
   [
     "bi",
-    "file-break-fill"
+    "file-binary"
   ],
   [
     "bi",
-    "file-arrow-up-fill"
+    "file-check-fill"
   ],
   [
     "bi",
@@ -3537,7 +3533,7 @@
   ],
   [
     "bi",
-    "file-code-fill"
+    "file-break-fill"
   ],
   [
     "bi",
@@ -3545,15 +3541,15 @@
   ],
   [
     "bi",
-    "file-diff-fill"
-  ],
-  [
-    "bi",
     "file-diff"
   ],
   [
     "bi",
-    "file-earmark-arrow-down"
+    "file-code-fill"
+  ],
+  [
+    "bi",
+    "file-diff-fill"
   ],
   [
     "bi",
@@ -3561,23 +3557,11 @@
   ],
   [
     "bi",
+    "file-earmark-arrow-down"
+  ],
+  [
+    "bi",
     "file-earmark-arrow-up-fill"
-  ],
-  [
-    "bi",
-    "file-earmark-arrow-up"
-  ],
-  [
-    "bi",
-    "file-earmark-bar-graph"
-  ],
-  [
-    "bi",
-    "file-earmark-bar-graph-fill"
-  ],
-  [
-    "bi",
-    "file-earmark-binary-fill"
   ],
   [
     "bi",
@@ -3585,11 +3569,15 @@
   ],
   [
     "bi",
-    "file-earmark-break-fill"
+    "file-earmark-arrow-up"
   ],
   [
     "bi",
-    "file-earmark-break"
+    "file-earmark-bar-graph-fill"
+  ],
+  [
+    "bi",
+    "file-earmark-break-fill"
   ],
   [
     "bi",
@@ -3601,7 +3589,7 @@
   ],
   [
     "bi",
-    "file-earmark-code-fill"
+    "file-earmark-break"
   ],
   [
     "bi",
@@ -3609,7 +3597,15 @@
   ],
   [
     "bi",
-    "file-earmark-diff-fill"
+    "file-earmark-code-fill"
+  ],
+  [
+    "bi",
+    "file-earmark-binary-fill"
+  ],
+  [
+    "bi",
+    "file-earmark-bar-graph"
   ],
   [
     "bi",
@@ -3617,15 +3613,15 @@
   ],
   [
     "bi",
-    "file-earmark-easel"
+    "file-earmark-diff-fill"
   ],
   [
     "bi",
-    "3-square-fill"
+    "file-earmark-easel-fill"
   ],
   [
     "bi",
-    "file-earmark-excel-fill"
+    "file-arrow-down"
   ],
   [
     "bi",
@@ -3633,11 +3629,7 @@
   ],
   [
     "bi",
-    "file-earmark-font-fill"
-  ],
-  [
-    "bi",
-    "exclamation"
+    "file-earmark-excel-fill"
   ],
   [
     "bi",
@@ -3645,11 +3637,15 @@
   ],
   [
     "bi",
-    "file-earmark-font"
+    "file-earmark-image-fill"
   ],
   [
     "bi",
-    "file-earmark-lock-fill"
+    "file-earmark-font-fill"
+  ],
+  [
+    "bi",
+    "file-earmark-font"
   ],
   [
     "bi",
@@ -3661,15 +3657,7 @@
   ],
   [
     "bi",
-    "file-earmark-lock2-fill"
-  ],
-  [
-    "bi",
-    "file-earmark-lock2"
-  ],
-  [
-    "bi",
-    "file-earmark-medical-fill"
+    "file-earmark-lock-fill"
   ],
   [
     "bi",
@@ -3677,11 +3665,7 @@
   ],
   [
     "bi",
-    "file-earmark-medical"
-  ],
-  [
-    "bi",
-    "file-earmark-music-fill"
+    "file-earmark-lock2-fill"
   ],
   [
     "bi",
@@ -3689,15 +3673,27 @@
   ],
   [
     "bi",
-    "file-earmark-pdf"
+    "file-earmark-music-fill"
   ],
   [
     "bi",
-    "fast-forward-btn"
+    "file-earmark-lock2"
   ],
   [
     "bi",
-    "file-earmark-person-fill"
+    "file-earmark-medical"
+  ],
+  [
+    "bi",
+    "file-earmark-music"
+  ],
+  [
+    "bi",
+    "file-earmark-easel"
+  ],
+  [
+    "bi",
+    "file-earmark-medical-fill"
   ],
   [
     "bi",
@@ -3713,7 +3709,11 @@
   ],
   [
     "bi",
-    "file-earmark-music"
+    "file-earmark-person-fill"
+  ],
+  [
+    "bi",
+    "file-earmark-plus"
   ],
   [
     "bi",
@@ -3721,7 +3721,7 @@
   ],
   [
     "bi",
-    "ev-front"
+    "file-earmark-post-fill"
   ],
   [
     "bi",
@@ -3729,15 +3729,11 @@
   ],
   [
     "bi",
-    "file-earmark-post-fill"
+    "exclamation-circle-fill"
   ],
   [
     "bi",
-    "file-earmark-ppt"
-  ],
-  [
-    "bi",
-    "file-earmark-ppt-fill"
+    "file-earmark-play"
   ],
   [
     "bi",
@@ -3745,11 +3741,11 @@
   ],
   [
     "bi",
-    "file-earmark-ruled-fill"
+    "file-earmark-richtext"
   ],
   [
     "bi",
-    "file-earmark-richtext"
+    "file-earmark-ruled-fill"
   ],
   [
     "bi",
@@ -3757,19 +3753,11 @@
   ],
   [
     "bi",
+    "file-earmark-ppt"
+  ],
+  [
+    "bi",
     "file-earmark-slides-fill"
-  ],
-  [
-    "bi",
-    "file-earmark-slides"
-  ],
-  [
-    "bi",
-    "file-earmark-spreadsheet-fill"
-  ],
-  [
-    "bi",
-    "file-check-fill"
   ],
   [
     "bi",
@@ -3777,15 +3765,23 @@
   ],
   [
     "bi",
-    "file-earmark-word"
-  ],
-  [
-    "bi",
     "file-earmark-text"
   ],
   [
     "bi",
+    "file-earmark-slides"
+  ],
+  [
+    "bi",
+    "file-earmark-spreadsheet"
+  ],
+  [
+    "bi",
     "file-earmark-word-fill"
+  ],
+  [
+    "bi",
+    "file-earmark-spreadsheet-fill"
   ],
   [
     "bi",
@@ -3797,11 +3793,11 @@
   ],
   [
     "bi",
-    "file-earmark-zip-fill"
+    "file-earmark-zip"
   ],
   [
     "bi",
-    "file-earmark-play"
+    "file-earmark-zip-fill"
   ],
   [
     "bi",
@@ -3809,7 +3805,27 @@
   ],
   [
     "bi",
+    "file-earmark-word"
+  ],
+  [
+    "bi",
     "file-easel-fill"
+  ],
+  [
+    "bi",
+    "file-easel"
+  ],
+  [
+    "bi",
+    "file-fill"
+  ],
+  [
+    "bi",
+    "file-image-fill"
+  ],
+  [
+    "bi",
+    "file-font-fill"
   ],
   [
     "bi",
@@ -3821,15 +3837,7 @@
   ],
   [
     "bi",
-    "file-earmark-zip"
-  ],
-  [
-    "bi",
-    "file-fill"
-  ],
-  [
-    "bi",
-    "file-font"
+    "c-square-fill"
   ],
   [
     "bi",
@@ -3837,19 +3845,15 @@
   ],
   [
     "bi",
-    "file-image-fill"
+    "file-lock"
   ],
   [
     "bi",
-    "file-easel"
+    "file-lock-fill"
   ],
   [
     "bi",
-    "file-earmark-image-fill"
-  ],
-  [
-    "bi",
-    "file-earmark-spreadsheet"
+    "file-lock2"
   ],
   [
     "bi",
@@ -3861,15 +3865,11 @@
   ],
   [
     "bi",
-    "file-lock2"
+    "file-medical"
   ],
   [
     "bi",
     "file-minus-fill"
-  ],
-  [
-    "bi",
-    "file-medical"
   ],
   [
     "bi",
@@ -3881,11 +3881,11 @@
   ],
   [
     "bi",
-    "file-music"
+    "file-pdf-fill"
   ],
   [
     "bi",
-    "file-pdf-fill"
+    "file-music"
   ],
   [
     "bi",
@@ -3893,15 +3893,11 @@
   ],
   [
     "bi",
-    "file-person-fill"
-  ],
-  [
-    "bi",
-    "file-earmark-plus"
-  ],
-  [
-    "bi",
     "file-person"
+  ],
+  [
+    "bi",
+    "file-person-fill"
   ],
   [
     "bi",
@@ -3909,7 +3905,15 @@
   ],
   [
     "bi",
+    "file-play"
+  ],
+  [
+    "bi",
     "file-plus-fill"
+  ],
+  [
+    "bi",
+    "file-post"
   ],
   [
     "bi",
@@ -3921,23 +3925,11 @@
   ],
   [
     "bi",
+    "file-earmark-pdf"
+  ],
+  [
+    "bi",
     "file-ppt-fill"
-  ],
-  [
-    "bi",
-    "file-post"
-  ],
-  [
-    "bi",
-    "file-richtext-fill"
-  ],
-  [
-    "bi",
-    "file-ppt"
-  ],
-  [
-    "bi",
-    "file-ruled-fill"
   ],
   [
     "bi",
@@ -3945,15 +3937,15 @@
   ],
   [
     "bi",
+    "file-ruled-fill"
+  ],
+  [
+    "bi",
+    "file-richtext-fill"
+  ],
+  [
+    "bi",
     "file-ruled"
-  ],
-  [
-    "bi",
-    "file-play"
-  ],
-  [
-    "bi",
-    "file-slides-fill"
   ],
   [
     "bi",
@@ -3961,11 +3953,15 @@
   ],
   [
     "bi",
-    "file-spreadsheet"
+    "file-slides-fill"
   ],
   [
     "bi",
-    "file-text-fill"
+    "file-spreadsheet-fill"
+  ],
+  [
+    "bi",
+    "file-spreadsheet"
   ],
   [
     "bi",
@@ -3973,19 +3969,15 @@
   ],
   [
     "bi",
+    "file-text-fill"
+  ],
+  [
+    "bi",
+    "file-word"
+  ],
+  [
+    "bi",
     "file-word-fill"
-  ],
-  [
-    "bi",
-    "exclamation-octagon-fill"
-  ],
-  [
-    "bi",
-    "file-x-fill"
-  ],
-  [
-    "bi",
-    "file-zip-fill"
   ],
   [
     "bi",
@@ -3993,15 +3985,15 @@
   ],
   [
     "bi",
-    "file-zip"
+    "file-ppt"
   ],
   [
     "bi",
-    "file-earmark-easel-fill"
+    "file-zip-fill"
   ],
   [
     "bi",
-    "files"
+    "file"
   ],
   [
     "bi",
@@ -4009,7 +4001,7 @@
   ],
   [
     "bi",
-    "filetype-aac"
+    "file-zip"
   ],
   [
     "bi",
@@ -4017,11 +4009,23 @@
   ],
   [
     "bi",
-    "filetype-cs"
+    "files"
   ],
   [
     "bi",
     "filetype-css"
+  ],
+  [
+    "bi",
+    "filetype-cs"
+  ],
+  [
+    "bi",
+    "filetype-csv"
+  ],
+  [
+    "bi",
+    "filetype-docx"
   ],
   [
     "bi",
@@ -4033,15 +4037,11 @@
   ],
   [
     "bi",
-    "filetype-docx"
+    "filetype-aac"
   ],
   [
     "bi",
     "filetype-exe"
-  ],
-  [
-    "bi",
-    "filetype-heic"
   ],
   [
     "bi",
@@ -4053,7 +4053,7 @@
   ],
   [
     "bi",
-    "filetype-js"
+    "filetype-heic"
   ],
   [
     "bi",
@@ -4065,7 +4065,7 @@
   ],
   [
     "bi",
-    "filetype-csv"
+    "filetype-js"
   ],
   [
     "bi",
@@ -4089,7 +4089,11 @@
   ],
   [
     "bi",
-    "filetype-mp4"
+    "filetype-mdx"
+  ],
+  [
+    "bi",
+    "filetype-mp3"
   ],
   [
     "bi",
@@ -4097,15 +4101,11 @@
   ],
   [
     "bi",
-    "file-lock"
+    "filetype-otf"
   ],
   [
     "bi",
-    "filetype-mdx"
-  ],
-  [
-    "bi",
-    "filetype-mp3"
+    "filetype-mp4"
   ],
   [
     "bi",
@@ -4129,11 +4129,11 @@
   ],
   [
     "bi",
-    "file-font-fill"
+    "filetype-psd"
   ],
   [
     "bi",
-    "filetype-psd"
+    "filetype-py"
   ],
   [
     "bi",
@@ -4141,11 +4141,15 @@
   ],
   [
     "bi",
+    "filetype-sass"
+  ],
+  [
+    "bi",
     "filetype-rb"
   ],
   [
     "bi",
-    "filetype-sass"
+    "filetype-sh"
   ],
   [
     "bi",
@@ -4157,7 +4161,7 @@
   ],
   [
     "bi",
-    "filetype-sh"
+    "filetype-svg"
   ],
   [
     "bi",
@@ -4165,23 +4169,7 @@
   ],
   [
     "bi",
-    "filetype-py"
-  ],
-  [
-    "bi",
-    "filetype-txt"
-  ],
-  [
-    "bi",
-    "filetype-wav"
-  ],
-  [
-    "bi",
-    "filetype-xls"
-  ],
-  [
-    "bi",
-    "filetype-woff"
+    "filetype-ttf"
   ],
   [
     "bi",
@@ -4189,11 +4177,19 @@
   ],
   [
     "bi",
-    "filetype-xlsx"
+    "filetype-txt"
   ],
   [
     "bi",
-    "filetype-ttf"
+    "filetype-woff"
+  ],
+  [
+    "bi",
+    "filetype-xls"
+  ],
+  [
+    "bi",
+    "filetype-xlsx"
   ],
   [
     "bi",
@@ -4201,7 +4197,7 @@
   ],
   [
     "bi",
-    "filetype-yml"
+    "filetype-wav"
   ],
   [
     "bi",
@@ -4209,11 +4205,11 @@
   ],
   [
     "bi",
-    "film"
+    "filetype-yml"
   ],
   [
     "bi",
-    "filter-right"
+    "film"
   ],
   [
     "bi",
@@ -4221,15 +4217,7 @@
   ],
   [
     "bi",
-    "filter-left"
-  ],
-  [
-    "bi",
-    "filter-square"
-  ],
-  [
-    "bi",
-    "filter"
+    "filter-right"
   ],
   [
     "bi",
@@ -4237,7 +4225,15 @@
   ],
   [
     "bi",
-    "fingerprint"
+    "file-earmark-ppt-fill"
+  ],
+  [
+    "bi",
+    "filter"
+  ],
+  [
+    "bi",
+    "filter-square"
   ],
   [
     "bi",
@@ -4245,11 +4241,15 @@
   ],
   [
     "bi",
-    "flag-fill"
+    "file-x-fill"
   ],
   [
     "bi",
-    "floppy-fill"
+    "floppy2-fill"
+  ],
+  [
+    "bi",
+    "fingerprint"
   ],
   [
     "bi",
@@ -4261,11 +4261,11 @@
   ],
   [
     "bi",
-    "floppy2-fill"
+    "floppy2"
   ],
   [
     "bi",
-    "floppy2"
+    "flag-fill"
   ],
   [
     "bi",
@@ -4273,11 +4273,7 @@
   ],
   [
     "bi",
-    "filetype-svg"
-  ],
-  [
-    "bi",
-    "flower3"
+    "flower2"
   ],
   [
     "bi",
@@ -4285,11 +4281,11 @@
   ],
   [
     "bi",
-    "folder-fill"
+    "flower3"
   ],
   [
     "bi",
-    "folder-symlink-fill"
+    "folder-fill"
   ],
   [
     "bi",
@@ -4297,15 +4293,11 @@
   ],
   [
     "bi",
-    "folder-plus"
-  ],
-  [
-    "bi",
     "folder-symlink"
   ],
   [
     "bi",
-    "folder-x"
+    "folder-plus"
   ],
   [
     "bi",
@@ -4313,7 +4305,11 @@
   ],
   [
     "bi",
-    "folder2-open"
+    "folder-symlink-fill"
+  ],
+  [
+    "bi",
+    "folder-x"
   ],
   [
     "bi",
@@ -4321,11 +4317,11 @@
   ],
   [
     "bi",
-    "fonts"
+    "folder2-open"
   ],
   [
     "bi",
-    "forward"
+    "fonts"
   ],
   [
     "bi",
@@ -4333,15 +4329,11 @@
   ],
   [
     "bi",
-    "filetype-otf"
-  ],
-  [
-    "bi",
-    "fuel-pump-fill"
-  ],
-  [
-    "bi",
     "fuel-pump-diesel-fill"
+  ],
+  [
+    "bi",
+    "front"
   ],
   [
     "bi",
@@ -4349,7 +4341,11 @@
   ],
   [
     "bi",
-    "fuel-pump"
+    "forward"
+  ],
+  [
+    "bi",
+    "fuel-pump-fill"
   ],
   [
     "bi",
@@ -4357,7 +4353,7 @@
   ],
   [
     "bi",
-    "fullscreen"
+    "fuel-pump"
   ],
   [
     "bi",
@@ -4369,11 +4365,11 @@
   ],
   [
     "bi",
-    "gear-fill"
+    "gear-wide"
   ],
   [
     "bi",
-    "gear-wide"
+    "fullscreen"
   ],
   [
     "bi",
@@ -4381,19 +4377,19 @@
   ],
   [
     "bi",
+    "gear"
+  ],
+  [
+    "bi",
     "gear-wide-connected"
   ],
   [
     "bi",
-    "gender-ambiguous"
+    "gender-female"
   ],
   [
     "bi",
-    "flower2"
-  ],
-  [
-    "bi",
-    "gear"
+    "gear-fill"
   ],
   [
     "bi",
@@ -4401,15 +4397,23 @@
   ],
   [
     "bi",
+    "gender-ambiguous"
+  ],
+  [
+    "bi",
     "gender-neuter"
   ],
   [
     "bi",
-    "geo-alt-fill"
+    "file-arrow-down-fill"
   ],
   [
     "bi",
-    "geo-alt"
+    "gender-trans"
+  ],
+  [
+    "bi",
+    "geo-alt-fill"
   ],
   [
     "bi",
@@ -4421,11 +4425,11 @@
   ],
   [
     "bi",
-    "gift-fill"
+    "gift"
   ],
   [
     "bi",
-    "gift"
+    "gift-fill"
   ],
   [
     "bi",
@@ -4445,15 +4449,11 @@
   ],
   [
     "bi",
-    "file-spreadsheet-fill"
+    "globe-asia-australia"
   ],
   [
     "bi",
-    "gender-female"
-  ],
-  [
-    "bi",
-    "gender-trans"
+    "globe-europe-africa"
   ],
   [
     "bi",
@@ -4465,15 +4465,11 @@
   ],
   [
     "bi",
-    "globe-europe-africa"
-  ],
-  [
-    "bi",
-    "google"
-  ],
-  [
-    "bi",
     "globe2"
+  ],
+  [
+    "bi",
+    "google-play"
   ],
   [
     "bi",
@@ -4481,11 +4477,15 @@
   ],
   [
     "bi",
-    "graph-down-arrow"
+    "google"
   ],
   [
     "bi",
     "graph-down"
+  ],
+  [
+    "bi",
+    "graph-down-arrow"
   ],
   [
     "bi",
@@ -4497,15 +4497,7 @@
   ],
   [
     "bi",
-    "google-play"
-  ],
-  [
-    "bi",
-    "grid-3x2-gap"
-  ],
-  [
-    "bi",
-    "grid-1x2"
+    "grid-1x2-fill"
   ],
   [
     "bi",
@@ -4513,7 +4505,11 @@
   ],
   [
     "bi",
-    "grid-3x3-gap"
+    "grid-1x2"
+  ],
+  [
+    "bi",
+    "grid-3x2-gap"
   ],
   [
     "bi",
@@ -4521,11 +4517,15 @@
   ],
   [
     "bi",
-    "grid-3x3"
+    "grid-3x3-gap"
   ],
   [
     "bi",
     "grid-3x3-gap-fill"
+  ],
+  [
+    "bi",
+    "grid-3x3"
   ],
   [
     "bi",
@@ -4537,15 +4537,15 @@
   ],
   [
     "bi",
-    "grip-vertical"
-  ],
-  [
-    "bi",
     "grip-horizontal"
   ],
   [
     "bi",
-    "h-square-fill"
+    "grip-vertical"
+  ],
+  [
+    "bi",
+    "h-circle-fill"
   ],
   [
     "bi",
@@ -4553,7 +4553,11 @@
   ],
   [
     "bi",
-    "h-circle-fill"
+    "h-square-fill"
+  ],
+  [
+    "bi",
+    "hand-index-fill"
   ],
   [
     "bi",
@@ -4565,10 +4569,6 @@
   ],
   [
     "bi",
-    "hand-index-fill"
-  ],
-  [
-    "bi",
     "hand-index-thumb"
   ],
   [
@@ -4577,15 +4577,11 @@
   ],
   [
     "bi",
+    "hand-thumbs-down-fill"
+  ],
+  [
+    "bi",
     "hand-index"
-  ],
-  [
-    "bi",
-    "globe-asia-australia"
-  ],
-  [
-    "bi",
-    "hand-thumbs-down"
   ],
   [
     "bi",
@@ -4597,19 +4593,19 @@
   ],
   [
     "bi",
+    "hand-thumbs-down"
+  ],
+  [
+    "bi",
     "handbag-fill"
   ],
   [
     "bi",
-    "handbag"
-  ],
-  [
-    "bi",
-    "hdd-fill"
-  ],
-  [
-    "bi",
     "hash"
+  ],
+  [
+    "bi",
+    "handbag"
   ],
   [
     "bi",
@@ -4621,19 +4617,23 @@
   ],
   [
     "bi",
+    "hdd-fill"
+  ],
+  [
+    "bi",
+    "hdd-stack"
+  ],
+  [
+    "bi",
+    "hdd-stack-fill"
+  ],
+  [
+    "bi",
     "hdd-rack-fill"
   ],
   [
     "bi",
     "hdd-rack"
-  ],
-  [
-    "bi",
-    "grid-1x2-fill"
-  ],
-  [
-    "bi",
-    "hdd-stack-fill"
   ],
   [
     "bi",
@@ -4645,43 +4645,11 @@
   ],
   [
     "bi",
-    "hdmi"
-  ],
-  [
-    "bi",
     "headphones"
   ],
   [
     "bi",
-    "hand-thumbs-down-fill"
-  ],
-  [
-    "bi",
-    "front"
-  ],
-  [
-    "bi",
-    "hdd-stack"
-  ],
-  [
-    "bi",
-    "headset"
-  ],
-  [
-    "bi",
-    "heart-pulse"
-  ],
-  [
-    "bi",
-    "heart-half"
-  ],
-  [
-    "bi",
-    "heart-pulse-fill"
-  ],
-  [
-    "bi",
-    "heartbreak"
+    "hdmi"
   ],
   [
     "bi",
@@ -4689,7 +4657,27 @@
   ],
   [
     "bi",
-    "hearts"
+    "headset"
+  ],
+  [
+    "bi",
+    "heart-arrow"
+  ],
+  [
+    "bi",
+    "heart-fill"
+  ],
+  [
+    "bi",
+    "heart-pulse-fill"
+  ],
+  [
+    "bi",
+    "heart-half"
+  ],
+  [
+    "bi",
+    "heart-pulse"
   ],
   [
     "bi",
@@ -4697,11 +4685,23 @@
   ],
   [
     "bi",
-    "heptagon-fill"
+    "floppy-fill"
   ],
   [
     "bi",
-    "heptagon"
+    "filter-left"
+  ],
+  [
+    "bi",
+    "hearts"
+  ],
+  [
+    "bi",
+    "heart"
+  ],
+  [
+    "bi",
+    "heptagon-fill"
   ],
   [
     "bi",
@@ -4709,19 +4709,15 @@
   ],
   [
     "bi",
-    "hexagon-fill"
+    "heartbreak"
   ],
   [
     "bi",
-    "hexagon-half"
+    "heptagon"
   ],
   [
     "bi",
-    "highlights"
-  ],
-  [
-    "bi",
-    "hexagon"
+    "highlighter"
   ],
   [
     "bi",
@@ -4733,15 +4729,15 @@
   ],
   [
     "bi",
+    "highlights"
+  ],
+  [
+    "bi",
     "hourglass-bottom"
   ],
   [
     "bi",
-    "hourglass"
-  ],
-  [
-    "bi",
-    "highlighter"
+    "hexagon-half"
   ],
   [
     "bi",
@@ -4753,11 +4749,7 @@
   ],
   [
     "bi",
-    "house-add"
-  ],
-  [
-    "bi",
-    "house-check-fill"
+    "hourglass"
   ],
   [
     "bi",
@@ -4765,11 +4757,15 @@
   ],
   [
     "bi",
-    "house-check"
+    "geo-alt"
   ],
   [
     "bi",
-    "house-dash-fill"
+    "house-check-fill"
+  ],
+  [
+    "bi",
+    "house-check"
   ],
   [
     "bi",
@@ -4777,7 +4773,11 @@
   ],
   [
     "bi",
-    "house-door-fill"
+    "hexagon-fill"
+  ],
+  [
+    "bi",
+    "house-dash-fill"
   ],
   [
     "bi",
@@ -4801,19 +4801,11 @@
   ],
   [
     "bi",
-    "house-fill"
-  ],
-  [
-    "bi",
     "house-gear-fill"
   ],
   [
     "bi",
-    "house-gear"
-  ],
-  [
-    "bi",
-    "house-heart"
+    "house-fill"
   ],
   [
     "bi",
@@ -4821,7 +4813,11 @@
   ],
   [
     "bi",
-    "house-lock-fill"
+    "house-heart"
+  ],
+  [
+    "bi",
+    "house-gear"
   ],
   [
     "bi",
@@ -4829,7 +4825,7 @@
   ],
   [
     "bi",
-    "house-slash"
+    "house-lock-fill"
   ],
   [
     "bi",
@@ -4837,7 +4833,7 @@
   ],
   [
     "bi",
-    "house-up"
+    "house-slash"
   ],
   [
     "bi",
@@ -4845,15 +4841,19 @@
   ],
   [
     "bi",
-    "house-x-fill"
+    "house-add"
   ],
   [
     "bi",
-    "house-x"
+    "house-up"
   ],
   [
     "bi",
     "house"
+  ],
+  [
+    "bi",
+    "house-x"
   ],
   [
     "bi",
@@ -4869,6 +4869,10 @@
   ],
   [
     "bi",
+    "hypnotize"
+  ],
+  [
+    "bi",
     "hurricane"
   ],
   [
@@ -4877,19 +4881,11 @@
   ],
   [
     "bi",
-    "heart"
-  ],
-  [
-    "bi",
-    "heart-fill"
-  ],
-  [
-    "bi",
     "image"
   ],
   [
     "bi",
-    "inbox"
+    "image-fill"
   ],
   [
     "bi",
@@ -4901,15 +4897,11 @@
   ],
   [
     "bi",
+    "inbox"
+  ],
+  [
+    "bi",
     "inboxes-fill"
-  ],
-  [
-    "bi",
-    "inboxes"
-  ],
-  [
-    "bi",
-    "indent"
   ],
   [
     "bi",
@@ -4917,19 +4909,31 @@
   ],
   [
     "bi",
-    "infinity"
+    "indent"
   ],
   [
     "bi",
-    "info-circle-fill"
+    "inboxes"
   ],
   [
     "bi",
-    "info-square-fill"
+    "house-x-fill"
   ],
   [
     "bi",
     "info-circle"
+  ],
+  [
+    "bi",
+    "infinity"
+  ],
+  [
+    "bi",
+    "info-lg"
+  ],
+  [
+    "bi",
+    "info-square-fill"
   ],
   [
     "bi",
@@ -4941,39 +4945,11 @@
   ],
   [
     "bi",
+    "info-circle-fill"
+  ],
+  [
+    "bi",
     "input-cursor-text"
-  ],
-  [
-    "bi",
-    "heart-arrow"
-  ],
-  [
-    "bi",
-    "info-lg"
-  ],
-  [
-    "bi",
-    "instagram"
-  ],
-  [
-    "bi",
-    "intersect"
-  ],
-  [
-    "bi",
-    "journal-album"
-  ],
-  [
-    "bi",
-    "journal-bookmark-fill"
-  ],
-  [
-    "bi",
-    "journal-bookmark"
-  ],
-  [
-    "bi",
-    "journal-check"
   ],
   [
     "bi",
@@ -4981,15 +4957,35 @@
   ],
   [
     "bi",
+    "intersect"
+  ],
+  [
+    "bi",
     "journal-arrow-up"
   ],
   [
     "bi",
-    "journal-code"
+    "journal-arrow-down"
   ],
   [
     "bi",
-    "journal-medical"
+    "journal-bookmark-fill"
+  ],
+  [
+    "bi",
+    "journal-album"
+  ],
+  [
+    "bi",
+    "journal-check"
+  ],
+  [
+    "bi",
+    "journal-bookmark"
+  ],
+  [
+    "bi",
+    "journal-code"
   ],
   [
     "bi",
@@ -5001,11 +4997,11 @@
   ],
   [
     "bi",
-    "hypnotize"
+    "hexagon"
   ],
   [
     "bi",
-    "journal-text"
+    "journal-medical"
   ],
   [
     "bi",
@@ -5013,23 +5009,15 @@
   ],
   [
     "bi",
-    "journals"
-  ],
-  [
-    "bi",
     "journal"
   ],
   [
     "bi",
-    "justify-left"
+    "journals"
   ],
   [
     "bi",
-    "joystick"
-  ],
-  [
-    "bi",
-    "justify"
+    "journal-text"
   ],
   [
     "bi",
@@ -5037,7 +5025,11 @@
   ],
   [
     "bi",
-    "kanban-fill"
+    "justify-left"
+  ],
+  [
+    "bi",
+    "house-door-fill"
   ],
   [
     "bi",
@@ -5045,31 +5037,15 @@
   ],
   [
     "bi",
+    "justify"
+  ],
+  [
+    "bi",
+    "joystick"
+  ],
+  [
+    "bi",
     "key-fill"
-  ],
-  [
-    "bi",
-    "keyboard-fill"
-  ],
-  [
-    "bi",
-    "keyboard"
-  ],
-  [
-    "bi",
-    "ladder"
-  ],
-  [
-    "bi",
-    "lamp-fill"
-  ],
-  [
-    "bi",
-    "lamp"
-  ],
-  [
-    "bi",
-    "laptop-fill"
   ],
   [
     "bi",
@@ -5077,7 +5053,19 @@
   ],
   [
     "bi",
-    "layer-forward"
+    "keyboard-fill"
+  ],
+  [
+    "bi",
+    "lamp-fill"
+  ],
+  [
+    "bi",
+    "ladder"
+  ],
+  [
+    "bi",
+    "lamp"
   ],
   [
     "bi",
@@ -5085,15 +5073,15 @@
   ],
   [
     "bi",
+    "laptop-fill"
+  ],
+  [
+    "bi",
+    "layer-forward"
+  ],
+  [
+    "bi",
     "layer-backward"
-  ],
-  [
-    "bi",
-    "layers-half"
-  ],
-  [
-    "bi",
-    "layers-fill"
   ],
   [
     "bi",
@@ -5101,11 +5089,19 @@
   ],
   [
     "bi",
-    "layout-sidebar-inset"
+    "kanban-fill"
   ],
   [
     "bi",
-    "layout-sidebar-inset-reverse"
+    "layers-fill"
+  ],
+  [
+    "bi",
+    "layers-half"
+  ],
+  [
+    "bi",
+    "layout-sidebar-inset"
   ],
   [
     "bi",
@@ -5113,7 +5109,7 @@
   ],
   [
     "bi",
-    "layout-sidebar"
+    "layout-sidebar-inset-reverse"
   ],
   [
     "bi",
@@ -5125,19 +5121,15 @@
   ],
   [
     "bi",
-    "layout-text-window-reverse"
-  ],
-  [
-    "bi",
     "layout-text-sidebar"
   ],
   [
     "bi",
-    "layout-text-window"
+    "layout-text-window-reverse"
   ],
   [
     "bi",
-    "life-preserver"
+    "layout-sidebar"
   ],
   [
     "bi",
@@ -5145,7 +5137,7 @@
   ],
   [
     "bi",
-    "lightbulb-fill"
+    "layout-text-window"
   ],
   [
     "bi",
@@ -5153,7 +5145,11 @@
   ],
   [
     "bi",
-    "lightbulb-off"
+    "life-preserver"
+  ],
+  [
+    "bi",
+    "journal-richtext"
   ],
   [
     "bi",
@@ -5161,19 +5157,19 @@
   ],
   [
     "bi",
-    "lightbulb"
-  ],
-  [
-    "bi",
     "lightning-charge-fill"
   ],
   [
     "bi",
-    "lightning-fill"
+    "lightbulb-off"
   ],
   [
     "bi",
-    "lightning-charge"
+    "lightbulb"
+  ],
+  [
+    "bi",
+    "lightning-fill"
   ],
   [
     "bi",
@@ -5185,11 +5181,7 @@
   ],
   [
     "bi",
-    "link"
-  ],
-  [
-    "bi",
-    "link-45deg"
+    "lightning-charge"
   ],
   [
     "bi",
@@ -5197,11 +5189,27 @@
   ],
   [
     "bi",
+    "link-45deg"
+  ],
+  [
+    "bi",
+    "list-check"
+  ],
+  [
+    "bi",
     "list-columns-reverse"
   ],
   [
     "bi",
+    "link"
+  ],
+  [
+    "bi",
     "list-columns"
+  ],
+  [
+    "bi",
+    "list-stars"
   ],
   [
     "bi",
@@ -5217,35 +5225,7 @@
   ],
   [
     "bi",
-    "list-stars"
-  ],
-  [
-    "bi",
     "list-ul"
-  ],
-  [
-    "bi",
-    "list-check"
-  ],
-  [
-    "bi",
-    "file-lock-fill"
-  ],
-  [
-    "bi",
-    "file-word"
-  ],
-  [
-    "bi",
-    "file"
-  ],
-  [
-    "bi",
-    "lock-fill"
-  ],
-  [
-    "bi",
-    "lock"
   ],
   [
     "bi",
@@ -5253,7 +5233,7 @@
   ],
   [
     "bi",
-    "lungs-fill"
+    "lock-fill"
   ],
   [
     "bi",
@@ -5261,11 +5241,43 @@
   ],
   [
     "bi",
+    "lock"
+  ],
+  [
+    "bi",
+    "luggage"
+  ],
+  [
+    "bi",
+    "lungs-fill"
+  ],
+  [
+    "bi",
+    "magic"
+  ],
+  [
+    "bi",
+    "lungs"
+  ],
+  [
+    "bi",
     "magnet"
   ],
   [
     "bi",
+    "calendar-day"
+  ],
+  [
+    "bi",
     "magnet-fill"
+  ],
+  [
+    "bi",
+    "calendar-range-fill"
+  ],
+  [
+    "bi",
+    "file-font"
   ],
   [
     "bi",
@@ -5285,15 +5297,11 @@
   ],
   [
     "bi",
-    "map-fill"
-  ],
-  [
-    "bi",
     "map"
   ],
   [
     "bi",
-    "markdown"
+    "map-fill"
   ],
   [
     "bi",
@@ -5301,19 +5309,11 @@
   ],
   [
     "bi",
-    "marker-tip"
-  ],
-  [
-    "bi",
-    "mask"
-  ],
-  [
-    "bi",
-    "medium"
-  ],
-  [
-    "bi",
     "mastodon"
+  ],
+  [
+    "bi",
+    "markdown"
   ],
   [
     "bi",
@@ -5321,7 +5321,7 @@
   ],
   [
     "bi",
-    "memory"
+    "mask"
   ],
   [
     "bi",
@@ -5329,15 +5329,7 @@
   ],
   [
     "bi",
-    "image-fill"
-  ],
-  [
-    "bi",
-    "menu-app"
-  ],
-  [
-    "bi",
-    "menu-button-fill"
+    "menu-app-fill"
   ],
   [
     "bi",
@@ -5345,7 +5337,11 @@
   ],
   [
     "bi",
-    "menu-button-wide-fill"
+    "menu-button-fill"
+  ],
+  [
+    "bi",
+    "menu-app"
   ],
   [
     "bi",
@@ -5353,7 +5349,11 @@
   ],
   [
     "bi",
-    "journal-richtext"
+    "menu-down"
+  ],
+  [
+    "bi",
+    "marker-tip"
   ],
   [
     "bi",
@@ -5361,11 +5361,11 @@
   ],
   [
     "bi",
-    "menu-up"
+    "meta"
   ],
   [
     "bi",
-    "meta"
+    "menu-up"
   ],
   [
     "bi",
@@ -5377,19 +5377,19 @@
   ],
   [
     "bi",
-    "mic"
-  ],
-  [
-    "bi",
     "microsoft-teams"
   ],
   [
     "bi",
-    "magic"
+    "instagram"
   ],
   [
     "bi",
-    "mic-mute"
+    "minecart"
+  ],
+  [
+    "bi",
+    "mic"
   ],
   [
     "bi",
@@ -5397,19 +5397,11 @@
   ],
   [
     "bi",
-    "modem-fill"
-  ],
-  [
-    "bi",
-    "lungs"
+    "microsoft"
   ],
   [
     "bi",
     "moisture"
-  ],
-  [
-    "bi",
-    "moon-fill"
   ],
   [
     "bi",
@@ -5421,6 +5413,18 @@
   ],
   [
     "bi",
+    "moon-fill"
+  ],
+  [
+    "bi",
+    "modem-fill"
+  ],
+  [
+    "bi",
+    "mortarboard-fill"
+  ],
+  [
+    "bi",
     "moon-stars"
   ],
   [
@@ -5429,23 +5433,11 @@
   ],
   [
     "bi",
-    "mortarboard"
-  ],
-  [
-    "bi",
-    "mortarboard-fill"
-  ],
-  [
-    "bi",
     "motherboard-fill"
   ],
   [
     "bi",
-    "mouse-fill"
-  ],
-  [
-    "bi",
-    "mouse"
+    "mortarboard"
   ],
   [
     "bi",
@@ -5453,35 +5445,23 @@
   ],
   [
     "bi",
+    "mouse-fill"
+  ],
+  [
+    "bi",
     "mouse2-fill"
   ],
   [
     "bi",
-    "journal-arrow-down"
+    "mouse3-fill"
   ],
   [
     "bi",
-    "menu-down"
+    "lightbulb-fill"
   ],
   [
     "bi",
-    "mouse3"
-  ],
-  [
-    "bi",
-    "mouse2"
-  ],
-  [
-    "bi",
-    "music-note-beamed"
-  ],
-  [
-    "bi",
-    "music-note"
-  ],
-  [
-    "bi",
-    "music-player-fill"
+    "mouse"
   ],
   [
     "bi",
@@ -5489,7 +5469,11 @@
   ],
   [
     "bi",
-    "node-minus-fill"
+    "keyboard"
+  ],
+  [
+    "bi",
+    "music-note-beamed"
   ],
   [
     "bi",
@@ -5497,7 +5481,23 @@
   ],
   [
     "bi",
+    "music-note"
+  ],
+  [
+    "bi",
+    "nintendo-switch"
+  ],
+  [
+    "bi",
+    "music-player-fill"
+  ],
+  [
+    "bi",
     "newspaper"
+  ],
+  [
+    "bi",
+    "node-minus-fill"
   ],
   [
     "bi",
@@ -5509,6 +5509,10 @@
   ],
   [
     "bi",
+    "mouse3"
+  ],
+  [
+    "bi",
     "node-plus"
   ],
   [
@@ -5517,11 +5521,7 @@
   ],
   [
     "bi",
-    "nvidia"
-  ],
-  [
-    "bi",
-    "nut-fill"
+    "medium"
   ],
   [
     "bi",
@@ -5537,7 +5537,7 @@
   ],
   [
     "bi",
-    "octagon-half"
+    "opencollective"
   ],
   [
     "bi",
@@ -5545,11 +5545,7 @@
   ],
   [
     "bi",
-    "nintendo-switch"
-  ],
-  [
-    "bi",
-    "optical-audio"
+    "octagon-half"
   ],
   [
     "bi",
@@ -5557,15 +5553,11 @@
   ],
   [
     "bi",
-    "optical-audio-fill"
-  ],
-  [
-    "bi",
     "option"
   ],
   [
     "bi",
-    "p-circle-fill"
+    "optical-audio-fill"
   ],
   [
     "bi",
@@ -5573,7 +5565,19 @@
   ],
   [
     "bi",
+    "optical-audio"
+  ],
+  [
+    "bi",
     "p-circle"
+  ],
+  [
+    "bi",
+    "nvidia"
+  ],
+  [
+    "bi",
+    "p-square-fill"
   ],
   [
     "bi",
@@ -5582,10 +5586,6 @@
   [
     "bi",
     "paint-bucket"
-  ],
-  [
-    "bi",
-    "p-square-fill"
   ],
   [
     "bi",
@@ -5601,10 +5601,6 @@
   ],
   [
     "bi",
-    "pass-fill"
-  ],
-  [
-    "bi",
     "paperclip"
   ],
   [
@@ -5613,7 +5609,7 @@
   ],
   [
     "bi",
-    "pass"
+    "pass-fill"
   ],
   [
     "bi",
@@ -5621,11 +5617,7 @@
   ],
   [
     "bi",
-    "passport"
-  ],
-  [
-    "bi",
-    "patch-check-fill"
+    "pass"
   ],
   [
     "bi",
@@ -5633,11 +5625,7 @@
   ],
   [
     "bi",
-    "patch-minus-fill"
-  ],
-  [
-    "bi",
-    "patch-exclamation"
+    "patch-check-fill"
   ],
   [
     "bi",
@@ -5645,7 +5633,23 @@
   ],
   [
     "bi",
+    "passport"
+  ],
+  [
+    "bi",
+    "patch-minus-fill"
+  ],
+  [
+    "bi",
     "patch-minus"
+  ],
+  [
+    "bi",
+    "patch-exclamation"
+  ],
+  [
+    "bi",
+    "patch-question-fill"
   ],
   [
     "bi",
@@ -5654,18 +5658,6 @@
   [
     "bi",
     "patch-plus"
-  ],
-  [
-    "bi",
-    "patch-question-fill"
-  ],
-  [
-    "bi",
-    "mouse3-fill"
-  ],
-  [
-    "bi",
-    "patch-question"
   ],
   [
     "bi",
@@ -5681,7 +5673,11 @@
   ],
   [
     "bi",
-    "pause-fill"
+    "pause-btn"
+  ],
+  [
+    "bi",
+    "patch-question"
   ],
   [
     "bi",
@@ -5689,11 +5685,15 @@
   ],
   [
     "bi",
-    "pc-display-horizontal"
+    "paypal"
   ],
   [
     "bi",
-    "pc-display"
+    "pause-fill"
+  ],
+  [
+    "bi",
+    "pc-display-horizontal"
   ],
   [
     "bi",
@@ -5705,7 +5705,11 @@
   ],
   [
     "bi",
-    "opencollective"
+    "pci-card-sound"
+  ],
+  [
+    "bi",
+    "pc-display"
   ],
   [
     "bi",
@@ -5713,19 +5717,15 @@
   ],
   [
     "bi",
-    "paypal"
-  ],
-  [
-    "bi",
-    "peace"
-  ],
-  [
-    "bi",
-    "peace-fill"
+    "pci-card"
   ],
   [
     "bi",
     "pen-fill"
+  ],
+  [
+    "bi",
+    "peace-fill"
   ],
   [
     "bi",
@@ -5737,23 +5737,15 @@
   ],
   [
     "bi",
-    "pci-card"
-  ],
-  [
-    "bi",
     "pencil-square"
   ],
   [
     "bi",
-    "pencil"
+    "pentagon-fill"
   ],
   [
     "bi",
-    "pause-btn"
-  ],
-  [
-    "bi",
-    "pentagon-half"
+    "nut-fill"
   ],
   [
     "bi",
@@ -5761,27 +5753,11 @@
   ],
   [
     "bi",
-    "person-arms-up"
-  ],
-  [
-    "bi",
     "people-fill"
   ],
   [
     "bi",
-    "people"
-  ],
-  [
-    "bi",
-    "person-add"
-  ],
-  [
-    "bi",
-    "person-badge-fill"
-  ],
-  [
-    "bi",
-    "person-bounding-box"
+    "pencil"
   ],
   [
     "bi",
@@ -5789,7 +5765,23 @@
   ],
   [
     "bi",
-    "person-check"
+    "person-add"
+  ],
+  [
+    "bi",
+    "people"
+  ],
+  [
+    "bi",
+    "person-arms-up"
+  ],
+  [
+    "bi",
+    "peace"
+  ],
+  [
+    "bi",
+    "person-bounding-box"
   ],
   [
     "bi",
@@ -5797,27 +5789,7 @@
   ],
   [
     "bi",
-    "person-circle"
-  ],
-  [
-    "bi",
-    "person-check-fill"
-  ],
-  [
-    "bi",
-    "person-dash"
-  ],
-  [
-    "bi",
-    "person-exclamation"
-  ],
-  [
-    "bi",
-    "person-down"
-  ],
-  [
-    "bi",
-    "person-fill-check"
+    "person-check"
   ],
   [
     "bi",
@@ -5825,11 +5797,39 @@
   ],
   [
     "bi",
-    "person-fill-dash"
+    "person-circle"
+  ],
+  [
+    "bi",
+    "person-dash"
+  ],
+  [
+    "bi",
+    "person-fill-add"
+  ],
+  [
+    "bi",
+    "person-down"
   ],
   [
     "bi",
     "person-fill-down"
+  ],
+  [
+    "bi",
+    "person-fill-dash"
+  ],
+  [
+    "bi",
+    "person-badge-fill"
+  ],
+  [
+    "bi",
+    "person-fill-gear"
+  ],
+  [
+    "bi",
+    "person-check-fill"
   ],
   [
     "bi",
@@ -5841,27 +5841,7 @@
   ],
   [
     "bi",
-    "person-fill-add"
-  ],
-  [
-    "bi",
-    "person-fill-slash"
-  ],
-  [
-    "bi",
-    "person-fill-gear"
-  ],
-  [
-    "bi",
-    "person-fill-up"
-  ],
-  [
-    "bi",
-    "person-gear"
-  ],
-  [
-    "bi",
-    "person-fill"
+    "person-exclamation"
   ],
   [
     "bi",
@@ -5869,15 +5849,15 @@
   ],
   [
     "bi",
-    "person-hearts"
+    "person-fill-slash"
   ],
   [
     "bi",
-    "person-lock"
+    "person-fill"
   ],
   [
     "bi",
-    "person-heart"
+    "person-fill-up"
   ],
   [
     "bi",
@@ -5885,11 +5865,19 @@
   ],
   [
     "bi",
-    "person-plus-fill"
+    "person-hearts"
   ],
   [
     "bi",
-    "person-rolodex"
+    "person-heart"
+  ],
+  [
+    "bi",
+    "person-fill-check"
+  ],
+  [
+    "bi",
+    "person-plus-fill"
   ],
   [
     "bi",
@@ -5897,15 +5885,23 @@
   ],
   [
     "bi",
-    "person-raised-hand"
+    "person-gear"
   ],
   [
     "bi",
-    "person-slash"
+    "person-rolodex"
+  ],
+  [
+    "bi",
+    "p-circle-fill"
   ],
   [
     "bi",
     "person-square"
+  ],
+  [
+    "bi",
+    "person-lock"
   ],
   [
     "bi",
@@ -5917,19 +5913,15 @@
   ],
   [
     "bi",
-    "person-vcard-fill"
-  ],
-  [
-    "bi",
-    "menu-app-fill"
-  ],
-  [
-    "bi",
     "person-up"
   ],
   [
     "bi",
-    "person-video2"
+    "person-vcard-fill"
+  ],
+  [
+    "bi",
+    "person-slash"
   ],
   [
     "bi",
@@ -5937,7 +5929,11 @@
   ],
   [
     "bi",
-    "person-video3"
+    "person-vcard"
+  ],
+  [
+    "bi",
+    "person-raised-hand"
   ],
   [
     "bi",
@@ -5945,11 +5941,11 @@
   ],
   [
     "bi",
-    "person-workspace"
+    "person-video3"
   ],
   [
     "bi",
-    "person-wheelchair"
+    "person-workspace"
   ],
   [
     "bi",
@@ -5957,7 +5953,7 @@
   ],
   [
     "bi",
-    "person-x"
+    "person-wheelchair"
   ],
   [
     "bi",
@@ -5965,19 +5961,15 @@
   ],
   [
     "bi",
-    "person"
-  ],
-  [
-    "bi",
-    "phone-flip"
-  ],
-  [
-    "bi",
     "phone-landscape-fill"
   ],
   [
     "bi",
-    "phone-landscape"
+    "person-x"
+  ],
+  [
+    "bi",
+    "phone-flip"
   ],
   [
     "bi",
@@ -5989,11 +5981,15 @@
   ],
   [
     "bi",
+    "person"
+  ],
+  [
+    "bi",
     "phone"
   ],
   [
     "bi",
-    "pci-card-sound"
+    "phone-landscape"
   ],
   [
     "bi",
@@ -6009,7 +6005,11 @@
   ],
   [
     "bi",
-    "piggy-bank"
+    "pin-angle-fill"
+  ],
+  [
+    "bi",
+    "pin-angle"
   ],
   [
     "bi",
@@ -6025,11 +6025,7 @@
   ],
   [
     "bi",
-    "pin"
-  ],
-  [
-    "bi",
-    "pin-angle-fill"
+    "piggy-bank"
   ],
   [
     "bi",
@@ -6037,11 +6033,11 @@
   ],
   [
     "bi",
-    "play-btn-fill"
+    "pin"
   ],
   [
     "bi",
-    "pip"
+    "play-btn-fill"
   ],
   [
     "bi",
@@ -6049,11 +6045,11 @@
   ],
   [
     "bi",
-    "play-btn"
+    "play-circle-fill"
   ],
   [
     "bi",
-    "play-circle-fill"
+    "play-btn"
   ],
   [
     "bi",
@@ -6061,19 +6057,15 @@
   ],
   [
     "bi",
+    "playstation"
+  ],
+  [
+    "bi",
     "play-circle"
   ],
   [
     "bi",
-    "play"
-  ],
-  [
-    "bi",
-    "pentagon-fill"
-  ],
-  [
-    "bi",
-    "playstation"
+    "plug-fill"
   ],
   [
     "bi",
@@ -6081,11 +6073,11 @@
   ],
   [
     "bi",
-    "plugin"
+    "plus-circle-dotted"
   ],
   [
     "bi",
-    "plus-circle-dotted"
+    "play"
   ],
   [
     "bi",
@@ -6094,6 +6086,14 @@
   [
     "bi",
     "plus-circle"
+  ],
+  [
+    "bi",
+    "pip"
+  ],
+  [
+    "bi",
+    "plugin"
   ],
   [
     "bi",
@@ -6109,7 +6109,7 @@
   ],
   [
     "bi",
-    "plug-fill"
+    "plus"
   ],
   [
     "bi",
@@ -6121,15 +6121,11 @@
   ],
   [
     "bi",
-    "plus"
-  ],
-  [
-    "bi",
     "postage-heart-fill"
   ],
   [
     "bi",
-    "postcard-fill"
+    "plus-square-fill"
   ],
   [
     "bi",
@@ -6137,7 +6133,7 @@
   ],
   [
     "bi",
-    "postage"
+    "postcard-fill"
   ],
   [
     "bi",
@@ -6149,15 +6145,7 @@
   ],
   [
     "bi",
-    "person-vcard"
-  ],
-  [
-    "bi",
-    "prescription"
-  ],
-  [
-    "bi",
-    "prescription2"
+    "power"
   ],
   [
     "bi",
@@ -6165,7 +6153,15 @@
   ],
   [
     "bi",
-    "printer-fill"
+    "prescription"
+  ],
+  [
+    "bi",
+    "postage"
+  ],
+  [
+    "bi",
+    "prescription2"
   ],
   [
     "bi",
@@ -6173,7 +6169,7 @@
   ],
   [
     "bi",
-    "projector-fill"
+    "printer-fill"
   ],
   [
     "bi",
@@ -6185,6 +6181,10 @@
   ],
   [
     "bi",
+    "projector-fill"
+  ],
+  [
+    "bi",
     "puzzle"
   ],
   [
@@ -6193,7 +6193,7 @@
   ],
   [
     "bi",
-    "question-diamond-fill"
+    "qr-code"
   ],
   [
     "bi",
@@ -6201,23 +6201,11 @@
   ],
   [
     "bi",
-    "pin-angle"
-  ],
-  [
-    "bi",
-    "plus-square-fill"
-  ],
-  [
-    "bi",
     "question-circle"
   ],
   [
     "bi",
-    "question-octagon"
-  ],
-  [
-    "bi",
-    "question-octagon-fill"
+    "question-diamond-fill"
   ],
   [
     "bi",
@@ -6225,7 +6213,7 @@
   ],
   [
     "bi",
-    "power"
+    "question-octagon-fill"
   ],
   [
     "bi",
@@ -6233,15 +6221,31 @@
   ],
   [
     "bi",
+    "question-octagon"
+  ],
+  [
+    "bi",
+    "question-square-fill"
+  ],
+  [
+    "bi",
+    "pentagon-half"
+  ],
+  [
+    "bi",
+    "question"
+  ],
+  [
+    "bi",
+    "quora"
+  ],
+  [
+    "bi",
+    "r-circle-fill"
+  ],
+  [
+    "bi",
     "quote"
-  ],
-  [
-    "bi",
-    "qr-code"
-  ],
-  [
-    "bi",
-    "question-square"
   ],
   [
     "bi",
@@ -6253,7 +6257,7 @@
   ],
   [
     "bi",
-    "question"
+    "radioactive"
   ],
   [
     "bi",
@@ -6265,31 +6269,11 @@
   ],
   [
     "bi",
-    "radioactive"
-  ],
-  [
-    "bi",
-    "rainbow"
-  ],
-  [
-    "bi",
     "receipt-cutoff"
   ],
   [
     "bi",
-    "quora"
-  ],
-  [
-    "bi",
-    "reception-0"
-  ],
-  [
-    "bi",
-    "record-btn-fill"
-  ],
-  [
-    "bi",
-    "reception-2"
+    "person-video2"
   ],
   [
     "bi",
@@ -6297,7 +6281,15 @@
   ],
   [
     "bi",
-    "record-btn"
+    "reception-0"
+  ],
+  [
+    "bi",
+    "rainbow"
+  ],
+  [
+    "bi",
+    "reception-2"
   ],
   [
     "bi",
@@ -6305,11 +6297,15 @@
   ],
   [
     "bi",
-    "record-circle-fill"
+    "reception-3"
   ],
   [
     "bi",
-    "reception-3"
+    "record-btn-fill"
+  ],
+  [
+    "bi",
+    "record-circle-fill"
   ],
   [
     "bi",
@@ -6317,15 +6313,15 @@
   ],
   [
     "bi",
-    "minecart"
-  ],
-  [
-    "bi",
-    "record"
-  ],
-  [
-    "bi",
     "record2-fill"
+  ],
+  [
+    "bi",
+    "record-btn"
+  ],
+  [
+    "bi",
+    "record-fill"
   ],
   [
     "bi",
@@ -6337,15 +6333,7 @@
   ],
   [
     "bi",
-    "reddit"
-  ],
-  [
-    "bi",
     "regex"
-  ],
-  [
-    "bi",
-    "repeat"
   ],
   [
     "bi",
@@ -6353,7 +6341,19 @@
   ],
   [
     "bi",
-    "reply-all-fill"
+    "repeat"
+  ],
+  [
+    "bi",
+    "reddit"
+  ],
+  [
+    "bi",
+    "mic-mute"
+  ],
+  [
+    "bi",
+    "record"
   ],
   [
     "bi",
@@ -6361,11 +6361,19 @@
   ],
   [
     "bi",
-    "reply"
+    "reply-fill"
   ],
   [
     "bi",
-    "reply-fill"
+    "reply-all-fill"
+  ],
+  [
+    "bi",
+    "rewind-btn"
+  ],
+  [
+    "bi",
+    "rewind-circle"
   ],
   [
     "bi",
@@ -6377,15 +6385,7 @@
   ],
   [
     "bi",
-    "rewind-circle"
-  ],
-  [
-    "bi",
-    "rewind-btn"
-  ],
-  [
-    "bi",
-    "rewind"
+    "robot"
   ],
   [
     "bi",
@@ -6393,11 +6393,7 @@
   ],
   [
     "bi",
-    "robot"
-  ],
-  [
-    "bi",
-    "rocket-takeoff-fill"
+    "rewind"
   ],
   [
     "bi",
@@ -6405,15 +6401,7 @@
   ],
   [
     "bi",
-    "router-fill"
-  ],
-  [
-    "bi",
-    "rocket"
-  ],
-  [
-    "bi",
-    "router"
+    "rocket-takeoff-fill"
   ],
   [
     "bi",
@@ -6421,23 +6409,27 @@
   ],
   [
     "bi",
+    "rocket"
+  ],
+  [
+    "bi",
+    "router-fill"
+  ],
+  [
+    "bi",
+    "router"
+  ],
+  [
+    "bi",
     "rulers"
   ],
   [
     "bi",
+    "safe"
+  ],
+  [
+    "bi",
     "rss-fill"
-  ],
-  [
-    "bi",
-    "receipt"
-  ],
-  [
-    "bi",
-    "safe2-fill"
-  ],
-  [
-    "bi",
-    "rss"
   ],
   [
     "bi",
@@ -6449,11 +6441,11 @@
   ],
   [
     "bi",
-    "save"
+    "safe2-fill"
   ],
   [
     "bi",
-    "save2-fill"
+    "rss"
   ],
   [
     "bi",
@@ -6461,15 +6453,15 @@
   ],
   [
     "bi",
+    "save2-fill"
+  ],
+  [
+    "bi",
     "save2"
   ],
   [
     "bi",
-    "scissors"
-  ],
-  [
-    "bi",
-    "screwdriver"
+    "save"
   ],
   [
     "bi",
@@ -6477,11 +6469,15 @@
   ],
   [
     "bi",
-    "sd-card-fill"
+    "screwdriver"
   ],
   [
     "bi",
-    "search-heart-fill"
+    "scissors"
+  ],
+  [
+    "bi",
+    "sd-card-fill"
   ],
   [
     "bi",
@@ -6489,15 +6485,19 @@
   ],
   [
     "bi",
-    "record-fill"
+    "search-heart"
+  ],
+  [
+    "bi",
+    "search-heart-fill"
+  ],
+  [
+    "bi",
+    "segmented-nav"
   ],
   [
     "bi",
     "search"
-  ],
-  [
-    "bi",
-    "safe"
   ],
   [
     "bi",
@@ -6513,7 +6513,11 @@
   ],
   [
     "bi",
-    "segmented-nav"
+    "send-check-fill"
+  ],
+  [
+    "bi",
+    "send-check"
   ],
   [
     "bi",
@@ -6521,11 +6525,15 @@
   ],
   [
     "bi",
-    "send-check-fill"
+    "send-dash"
   ],
   [
     "bi",
-    "send-dash"
+    "send-dash-fill"
+  ],
+  [
+    "bi",
+    "send-fill"
   ],
   [
     "bi",
@@ -6537,19 +6545,7 @@
   ],
   [
     "bi",
-    "send-fill"
-  ],
-  [
-    "bi",
-    "send-check"
-  ],
-  [
-    "bi",
-    "send-slash-fill"
-  ],
-  [
-    "bi",
-    "send-slash"
+    "question-square"
   ],
   [
     "bi",
@@ -6561,23 +6557,15 @@
   ],
   [
     "bi",
+    "send-slash-fill"
+  ],
+  [
+    "bi",
+    "send-slash"
+  ],
+  [
+    "bi",
     "send-x"
-  ],
-  [
-    "bi",
-    "send-plus"
-  ],
-  [
-    "bi",
-    "server"
-  ],
-  [
-    "bi",
-    "r-circle-fill"
-  ],
-  [
-    "bi",
-    "share-fill"
   ],
   [
     "bi",
@@ -6585,7 +6573,19 @@
   ],
   [
     "bi",
-    "share"
+    "server"
+  ],
+  [
+    "bi",
+    "send"
+  ],
+  [
+    "bi",
+    "share-fill"
+  ],
+  [
+    "bi",
+    "shield-fill-check"
   ],
   [
     "bi",
@@ -6597,11 +6597,15 @@
   ],
   [
     "bi",
-    "shield-fill-exclamation"
+    "share"
   ],
   [
     "bi",
-    "send-dash-fill"
+    "shield-fill-plus"
+  ],
+  [
+    "bi",
+    "shield-fill-exclamation"
   ],
   [
     "bi",
@@ -6609,7 +6613,7 @@
   ],
   [
     "bi",
-    "shield-fill-check"
+    "shield-fill"
   ],
   [
     "bi",
@@ -6617,19 +6621,7 @@
   ],
   [
     "bi",
-    "shield-fill"
-  ],
-  [
-    "bi",
-    "shield-lock"
-  ],
-  [
-    "bi",
     "shield-lock-fill"
-  ],
-  [
-    "bi",
-    "shield-slash-fill"
   ],
   [
     "bi",
@@ -6637,31 +6629,15 @@
   ],
   [
     "bi",
+    "shield-lock"
+  ],
+  [
+    "bi",
     "shield-plus"
   ],
   [
     "bi",
-    "send"
-  ],
-  [
-    "bi",
-    "shield"
-  ],
-  [
-    "bi",
-    "shield-slash"
-  ],
-  [
-    "bi",
-    "shield-x"
-  ],
-  [
-    "bi",
-    "shop-window"
-  ],
-  [
-    "bi",
-    "shop"
+    "shield-slash-fill"
   ],
   [
     "bi",
@@ -6669,15 +6645,15 @@
   ],
   [
     "bi",
-    "shift"
+    "shield"
   ],
   [
     "bi",
-    "sign-dead-end-fill"
+    "shield-x"
   ],
   [
     "bi",
-    "sign-dead-end"
+    "shield-slash"
   ],
   [
     "bi",
@@ -6685,23 +6661,31 @@
   ],
   [
     "bi",
-    "sign-intersection-side-fill"
+    "shop-window"
   ],
   [
     "bi",
-    "sign-intersection-fill"
+    "shift"
   ],
   [
     "bi",
-    "sign-intersection-t-fill"
+    "shop"
+  ],
+  [
+    "bi",
+    "sign-dead-end-fill"
+  ],
+  [
+    "bi",
+    "shuffle"
+  ],
+  [
+    "bi",
+    "sign-dead-end"
   ],
   [
     "bi",
     "sign-do-not-enter-fill"
-  ],
-  [
-    "bi",
-    "sign-intersection-t"
   ],
   [
     "bi",
@@ -6713,11 +6697,27 @@
   ],
   [
     "bi",
-    "microsoft"
+    "sign-intersection-y-fill"
   ],
   [
     "bi",
-    "sign-intersection-y-fill"
+    "sign-intersection-side-fill"
+  ],
+  [
+    "bi",
+    "sign-intersection-t"
+  ],
+  [
+    "bi",
+    "sign-intersection-fill"
+  ],
+  [
+    "bi",
+    "sign-intersection-t-fill"
+  ],
+  [
+    "bi",
+    "sign-intersection"
   ],
   [
     "bi",
@@ -6733,11 +6733,7 @@
   ],
   [
     "bi",
-    "luggage"
-  ],
-  [
-    "bi",
-    "sign-no-left-turn-fill"
+    "sign-merge-left"
   ],
   [
     "bi",
@@ -6749,11 +6745,7 @@
   ],
   [
     "bi",
-    "sign-no-parking-fill"
-  ],
-  [
-    "bi",
-    "question-square-fill"
+    "sign-no-left-turn-fill"
   ],
   [
     "bi",
@@ -6761,19 +6753,7 @@
   ],
   [
     "bi",
-    "sign-no-right-turn"
-  ],
-  [
-    "bi",
-    "shuffle"
-  ],
-  [
-    "bi",
-    "sign-stop-fill"
-  ],
-  [
-    "bi",
-    "sign-stop-lights-fill"
+    "sign-no-parking-fill"
   ],
   [
     "bi",
@@ -6781,23 +6761,11 @@
   ],
   [
     "bi",
-    "sign-stop"
+    "sign-no-right-turn"
   ],
   [
     "bi",
-    "sign-stop-lights"
-  ],
-  [
-    "bi",
-    "sign-turn-left"
-  ],
-  [
-    "bi",
-    "sign-turn-right-fill"
-  ],
-  [
-    "bi",
-    "sign-turn-left-fill"
+    "sign-no-right-turn-fill"
   ],
   [
     "bi",
@@ -6805,7 +6773,43 @@
   ],
   [
     "bi",
+    "sign-stop-lights-fill"
+  ],
+  [
+    "bi",
+    "sign-stop-fill"
+  ],
+  [
+    "bi",
+    "sign-stop-lights"
+  ],
+  [
+    "bi",
+    "sign-stop"
+  ],
+  [
+    "bi",
+    "sign-turn-left-fill"
+  ],
+  [
+    "bi",
+    "sign-turn-left"
+  ],
+  [
+    "bi",
     "sign-turn-right"
+  ],
+  [
+    "bi",
+    "sign-turn-right-fill"
+  ],
+  [
+    "bi",
+    "sign-turn-slight-right-fill"
+  ],
+  [
+    "bi",
+    "sign-turn-slight-left-fill"
   ],
   [
     "bi",
@@ -6813,7 +6817,7 @@
   ],
   [
     "bi",
-    "sign-turn-slight-right-fill"
+    "signal"
   ],
   [
     "bi",
@@ -6825,7 +6829,7 @@
   ],
   [
     "bi",
-    "sign-no-right-turn-fill"
+    "sign-yield-fill"
   ],
   [
     "bi",
@@ -6833,15 +6837,7 @@
   ],
   [
     "bi",
-    "sign-yield-fill"
-  ],
-  [
-    "bi",
-    "sign-turn-slight-left-fill"
-  ],
-  [
-    "bi",
-    "signal"
+    "signpost-2"
   ],
   [
     "bi",
@@ -6849,11 +6845,7 @@
   ],
   [
     "bi",
-    "signpost-split-fill"
-  ],
-  [
-    "bi",
-    "sim-fill"
+    "signpost-fill"
   ],
   [
     "bi",
@@ -6861,7 +6853,19 @@
   ],
   [
     "bi",
-    "shield-fill-plus"
+    "signpost-split-fill"
+  ],
+  [
+    "bi",
+    "sim-slash-fill"
+  ],
+  [
+    "bi",
+    "sina-weibo"
+  ],
+  [
+    "bi",
+    "sim-fill"
   ],
   [
     "bi",
@@ -6873,15 +6877,7 @@
   ],
   [
     "bi",
-    "sina-weibo"
-  ],
-  [
-    "bi",
     "skip-backward-btn-fill"
-  ],
-  [
-    "bi",
-    "skip-backward-circle-fill"
   ],
   [
     "bi",
@@ -6889,19 +6885,7 @@
   ],
   [
     "bi",
-    "skip-backward-circle"
-  ],
-  [
-    "bi",
-    "skip-backward"
-  ],
-  [
-    "bi",
-    "skip-end-btn-fill"
-  ],
-  [
-    "bi",
-    "skip-end-btn"
+    "skip-backward-circle-fill"
   ],
   [
     "bi",
@@ -6909,7 +6893,19 @@
   ],
   [
     "bi",
-    "skip-end-circle-fill"
+    "skip-backward"
+  ],
+  [
+    "bi",
+    "skip-end-btn"
+  ],
+  [
+    "bi",
+    "skip-end-btn-fill"
+  ],
+  [
+    "bi",
+    "skip-backward-circle"
   ],
   [
     "bi",
@@ -6917,15 +6913,19 @@
   ],
   [
     "bi",
+    "skip-end-circle-fill"
+  ],
+  [
+    "bi",
     "skip-end-fill"
   ],
   [
     "bi",
-    "sim-slash-fill"
+    "skip-forward-btn-fill"
   ],
   [
     "bi",
-    "skip-forward-btn-fill"
+    "skip-end"
   ],
   [
     "bi",
@@ -6941,15 +6941,15 @@
   ],
   [
     "bi",
-    "skip-forward-fill"
-  ],
-  [
-    "bi",
     "skip-forward"
   ],
   [
     "bi",
-    "skip-end"
+    "skip-forward-fill"
+  ],
+  [
+    "bi",
+    "skip-start-btn-fill"
   ],
   [
     "bi",
@@ -6961,7 +6961,7 @@
   ],
   [
     "bi",
-    "skip-start-circle"
+    "skip-start-fill"
   ],
   [
     "bi",
@@ -6969,7 +6969,11 @@
   ],
   [
     "bi",
-    "skip-start-fill"
+    "skype"
+  ],
+  [
+    "bi",
+    "receipt"
   ],
   [
     "bi",
@@ -6977,15 +6981,7 @@
   ],
   [
     "bi",
-    "skype"
-  ],
-  [
-    "bi",
-    "signpost-2"
-  ],
-  [
-    "bi",
-    "slash-square"
+    "slash-lg"
   ],
   [
     "bi",
@@ -6993,23 +6989,27 @@
   ],
   [
     "bi",
+    "slash"
+  ],
+  [
+    "bi",
+    "reply"
+  ],
+  [
+    "bi",
     "slash-square-fill"
   ],
   [
     "bi",
-    "slack"
+    "slash-square"
   ],
   [
     "bi",
-    "skip-start-btn-fill"
+    "sliders2-vertical"
   ],
   [
     "bi",
     "sliders"
-  ],
-  [
-    "bi",
-    "slash-lg"
   ],
   [
     "bi",
@@ -7021,11 +7021,11 @@
   ],
   [
     "bi",
-    "snow"
+    "skip-start-circle"
   ],
   [
     "bi",
-    "snapchat"
+    "slack"
   ],
   [
     "bi",
@@ -7033,19 +7033,11 @@
   ],
   [
     "bi",
-    "snow3"
-  ],
-  [
-    "bi",
     "sort-alpha-down-alt"
   ],
   [
     "bi",
-    "sort-alpha-up-alt"
-  ],
-  [
-    "bi",
-    "sort-alpha-down"
+    "snapchat"
   ],
   [
     "bi",
@@ -7053,7 +7045,7 @@
   ],
   [
     "bi",
-    "sort-numeric-down-alt"
+    "sort-alpha-down"
   ],
   [
     "bi",
@@ -7061,7 +7053,15 @@
   ],
   [
     "bi",
+    "sort-alpha-up-alt"
+  ],
+  [
+    "bi",
     "sort-down"
+  ],
+  [
+    "bi",
+    "sort-numeric-down-alt"
   ],
   [
     "bi",
@@ -7077,11 +7077,7 @@
   ],
   [
     "bi",
-    "sort-numeric-up"
-  ],
-  [
-    "bi",
-    "sliders2-vertical"
+    "send-plus"
   ],
   [
     "bi",
@@ -7089,7 +7085,11 @@
   ],
   [
     "bi",
-    "sort-up"
+    "sort-numeric-up"
+  ],
+  [
+    "bi",
+    "sourceforge"
   ],
   [
     "bi",
@@ -7101,35 +7101,11 @@
   ],
   [
     "bi",
-    "spellcheck"
-  ],
-  [
-    "bi",
-    "speedometer2"
-  ],
-  [
-    "bi",
     "speedometer"
   ],
   [
     "bi",
-    "square-fill"
-  ],
-  [
-    "bi",
-    "square-half"
-  ],
-  [
-    "bi",
-    "stack"
-  ],
-  [
-    "bi",
-    "stack-overflow"
-  ],
-  [
-    "bi",
-    "sourceforge"
+    "spellcheck"
   ],
   [
     "bi",
@@ -7137,11 +7113,43 @@
   ],
   [
     "bi",
+    "speedometer2"
+  ],
+  [
+    "bi",
+    "square-half"
+  ],
+  [
+    "bi",
+    "square-fill"
+  ],
+  [
+    "bi",
+    "stack-overflow"
+  ],
+  [
+    "bi",
     "star-fill"
   ],
   [
     "bi",
+    "stack"
+  ],
+  [
+    "bi",
+    "square"
+  ],
+  [
+    "bi",
+    "star-half"
+  ],
+  [
+    "bi",
     "star"
+  ],
+  [
+    "bi",
+    "stars"
   ],
   [
     "bi",
@@ -7153,7 +7161,7 @@
   ],
   [
     "bi",
-    "stars"
+    "sticky"
   ],
   [
     "bi",
@@ -7169,19 +7177,7 @@
   ],
   [
     "bi",
-    "sticky"
-  ],
-  [
-    "bi",
     "stop-btn"
-  ],
-  [
-    "bi",
-    "stop-circle-fill"
-  ],
-  [
-    "bi",
-    "stop-circle"
   ],
   [
     "bi",
@@ -7189,7 +7185,15 @@
   ],
   [
     "bi",
+    "stop-circle"
+  ],
+  [
+    "bi",
     "stop"
+  ],
+  [
+    "bi",
+    "stop-circle-fill"
   ],
   [
     "bi",
@@ -7197,15 +7201,7 @@
   ],
   [
     "bi",
-    "star-half"
-  ],
-  [
-    "bi",
     "stoplights"
-  ],
-  [
-    "bi",
-    "stopwatch-fill"
   ],
   [
     "bi",
@@ -7213,11 +7209,11 @@
   ],
   [
     "bi",
-    "substack"
+    "strava"
   ],
   [
     "bi",
-    "strava"
+    "stopwatch-fill"
   ],
   [
     "bi",
@@ -7225,11 +7221,15 @@
   ],
   [
     "bi",
-    "subtract"
+    "subscript"
   ],
   [
     "bi",
-    "slash"
+    "substack"
+  ],
+  [
+    "bi",
+    "subtract"
   ],
   [
     "bi",
@@ -7237,7 +7237,7 @@
   ],
   [
     "bi",
-    "suit-diamond"
+    "suit-club-fill"
   ],
   [
     "bi",
@@ -7245,15 +7245,15 @@
   ],
   [
     "bi",
-    "suit-club-fill"
-  ],
-  [
-    "bi",
-    "suit-heart-fill"
-  ],
-  [
-    "bi",
     "suit-heart"
+  ],
+  [
+    "bi",
+    "sort-up"
+  ],
+  [
+    "bi",
+    "suit-diamond"
   ],
   [
     "bi",
@@ -7261,15 +7261,7 @@
   ],
   [
     "bi",
-    "suitcase-fill"
-  ],
-  [
-    "bi",
     "suit-spade"
-  ],
-  [
-    "bi",
-    "suitcase-lg"
   ],
   [
     "bi",
@@ -7277,7 +7269,11 @@
   ],
   [
     "bi",
-    "suitcase2-fill"
+    "suitcase-lg"
+  ],
+  [
+    "bi",
+    "suitcase-fill"
   ],
   [
     "bi",
@@ -7285,11 +7281,11 @@
   ],
   [
     "bi",
-    "signpost-fill"
+    "suitcase2-fill"
   ],
   [
     "bi",
-    "suitcase2"
+    "sun-fill"
   ],
   [
     "bi",
@@ -7297,11 +7293,15 @@
   ],
   [
     "bi",
-    "sunrise-fill"
+    "suitcase2"
   ],
   [
     "bi",
     "sunrise"
+  ],
+  [
+    "bi",
+    "sunrise-fill"
   ],
   [
     "bi",
@@ -7321,10 +7321,6 @@
   ],
   [
     "bi",
-    "symmetry-vertical"
-  ],
-  [
-    "bi",
     "symmetry-horizontal"
   ],
   [
@@ -7333,7 +7329,11 @@
   ],
   [
     "bi",
-    "tablet-landscape-fill"
+    "symmetry-vertical"
+  ],
+  [
+    "bi",
+    "tablet-fill"
   ],
   [
     "bi",
@@ -7341,7 +7341,7 @@
   ],
   [
     "bi",
-    "tablet-fill"
+    "tablet-landscape-fill"
   ],
   [
     "bi",
@@ -7353,11 +7353,11 @@
   ],
   [
     "bi",
-    "tablet"
+    "tags-fill"
   ],
   [
     "bi",
-    "subscript"
+    "tablet"
   ],
   [
     "bi",
@@ -7365,19 +7365,15 @@
   ],
   [
     "bi",
-    "taxi-front"
-  ],
-  [
-    "bi",
     "taxi-front-fill"
   ],
   [
     "bi",
-    "square"
+    "taxi-front"
   ],
   [
     "bi",
-    "tags-fill"
+    "telephone-fill"
   ],
   [
     "bi",
@@ -7385,11 +7381,7 @@
   ],
   [
     "bi",
-    "telephone-forward"
-  ],
-  [
-    "bi",
-    "telephone-inbound"
+    "telegram"
   ],
   [
     "bi",
@@ -7397,15 +7389,27 @@
   ],
   [
     "bi",
-    "telephone-minus"
+    "telephone-inbound"
   ],
   [
     "bi",
-    "telephone-minus-fill"
+    "suit-heart-fill"
   ],
   [
     "bi",
     "telephone-outbound-fill"
+  ],
+  [
+    "bi",
+    "telephone-minus"
+  ],
+  [
+    "bi",
+    "telephone-outbound"
+  ],
+  [
+    "bi",
+    "telephone-minus-fill"
   ],
   [
     "bi",
@@ -7417,7 +7421,7 @@
   ],
   [
     "bi",
-    "telephone-outbound"
+    "telephone-x-fill"
   ],
   [
     "bi",
@@ -7425,15 +7429,11 @@
   ],
   [
     "bi",
-    "telephone-x-fill"
-  ],
-  [
-    "bi",
     "telephone"
   ],
   [
     "bi",
-    "tencent-qq"
+    "snow3"
   ],
   [
     "bi",
@@ -7441,15 +7441,11 @@
   ],
   [
     "bi",
-    "terminal-fill"
-  ],
-  [
-    "bi",
     "terminal-plus"
   ],
   [
     "bi",
-    "terminal-x"
+    "telephone-forward"
   ],
   [
     "bi",
@@ -7461,6 +7457,14 @@
   ],
   [
     "bi",
+    "text-indent-left"
+  ],
+  [
+    "bi",
+    "terminal-x"
+  ],
+  [
+    "bi",
     "text-indent-right"
   ],
   [
@@ -7469,7 +7473,7 @@
   ],
   [
     "bi",
-    "text-indent-left"
+    "text-left"
   ],
   [
     "bi",
@@ -7477,15 +7481,11 @@
   ],
   [
     "bi",
+    "text-wrap"
+  ],
+  [
+    "bi",
     "text-paragraph"
-  ],
-  [
-    "bi",
-    "text-left"
-  ],
-  [
-    "bi",
-    "textarea-resize"
   ],
   [
     "bi",
@@ -7493,15 +7493,11 @@
   ],
   [
     "bi",
+    "textarea-resize"
+  ],
+  [
+    "bi",
     "textarea"
-  ],
-  [
-    "bi",
-    "text-wrap"
-  ],
-  [
-    "bi",
-    "thermometer-half"
   ],
   [
     "bi",
@@ -7509,11 +7505,7 @@
   ],
   [
     "bi",
-    "thermometer-low"
-  ],
-  [
-    "bi",
-    "thermometer-sun"
+    "thermometer-half"
   ],
   [
     "bi",
@@ -7521,7 +7513,19 @@
   ],
   [
     "bi",
+    "threads-fill"
+  ],
+  [
+    "bi",
+    "menu-button-wide-fill"
+  ],
+  [
+    "bi",
     "thermometer"
+  ],
+  [
+    "bi",
+    "thermometer-sun"
   ],
   [
     "bi",
@@ -7529,19 +7533,7 @@
   ],
   [
     "bi",
-    "three-dots-vertical"
-  ],
-  [
-    "bi",
-    "sun-fill"
-  ],
-  [
-    "bi",
-    "threads-fill"
-  ],
-  [
-    "bi",
-    "thunderbolt"
+    "snow"
   ],
   [
     "bi",
@@ -7549,43 +7541,7 @@
   ],
   [
     "bi",
-    "ticket-detailed-fill"
-  ],
-  [
-    "bi",
-    "ticket-detailed"
-  ],
-  [
-    "bi",
-    "ticket-fill"
-  ],
-  [
-    "bi",
-    "ticket-perforated-fill"
-  ],
-  [
-    "bi",
-    "ticket-perforated"
-  ],
-  [
-    "bi",
-    "toggle-off"
-  ],
-  [
-    "bi",
-    "ticket"
-  ],
-  [
-    "bi",
-    "toggle-on"
-  ],
-  [
-    "bi",
-    "telephone-fill"
-  ],
-  [
-    "bi",
-    "toggle2-on"
+    "thunderbolt"
   ],
   [
     "bi",
@@ -7593,7 +7549,43 @@
   ],
   [
     "bi",
-    "toggles"
+    "ticket-fill"
+  ],
+  [
+    "bi",
+    "ticket"
+  ],
+  [
+    "bi",
+    "three-dots-vertical"
+  ],
+  [
+    "bi",
+    "ticket-perforated"
+  ],
+  [
+    "bi",
+    "tiktok"
+  ],
+  [
+    "bi",
+    "toggle-on"
+  ],
+  [
+    "bi",
+    "ticket-perforated-fill"
+  ],
+  [
+    "bi",
+    "toggle-off"
+  ],
+  [
+    "bi",
+    "ticket-detailed"
+  ],
+  [
+    "bi",
+    "ticket-detailed-fill"
   ],
   [
     "bi",
@@ -7601,11 +7593,19 @@
   ],
   [
     "bi",
-    "toggles2"
+    "toggle2-on"
   ],
   [
     "bi",
     "tornado"
+  ],
+  [
+    "bi",
+    "toggles"
+  ],
+  [
+    "bi",
+    "terminal-fill"
   ],
   [
     "bi",
@@ -7625,7 +7625,7 @@
   ],
   [
     "bi",
-    "train-lightrail-front-fill"
+    "train-lightrail-front"
   ],
   [
     "bi",
@@ -7637,14 +7637,6 @@
   ],
   [
     "bi",
-    "train-lightrail-front"
-  ],
-  [
-    "bi",
-    "trash-fill"
-  ],
-  [
-    "bi",
     "trash"
   ],
   [
@@ -7653,11 +7645,19 @@
   ],
   [
     "bi",
+    "trash-fill"
+  ],
+  [
+    "bi",
+    "trash2"
+  ],
+  [
+    "bi",
     "trash3-fill"
   ],
   [
     "bi",
-    "toggle2-off"
+    "trash3"
   ],
   [
     "bi",
@@ -7677,10 +7677,6 @@
   ],
   [
     "bi",
-    "trash3"
-  ],
-  [
-    "bi",
     "triangle"
   ],
   [
@@ -7697,7 +7693,7 @@
   ],
   [
     "bi",
-    "tropical-storm"
+    "train-lightrail-front-fill"
   ],
   [
     "bi",
@@ -7705,15 +7701,19 @@
   ],
   [
     "bi",
+    "tropical-storm"
+  ],
+  [
+    "bi",
     "truck-front"
   ],
   [
     "bi",
-    "truck-front-fill"
+    "truck"
   ],
   [
     "bi",
-    "truck"
+    "tv-fill"
   ],
   [
     "bi",
@@ -7725,11 +7725,15 @@
   ],
   [
     "bi",
-    "twitch"
+    "toggle2-off"
   ],
   [
     "bi",
-    "tv-fill"
+    "twitter-x"
+  ],
+  [
+    "bi",
+    "twitter"
   ],
   [
     "bi",
@@ -7741,7 +7745,7 @@
   ],
   [
     "bi",
-    "twitter"
+    "twitch"
   ],
   [
     "bi",
@@ -7749,11 +7753,11 @@
   ],
   [
     "bi",
-    "twitter-x"
+    "type-h4"
   ],
   [
     "bi",
-    "type-h4"
+    "thermometer-low"
   ],
   [
     "bi",
@@ -7761,11 +7765,7 @@
   ],
   [
     "bi",
-    "type-h5"
-  ],
-  [
-    "bi",
-    "type-h6"
+    "type-underline"
   ],
   [
     "bi",
@@ -7773,15 +7773,11 @@
   ],
   [
     "bi",
-    "type-underline"
-  ],
-  [
-    "bi",
     "type-strikethrough"
   ],
   [
     "bi",
-    "type"
+    "type-h5"
   ],
   [
     "bi",
@@ -7789,19 +7785,11 @@
   ],
   [
     "bi",
-    "ui-radios-grid"
-  ],
-  [
-    "bi",
     "ui-checks-grid"
   ],
   [
     "bi",
-    "umbrella"
-  ],
-  [
-    "bi",
-    "umbrella-fill"
+    "type"
   ],
   [
     "bi",
@@ -7809,15 +7797,19 @@
   ],
   [
     "bi",
+    "umbrella-fill"
+  ],
+  [
+    "bi",
     "ui-radios"
   ],
   [
     "bi",
-    "unity"
+    "ui-radios-grid"
   ],
   [
     "bi",
-    "union"
+    "umbrella"
   ],
   [
     "bi",
@@ -7825,15 +7817,11 @@
   ],
   [
     "bi",
-    "universal-access-circle"
-  ],
-  [
-    "bi",
     "universal-access"
   ],
   [
     "bi",
-    "unlock-fill"
+    "unity"
   ],
   [
     "bi",
@@ -7845,11 +7833,27 @@
   ],
   [
     "bi",
-    "upload"
+    "unlock-fill"
   ],
   [
     "bi",
     "upc"
+  ],
+  [
+    "bi",
+    "usb-c-fill"
+  ],
+  [
+    "bi",
+    "universal-access-circle"
+  ],
+  [
+    "bi",
+    "union"
+  ],
+  [
+    "bi",
+    "upload"
   ],
   [
     "bi",
@@ -7861,7 +7865,7 @@
   ],
   [
     "bi",
-    "usb-c-fill"
+    "truck-front-fill"
   ],
   [
     "bi",
@@ -7869,23 +7873,7 @@
   ],
   [
     "bi",
-    "usb-drive"
-  ],
-  [
-    "bi",
-    "usb-micro-fill"
-  ],
-  [
-    "bi",
-    "usb-mini-fill"
-  ],
-  [
-    "bi",
     "usb-micro"
-  ],
-  [
-    "bi",
-    "usb-mini"
   ],
   [
     "bi",
@@ -7893,7 +7881,15 @@
   ],
   [
     "bi",
-    "usb-symbol"
+    "usb-drive"
+  ],
+  [
+    "bi",
+    "usb-mini-fill"
+  ],
+  [
+    "bi",
+    "usb-mini"
   ],
   [
     "bi",
@@ -7901,23 +7897,15 @@
   ],
   [
     "bi",
-    "usb"
-  ],
-  [
-    "bi",
     "valentine"
   ],
   [
     "bi",
-    "valentine2"
+    "usb-symbol"
   ],
   [
     "bi",
-    "vector-pen"
-  ],
-  [
-    "bi",
-    "view-stacked"
+    "type-h6"
   ],
   [
     "bi",
@@ -7925,7 +7913,15 @@
   ],
   [
     "bi",
-    "vimeo"
+    "vector-pen"
+  ],
+  [
+    "bi",
+    "valentine2"
+  ],
+  [
+    "bi",
+    "view-stacked"
   ],
   [
     "bi",
@@ -7941,11 +7937,15 @@
   ],
   [
     "bi",
-    "virus2"
+    "voicemail"
   ],
   [
     "bi",
-    "virus"
+    "vimeo"
+  ],
+  [
+    "bi",
+    "virus2"
   ],
   [
     "bi",
@@ -7953,11 +7953,19 @@
   ],
   [
     "bi",
-    "voicemail"
+    "volume-down"
   ],
   [
     "bi",
-    "volume-down"
+    "virus"
+  ],
+  [
+    "bi",
+    "volume-mute"
+  ],
+  [
+    "bi",
+    "volume-off"
   ],
   [
     "bi",
@@ -7969,11 +7977,7 @@
   ],
   [
     "bi",
-    "volume-off"
-  ],
-  [
-    "bi",
-    "volume-mute"
+    "vr"
   ],
   [
     "bi",
@@ -7981,15 +7985,11 @@
   ],
   [
     "bi",
-    "vr"
-  ],
-  [
-    "bi",
     "volume-up-fill"
   ],
   [
     "bi",
-    "wallet"
+    "usb"
   ],
   [
     "bi",
@@ -7997,15 +7997,11 @@
   ],
   [
     "bi",
-    "wallet2"
+    "usb-micro-fill"
   ],
   [
     "bi",
-    "watch"
-  ],
-  [
-    "bi",
-    "webcam-fill"
+    "wallet"
   ],
   [
     "bi",
@@ -8013,11 +8009,11 @@
   ],
   [
     "bi",
-    "wechat"
+    "webcam"
   ],
   [
     "bi",
-    "webcam"
+    "watch"
   ],
   [
     "bi",
@@ -8025,7 +8021,7 @@
   ],
   [
     "bi",
-    "wifi-1"
+    "webcam-fill"
   ],
   [
     "bi",
@@ -8033,15 +8029,7 @@
   ],
   [
     "bi",
-    "tiktok"
-  ],
-  [
-    "bi",
-    "wind"
-  ],
-  [
-    "bi",
-    "window-dash"
+    "wifi"
   ],
   [
     "bi",
@@ -8049,7 +8037,11 @@
   ],
   [
     "bi",
-    "window-dock"
+    "window-dash"
+  ],
+  [
+    "bi",
+    "wind"
   ],
   [
     "bi",
@@ -8057,11 +8049,15 @@
   ],
   [
     "bi",
+    "wifi-1"
+  ],
+  [
+    "bi",
     "window-desktop"
   ],
   [
     "bi",
-    "window-fullscreen"
+    "wechat"
   ],
   [
     "bi",
@@ -8069,15 +8065,7 @@
   ],
   [
     "bi",
-    "window-split"
-  ],
-  [
-    "bi",
-    "window-stack"
-  ],
-  [
-    "bi",
-    "window-x"
+    "window-fullscreen"
   ],
   [
     "bi",
@@ -8085,11 +8073,23 @@
   ],
   [
     "bi",
-    "wifi"
+    "window-stack"
   ],
   [
     "bi",
-    "windows"
+    "wallet2"
+  ],
+  [
+    "bi",
+    "window-dock"
+  ],
+  [
+    "bi",
+    "window-split"
+  ],
+  [
+    "bi",
+    "window-sidebar"
   ],
   [
     "bi",
@@ -8105,7 +8105,7 @@
   ],
   [
     "bi",
-    "wrench"
+    "x-circle-fill"
   ],
   [
     "bi",
@@ -8113,15 +8113,19 @@
   ],
   [
     "bi",
-    "x-circle-fill"
+    "windows"
+  ],
+  [
+    "bi",
+    "wrench"
+  ],
+  [
+    "bi",
+    "x-circle"
   ],
   [
     "bi",
     "x-diamond-fill"
-  ],
-  [
-    "bi",
-    "x-diamond"
   ],
   [
     "bi",
@@ -8133,63 +8137,7 @@
   ],
   [
     "bi",
-    "telegram"
-  ],
-  [
-    "bi",
-    "window-sidebar"
-  ],
-  [
-    "bi",
-    "trash2"
-  ],
-  [
-    "bi",
-    "x-square-fill"
-  ],
-  [
-    "bi",
-    "yelp"
-  ],
-  [
-    "bi",
-    "xbox"
-  ],
-  [
-    "bi",
-    "yin-yang"
-  ],
-  [
-    "bi",
-    "youtube"
-  ],
-  [
-    "bi",
-    "zoom-in"
-  ],
-  [
-    "bi",
-    "zoom-out"
-  ],
-  [
-    "bi",
-    "search-heart"
-  ],
-  [
-    "bi",
-    "sign-intersection"
-  ],
-  [
-    "bi",
-    "sign-merge-left"
-  ],
-  [
-    "bi",
-    "x-circle"
-  ],
-  [
-    "bi",
-    "x"
+    "x-square"
   ],
   [
     "bi",
@@ -8197,6 +8145,58 @@
   ],
   [
     "bi",
-    "x-square"
+    "yelp"
+  ],
+  [
+    "bi",
+    "x-square-fill"
+  ],
+  [
+    "bi",
+    "xbox"
+  ],
+  [
+    "bi",
+    "youtube"
+  ],
+  [
+    "bi",
+    "x"
+  ],
+  [
+    "bi",
+    "zoom-in"
+  ],
+  [
+    "bi",
+    "yin-yang"
+  ],
+  [
+    "bi",
+    "tencent-qq"
+  ],
+  [
+    "bi",
+    "memory"
+  ],
+  [
+    "bi",
+    "mouse2"
+  ],
+  [
+    "bi",
+    "zoom-out"
+  ],
+  [
+    "bi",
+    "toggles2"
+  ],
+  [
+    "bi",
+    "x-diamond"
+  ],
+  [
+    "bi",
+    "window-x"
   ]
 ]

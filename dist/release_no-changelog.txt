@@ -1,38 +1,34 @@
-2023.11.04
+2023.11.11
 
-Joomla package/file IconsGhsvs 2023.11.04
+Joomla package/file IconsGhsvs 2023.11.11
 
-Checksum entities: `&lt;sha256&gt;6b3d4cd55b7ec5625f6993572e3833f9101d101829bce5baabae73aaee15eff5&lt;/sha256&gt;`
+Checksum entities: `&lt;sha256&gt;5055ee87feffa225798c94b3012a125b55713c38764d8a0896aa7b3d07dbeb76&lt;/sha256&gt;`
 
 Joomla package/file. Slightly adapted SVG icons in the directory media/iconsghsvs. No more. No visual changes to the icons.
 
-### Joomla 3, Joomla 4, Joomla 5
-
-### FortAwesome has been removed!
-Old folders will *NOT* be deleted on update:
-- `/media/iconsghsvs/brands/`
-- `/media/iconsghsvs/regular/`
-- `/media/iconsghsvs/solid/`
-
 ### Download
-[pkg_file_iconsghsvs-2023.11.04_1.11.1.zip](https://github.com/GHSVS-de/pkg_file_iconsghsvs/raw/2023.11.04/dist/pkg_file_iconsghsvs-2023.11.04_1.11.1.zip)
+[pkg_file_iconsghsvs-2023.11.11_1.11.1.zip](https://github.com/GHSVS-de/pkg_file_iconsghsvs/raw/2023.11.11/dist/pkg_file_iconsghsvs-2023.11.11_1.11.1.zip)
 
 ### Joomla-Target-Platform(s)
 3.&ast;, 4.&ast;, 5.&ast;
 
 ### For the interested ones
-- [Compare releases 2022.11.11...2023.11.04](https://github.com/GHSVS-de/pkg_file_iconsghsvs/compare/2022.11.11...2023.11.04)
+- Deutsche Beschreibung: 
+- English Description: 
+- [Compare releases 2023.11.04...2023.11.11](https://github.com/GHSVS-de/pkg_file_iconsghsvs/compare/2023.11.04...2023.11.11)
 - minimumJoomla: 3.10.0
 - maximumJoomla: 5.9999.9999
 - minimumPhp: 7.4.0
-- maximumPhp:
-- Checksum: `<sha256>6b3d4cd55b7ec5625f6993572e3833f9101d101829bce5baabae73aaee15eff5</sha256>`
+- maximumPhp: 
+- Checksum: `<sha256>5055ee87feffa225798c94b3012a125b55713c38764d8a0896aa7b3d07dbeb76</sha256>`
 - Readme: https://github.com/GHSVS-de/pkg_file_iconsghsvs#readme
 - Updates XML: https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/pkg_file_iconsghsvs-update.xml
 - Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.2
+- Language files: 
 - Requires: plg_system_bs3ghsvs_bs5 (for feature "SVG Embedding")<br>Or standalone if you think.
 - Uses: https://github.com/twbs/icons
 - Contained packages (sub Joomla extensions):
 ```
-<file type="file" id="iconsghsvs">file_iconsghsvs-2023.11.04_1.11.1.zip</file>
+<file type="file" id="iconsghsvs">file_iconsghsvs-2023.11.11_1.11.1.zip</file>
 ```
+

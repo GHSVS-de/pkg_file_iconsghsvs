@@ -6,12 +6,13 @@
 	<copyright>(C) 2022, G@HService Berlin Neukölln, Volkmar Volli Schlothauer.</copyright>
 	<license>GNU General Public License version 3 or later; see LICENSE.txt.</license>
 	<authorUrl>https://ghsvs.de</authorUrl>
-	<version>2023.11.04</version>
+	<version>2023.11.11</version>
 	<description>Joomla file extension. Part of Joomla package "pkg_iconsghsvs". Contains customised SVG icons for folder media/iconsghsvs. Not more.</description>
 
 	<fileset>
 		<files target="media/iconsghsvs">
 			<folder>svgs</folder>
+			<filename>icons-overview.html</filename>
 		</files>
 	</fileset>
 
