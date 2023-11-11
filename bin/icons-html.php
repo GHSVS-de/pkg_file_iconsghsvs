@@ -79,4 +79,5 @@ $html = implode("\n", $html);
 file_put_contents(JPATH_MAIN . 'dist/icons-overview.html', $html);
 file_put_contents(__DIR__ . '/icons-overview.html', $html);
 file_put_contents(JPATH_MAIN . '/media/svgs/icons-overview.html', $html);
+file_put_contents(JPATH_MAIN . '/package/packages/file_iconsghsvs/icons-overview.html', $html);
 echo 'dist/icons-overview.html written.';
