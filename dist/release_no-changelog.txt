@@ -13,22 +13,22 @@ Joomla package/file. Slightly adapted SVG icons in the directory media/iconsghsv
 3.&ast;, 4.&ast;, 5.&ast;
 
 ### For the interested ones
-- Deutsche Beschreibung: 
-- English Description: 
+- File /media/iconsghsvs/icons-overview.html now in install package.
+- Deutsche Beschreibung:
+- English Description:
 - [Compare releases 2023.11.04...2023.11.11](https://github.com/GHSVS-de/pkg_file_iconsghsvs/compare/2023.11.04...2023.11.11)
 - minimumJoomla: 3.10.0
 - maximumJoomla: 5.9999.9999
 - minimumPhp: 7.4.0
-- maximumPhp: 
+- maximumPhp:
 - Checksum: `<sha256>5055ee87feffa225798c94b3012a125b55713c38764d8a0896aa7b3d07dbeb76</sha256>`
 - Readme: https://github.com/GHSVS-de/pkg_file_iconsghsvs#readme
 - Updates XML: https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/pkg_file_iconsghsvs-update.xml
 - Last tests: PHP 8.0<br>PHP 8.1<br>PHP 7.4<br>Joomla 3.10<br>Joomla 4.2
-- Language files: 
+- Language files:
 - Requires: plg_system_bs3ghsvs_bs5 (for feature "SVG Embedding")<br>Or standalone if you think.
 - Uses: https://github.com/twbs/icons
 - Contained packages (sub Joomla extensions):
 ```
 <file type="file" id="iconsghsvs">file_iconsghsvs-2023.11.11_1.11.1.zip</file>
 ```
-
