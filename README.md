@@ -6,7 +6,7 @@
   - https://github.com/twbs/icons
 
 ## since v2023.11.04:
-### FortAwesome has been removed!
+### FontAwesome has been removed!
 Old folders will *NOT* be deleted on update:
 - `/media/iconsghsvs/brands/`
 - `/media/iconsghsvs/regular/`
